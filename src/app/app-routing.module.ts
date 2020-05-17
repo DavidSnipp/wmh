@@ -9,8 +9,7 @@ import { BookingsComponent } from './bookings.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'wedding', component: WeddingComponent },
   { path: 'sports', component: SportsComponent },
   { path: 'history', component: HistoryComponent },
