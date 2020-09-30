@@ -1,10 +1,41 @@
-The Sports Ground and Tennis Courts
-The grounds adjoining the hall support many local sporting activities:
+<p>The Sports Ground and Tennis Courts grounds adjoining the hall support many local sporting activities:</p>
 
-There is a long-standing tradition of cricket on the field.  Worplesdon and Burpham Cricket Club can trace its formation back to 1890 and its Worplesdon predecessor first began to use the site in 1912.
-Worplesdon Phoenix Football Club plays regular league matches at weekends and occasional games during the week.
-Worplesdon Tennis Club was formed in 1991 using the two existing public courts and has since added two more for Club use. A new Club House was opened in 2005. The Club has a thriving membership of adults and juniors - players of all abilities are welcome.
-The two public tennis courts, which are owned by the Parish Council, are available to hire at £4.50 per hour (free to children under 16 years during state school holidays).  To make a booking, please phone the Hall Manager and Caretaker, Mr Tim Astley, on 01483 232117.  Note that these courts are available during daylight hours only.
-A sports pavilion serving the Cricket, Football and Tennis Clubs was opened in 2008.
+<p>There is a long-standing tradition of cricket on the field. <a
+  target="_blank" href="http://www.worplesdonburphamcc.co.uk/">Worplesdon and Burpham Cricket Club</a> can trace its formation back to
+  1890 and its Worplesdon predecessor first began to use the site in 1912.</p>
+<p><a target="_blank" href="https://en-gb.facebook.com/phoenixfootie/">Worplesdon Phoenix Football Club</a> plays regular league matches
+  at weekends and occasional games during the week.</p>
 
-All clubs are delighted to welcome new members and enquiries can be made through the caretaker or via club web sites.
+  <ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
+    <ng-template ngbSlide *ngFor="let img of grounds">
+      <!-- <div class="carousel-caption">
+        <h3>{{img.title}}</h3>
+        <p>A Description</p>
+      </div> -->
+      <div class="picsum-img-wrapper">
+        <img [src]="img.url" [alt]="img.title">
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+<h2 style="text-align: center;"><a target="_blank" href="http://clubspark.lta.org.uk/WorplesdonTennisClub/">Worplesdon Tennis Club</a>
+</h2>
+<ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
+  <ng-template ngbSlide *ngFor="let img of images">
+    <!-- <div class="carousel-caption">
+      <h3>{{img.title}}</h3>
+      <p>A Description</p>
+    </div> -->
+    <div class="picsum-img-wrapper">
+      <img [src]="img.url" [alt]="img.title">
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<p>Worplesdon Tennis Club was formed in 1991 using the two existing public courts and has since added two more for Club
+  use.
+  A new Club House was opened in 2005. The Club has a thriving membership of adults and juniors - players of all
+  abilities are welcome.</p>
+<p>A sports pavilion serving the Cricket, Football and Tennis Clubs was opened in 2008.</p>
+
+<p>All clubs are delighted to welcome new members and enquiries can be made via the club web sites.</p>
