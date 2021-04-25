@@ -18,7 +18,7 @@
  */
 
 ; (function (l, projectPages) {
-
+  console.log('Inside ghspa.js')
   var repo = projectPages ? '/' + l.pathname.split('/')[1] : ''
 
   /* redirect all 404 trafic to index.html */
@@ -53,3 +53,4 @@
   document.title === '404' ? redirect() : resolve()
 
 }(window.location, window.projectPages || true))
+console.log('Outside ghspa.js')
