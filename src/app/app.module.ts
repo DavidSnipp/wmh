@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { AgmCoreModule } from '@agm/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -11,6 +10,8 @@ import { WeddingComponent } from './wedding.component';
 import { HistoryComponent } from './history.component';
 import { ContactComponent } from './contact.component';
 import { BookingsComponent } from './bookings.component';
+import { GoogleMapsModule } from '@angular/google-maps'
+import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -24,10 +25,13 @@ import { BookingsComponent } from './bookings.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
     NgbModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04'
-    }),
+    GoogleMapsModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04'
+    // }),
     AppRoutingModule
   ],
   providers: [],
