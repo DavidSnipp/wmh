@@ -52,5 +52,5 @@
   /* if current document is 404 page page, redirect to index.html otherwise resolve */
   document.title === '404' ? redirect() : resolve()
 
-}(window.location, window.projectPages || true))
+}(window.location, window.projectPages || false))
 console.log('Outside ghspa.js')
