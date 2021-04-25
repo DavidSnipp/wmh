@@ -23,6 +23,7 @@
 
   /* redirect all 404 trafic to index.html */
   function redirect() {
+    console.log("redirect", l)
     l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + repo + '/?' +
       (l.pathname ? 'p=' + l.pathname.replace(/&/g, '~and~').replace(repo, '') : '') +
       (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
@@ -31,6 +32,7 @@
 
   /* resolve 404 redirects into internal routes */
   function resolve() {
+    console.log("resolve", l)
     if (l.search) {
       var q = {}
       l.search.slice(1).split('&').forEach(function (v) {
