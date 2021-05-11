@@ -9,7 +9,6 @@ import { BookingsComponent } from './bookings.component'
 import { RoomsComponent } from './rooms.component'
 import { WalkerRoomComponent } from './rooms/walker'
 import { HalseyRoomComponent } from './rooms/halsey'
-import { ThompsonRoomComponent } from './rooms/thompson'
 import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly'
@@ -21,7 +20,6 @@ const routes: Routes = [
       { path: '', redirectTo: 'walker', pathMatch: 'full' },
       { path: 'walker', component: WalkerRoomComponent },
       { path: 'halsey', component: HalseyRoomComponent },
-      { path: 'thompson', component: ThompsonRoomComponent },
       { path: 'cater', component: CaterRoomComponent },
       { path: 'tovey', component: ToveyRoomComponent },
       { path: 'kelly', component: KellyRoomComponent },

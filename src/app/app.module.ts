@@ -14,7 +14,6 @@ import { GoogleMapsModule } from '@angular/google-maps'
 import { HttpClientJsonpModule, HttpClientModule } from '@angular/common/http'
 import { WalkerRoomComponent } from './rooms/walker'
 import { HalseyRoomComponent } from './rooms/halsey'
-import { ThompsonRoomComponent } from './rooms/thompson'
 import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly'
@@ -29,7 +28,6 @@ import { KellyRoomComponent } from './rooms/kelly'
     RoomsComponent,
     WalkerRoomComponent,
     HalseyRoomComponent,
-    ThompsonRoomComponent,
     CaterRoomComponent,
     ToveyRoomComponent,
     KellyRoomComponent,
