@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
-import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap'
+import { NgbCarouselModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap'
 import { HomeComponent } from './home.component'
 import { SportsComponent } from './sports.component'
 import { WeddingComponent } from './wedding.component'
@@ -36,10 +36,11 @@ import { KellyRoomComponent } from './rooms/kelly'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbCollapseModule,
     NgbCarouselModule,
     HttpClientModule,
     HttpClientJsonpModule,
-    GoogleMapsModule
+    GoogleMapsModule,
     // AgmCoreModule.forRoot({
     //   apiKey: 'AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04'
     // }),

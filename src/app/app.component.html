@@ -1,56 +1,63 @@
 <div class="Site-content">
-  <div class="row">
-    <div class="col-sm-12">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <ul class="nav navbar-nav">
-          <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="nav-item">
-            <a class="nav-link" routerLink="/">Home</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" routerLink="rooms">Rooms</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" routerLink="sports">Sports</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" routerLink="wedding">Weddings</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" routerLink="history">History</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" href="https://hallbookingonline.com/worplesdon/">Bookings</a>
-          </li>
-          <li routerLinkActive="active" class="nav-item">
-            <a class="nav-link" routerLink="contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+  <div class="container-fluid margin-bottom-20">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <button type="button" toggle="collapse" class="navbar-toggler collapsed" (click)="isCollapsed = !isCollapsed"
+            aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">
+            <ul class="nav navbar-nav">
+              <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="nav-item">
+                <a class="nav-link" routerLink="/">Home</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" routerLink="rooms">Rooms</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" routerLink="sports">Sports</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" routerLink="wedding">Weddings</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" routerLink="history">History</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" target="_blank" href="https://hallbookingonline.com/worplesdon/">Bookings</a>
+              </li>
+              <li routerLinkActive="active" class="nav-item">
+                <a class="nav-link" routerLink="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <router-outlet></router-outlet>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <p class="ml-2">
+                  © 2019-{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights
+                  Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </div>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
-      <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <p class="ml-2">
-                © 2019-{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights
-                Reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </div>
-</div>
