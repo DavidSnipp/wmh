@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-interface Image {
+export interface Image {
   url: string;
   title: string;
 }
