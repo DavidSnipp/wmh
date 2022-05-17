@@ -1,0 +1,3 @@
+<ng-container *ngIf="html$ | async as html">
+  <div [innerHTML]="html | safeHtml"></div>
+</ng-container>

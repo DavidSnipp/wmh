@@ -12,6 +12,8 @@ import { HalseyRoomComponent } from './rooms/halsey'
 import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly'
+import { FlyerComponent } from './flyer.component'
+import { WhatsonComponent } from './whatson.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -29,7 +31,9 @@ const routes: Routes = [
   { path: 'sports', component: SportsComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'bookings', component: BookingsComponent }
+  { path: 'bookings', component: BookingsComponent },
+  { path: 'whatson', component: WhatsonComponent },
+  { path: 'flyers/:flyer', component: FlyerComponent }
 ]
 
 @NgModule({

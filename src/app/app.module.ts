@@ -16,7 +16,10 @@ import { WalkerRoomComponent } from './rooms/walker'
 import { HalseyRoomComponent } from './rooms/halsey'
 import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
-import { KellyRoomComponent } from './rooms/kelly'
+import { KellyRoomComponent } from './rooms/kelly';
+import { FlyerComponent } from './flyer.component'
+import {SafeHtmlPipe}from './safehtml.pipe';
+import { WhatsonComponent } from './whatson.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +34,10 @@ import { KellyRoomComponent } from './rooms/kelly'
     CaterRoomComponent,
     ToveyRoomComponent,
     KellyRoomComponent,
-    BookingsComponent
+    BookingsComponent,
+    FlyerComponent,
+    SafeHtmlPipe,
+    WhatsonComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +51,7 @@ import { KellyRoomComponent } from './rooms/kelly'
     //   apiKey: 'AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04'
     // }),
   ],
-  providers: [],
+  providers: [SafeHtmlPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
