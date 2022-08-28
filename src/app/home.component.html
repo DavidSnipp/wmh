@@ -1,16 +1,37 @@
 <div class="jumbotron p-2">
   <div class="container-fluid">
     <h1 class="display-4 text-center">Worplesdon Memorial Hall and Recreation Ground CIO</h1>
-      <!-- <img style="float: left;margin-right: 10px; margin-bottom: 10px;" src="assets/hall-1.jpg"> -->
-        <ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
-          <ng-template ngbSlide *ngFor="let img of grounds">
-            <div class="picsum-img-wrapper">
-              <img [src]="img.url" [alt]="img.title">
-            </div>
-          </ng-template>
-        </ngb-carousel>
+    <hr>
+    <div class="text-center">
+      <h3>Ella And Louis Jazz Night</h3>
+      <p>CHEEK TO CHEEK: Celebrating ELLA and LOUIS with Joanna Eden and Enrico Tomasso.</p>
+      <p><b><i>Saturday October 15th 2022 7PM at Worplesdon Memorial Hall</i> </b></p>
+      <p><b>Tickets in advance £15 with optional extra for food £10</b></p>
+      <p>
+        Bar available for wine, beer and soft drinks. Free Parking alongside Hall. Jazz entertainment from 8pm.
+      </p>
+      <table class="text-center" style="width: 800px;margin-left: auto;margin-right: auto;">
+          <tr>
+            <td><img src="/assets/Ella and Louise Jazz Night.jpg" alt="ella and louis" style="width:500px"></td>
+            <td>Listen to five-time British Jazz Awards winner, trumpeter Enrico Tomasso.<br>Ella Fitzgerald and Louis Armstrong’s mastery of their respective instruments are demonstrated in duets on songs like ‘Let’s Call the Whole Thing Off’, ‘Cheek to Cheek’ and ‘A Fine Romance’. Joanna Eden has toured her ‘Embraceable Ella’ show all over the world.
+              <br><br><br><a href="https://www.tickettailor.com/events/worplesdonmemorialhallrecreationgroundcio/742012" class="btn btn-primary">Book Now</a>
+              or email <a href="mailto:centenary@wmh.org.uk">centenary@wmh.org.uk</a>
+      </td>
+          </tr>
+        </table>
+    </div>
+    <hr>
+    <br>
+    <!-- <img style="float: left;margin-right: 10px; margin-bottom: 10px;" src="assets/hall-1.jpg"> -->
+    <ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
+      <ng-template ngbSlide *ngFor="let img of grounds">
+        <div class="picsum-img-wrapper">
+          <img [src]="img.url" [alt]="img.title">
+        </div>
+      </ng-template>
+    </ngb-carousel>
     <p>
-    Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the
+      Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the
       village, easy access from Guildford and adequate parking, the hall is an ideal venue for all kinds of social
       activities, public or private, including weddings.</p>
     <p>There is good access to the hall for the disabled, which is facilitated by the availability of
