@@ -18,8 +18,9 @@ import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly';
 import { FlyerComponent } from './flyer.component'
-import {SafeHtmlPipe}from './safehtml.pipe';
+import { SafeHtmlPipe } from './safehtml.pipe';
 import { WhatsonComponent } from './whatson.component'
+import { CaretakerComponent } from './caretaker.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { WhatsonComponent } from './whatson.component'
     SportsComponent,
     WeddingComponent,
     HistoryComponent,
+    CaretakerComponent,
     ContactComponent,
     RoomsComponent,
     WalkerRoomComponent,
