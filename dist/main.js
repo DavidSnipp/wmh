@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AppRoutingModule": () => (/* binding */ AppRoutingModule)
 /* harmony export */ });
 /* harmony import */ var C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */ 7797);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/router */ 124);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/router */ 124);
 /* harmony import */ var _home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.component */ 1416);
 /* harmony import */ var _wedding_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./wedding.component */ 9380);
 /* harmony import */ var _sports_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sports.component */ 3864);
@@ -27,9 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _rooms_kelly__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rooms/kelly */ 9325);
 /* harmony import */ var _flyer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./flyer.component */ 5299);
 /* harmony import */ var _whatson_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./whatson.component */ 1188);
-/* harmony import */ var _caretaker_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./caretaker.component */ 1453);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/core */ 2560);
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/core */ 2560);
 
 
 
@@ -92,10 +90,9 @@ const routes = [{
 }, {
   path: 'whatson',
   component: _whatson_component__WEBPACK_IMPORTED_MODULE_14__.WhatsonComponent
-}, {
-  path: 'caretaker',
-  component: _caretaker_component__WEBPACK_IMPORTED_MODULE_15__.CaretakerComponent
-}, {
+},
+// { path: 'caretaker', component: CaretakerComponent },
+{
   path: 'flyers/:flyer',
   component: _flyer_component__WEBPACK_IMPORTED_MODULE_13__.FlyerComponent
 }];
@@ -103,16 +100,16 @@ class AppRoutingModule {}
 (0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppRoutingModule, "\u0275fac", function AppRoutingModule_Factory(t) {
   return new (t || AppRoutingModule)();
 });
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppRoutingModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵdefineNgModule"]({
+(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppRoutingModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵdefineNgModule"]({
   type: AppRoutingModule
 }));
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppRoutingModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵdefineInjector"]({
-  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule.forRoot(routes, {}), _angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule]
+(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppRoutingModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵdefineInjector"]({
+  imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule.forRoot(routes, {}), _angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule]
 }));
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_16__["ɵɵsetNgModuleScope"](AppRoutingModule, {
-    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule],
-    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_17__.RouterModule]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_15__["ɵɵsetNgModuleScope"](AppRoutingModule, {
+    imports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule],
+    exports: [_angular_router__WEBPACK_IMPORTED_MODULE_16__.RouterModule]
   });
 })();
 
@@ -214,10 +211,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
 /* harmony import */ var C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */ 7797);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app-routing.module */ 158);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ 5041);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 4534);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 4534);
 /* harmony import */ var _home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home.component */ 1416);
 /* harmony import */ var _sports_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sports.component */ 3864);
 /* harmony import */ var _wedding_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./wedding.component */ 9380);
@@ -225,8 +222,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contact_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contact.component */ 9480);
 /* harmony import */ var _bookings_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./bookings.component */ 3993);
 /* harmony import */ var _rooms_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./rooms.component */ 3873);
-/* harmony import */ var _angular_google_maps__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/google-maps */ 3889);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/common/http */ 8987);
+/* harmony import */ var _angular_google_maps__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/google-maps */ 3889);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/common/http */ 8987);
 /* harmony import */ var _rooms_walker__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./rooms/walker */ 5442);
 /* harmony import */ var _rooms_halsey__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./rooms/halsey */ 7454);
 /* harmony import */ var _rooms_cater__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./rooms/cater */ 1648);
@@ -235,9 +232,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _flyer_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./flyer.component */ 5299);
 /* harmony import */ var _safehtml_pipe__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./safehtml.pipe */ 7044);
 /* harmony import */ var _whatson_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./whatson.component */ 1188);
-/* harmony import */ var _caretaker_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./caretaker.component */ 1453);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/core */ 2560);
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/core */ 2560);
 
 
 
@@ -265,18 +260,20 @@ class AppModule {}
 (0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppModule, "\u0275fac", function AppModule_Factory(t) {
   return new (t || AppModule)();
 });
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_19__["ɵɵdefineNgModule"]({
+(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppModule, "\u0275mod", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵdefineNgModule"]({
   type: AppModule,
   bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent]
 }));
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_19__["ɵɵdefineInjector"]({
+(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(AppModule, "\u0275inj", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵdefineInjector"]({
   providers: [_safehtml_pipe__WEBPACK_IMPORTED_MODULE_16__.SafeHtmlPipe],
-  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_20__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_21__.NgbCollapseModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_21__.NgbCarouselModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_22__.HttpClientModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_22__.HttpClientJsonpModule, _angular_google_maps__WEBPACK_IMPORTED_MODULE_23__.GoogleMapsModule]
+  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbCollapseModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbCarouselModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_21__.HttpClientModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_21__.HttpClientJsonpModule, _angular_google_maps__WEBPACK_IMPORTED_MODULE_22__.GoogleMapsModule]
 }));
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_19__["ɵɵsetNgModuleScope"](AppModule, {
-    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent, _home_component__WEBPACK_IMPORTED_MODULE_3__.HomeComponent, _sports_component__WEBPACK_IMPORTED_MODULE_4__.SportsComponent, _wedding_component__WEBPACK_IMPORTED_MODULE_5__.WeddingComponent, _history_component__WEBPACK_IMPORTED_MODULE_6__.HistoryComponent, _caretaker_component__WEBPACK_IMPORTED_MODULE_18__.CaretakerComponent, _contact_component__WEBPACK_IMPORTED_MODULE_7__.ContactComponent, _rooms_component__WEBPACK_IMPORTED_MODULE_9__.RoomsComponent, _rooms_walker__WEBPACK_IMPORTED_MODULE_10__.WalkerRoomComponent, _rooms_halsey__WEBPACK_IMPORTED_MODULE_11__.HalseyRoomComponent, _rooms_cater__WEBPACK_IMPORTED_MODULE_12__.CaterRoomComponent, _rooms_tovey__WEBPACK_IMPORTED_MODULE_13__.ToveyRoomComponent, _rooms_kelly__WEBPACK_IMPORTED_MODULE_14__.KellyRoomComponent, _bookings_component__WEBPACK_IMPORTED_MODULE_8__.BookingsComponent, _flyer_component__WEBPACK_IMPORTED_MODULE_15__.FlyerComponent, _safehtml_pipe__WEBPACK_IMPORTED_MODULE_16__.SafeHtmlPipe, _whatson_component__WEBPACK_IMPORTED_MODULE_17__.WhatsonComponent],
-    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_20__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_21__.NgbCollapseModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_21__.NgbCarouselModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_22__.HttpClientModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_22__.HttpClientJsonpModule, _angular_google_maps__WEBPACK_IMPORTED_MODULE_23__.GoogleMapsModule]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_18__["ɵɵsetNgModuleScope"](AppModule, {
+    declarations: [_app_component__WEBPACK_IMPORTED_MODULE_2__.AppComponent, _home_component__WEBPACK_IMPORTED_MODULE_3__.HomeComponent, _sports_component__WEBPACK_IMPORTED_MODULE_4__.SportsComponent, _wedding_component__WEBPACK_IMPORTED_MODULE_5__.WeddingComponent, _history_component__WEBPACK_IMPORTED_MODULE_6__.HistoryComponent,
+    // CaretakerComponent,
+    _contact_component__WEBPACK_IMPORTED_MODULE_7__.ContactComponent, _rooms_component__WEBPACK_IMPORTED_MODULE_9__.RoomsComponent, _rooms_walker__WEBPACK_IMPORTED_MODULE_10__.WalkerRoomComponent, _rooms_halsey__WEBPACK_IMPORTED_MODULE_11__.HalseyRoomComponent, _rooms_cater__WEBPACK_IMPORTED_MODULE_12__.CaterRoomComponent, _rooms_tovey__WEBPACK_IMPORTED_MODULE_13__.ToveyRoomComponent, _rooms_kelly__WEBPACK_IMPORTED_MODULE_14__.KellyRoomComponent, _bookings_component__WEBPACK_IMPORTED_MODULE_8__.BookingsComponent, _flyer_component__WEBPACK_IMPORTED_MODULE_15__.FlyerComponent, _safehtml_pipe__WEBPACK_IMPORTED_MODULE_16__.SafeHtmlPipe, _whatson_component__WEBPACK_IMPORTED_MODULE_17__.WhatsonComponent],
+    imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule, _app_routing_module__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbCollapseModule, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_20__.NgbCarouselModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_21__.HttpClientModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_21__.HttpClientJsonpModule, _angular_google_maps__WEBPACK_IMPORTED_MODULE_22__.GoogleMapsModule]
   });
 })();
 
@@ -309,170 +306,6 @@ class BookingsComponent {}
   template: function BookingsComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "iframe", 0);
-    }
-  },
-  encapsulation: 2
-}));
-
-/***/ }),
-
-/***/ 1453:
-/*!****************************************!*\
-  !*** ./src/app/caretaker.component.ts ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CaretakerComponent": () => (/* binding */ CaretakerComponent)
-/* harmony export */ });
-/* harmony import */ var C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty.js */ 7797);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
-
-
-class CaretakerComponent {}
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(CaretakerComponent, "\u0275fac", function CaretakerComponent_Factory(t) {
-  return new (t || CaretakerComponent)();
-});
-(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(CaretakerComponent, "\u0275cmp", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
-  type: CaretakerComponent,
-  selectors: [["ng-component"]],
-  decls: 104,
-  vars: 0,
-  consts: [[1, "display-4", "text-center"], ["href", "mailto:trustees@wmh.org.uk"]],
-  template: function CaretakerComponent_Template(rf, ctx) {
-    if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "h1", 0);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, "Caretaker Job Description");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Post: Village Hall Caretaker");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "Location: Worplesdon Memorial Hall, Perry Hill, Worplesdon, Guildford, Surrey, GU3 3RF");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "Reports to: Trustees");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "ul")(9, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "The Hall Caretaker will be required to open and close the Hall for regular and occasional hirers as required, both during the week and at weekends.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "The Hall Caretaker must be able to self-motivated and work responsibly and flexibly and will be the main contact for all hirers.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "The hours worked should be flexible, consistent with the day to day use of the Hall and should on average should be up to 30 hours per week.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "The Caretaker would need to be CRB and DBS checked.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "ol")(18, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Bookings");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "ul")(21, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "To be responsible for managing the on line hall booking system and ensuring invoices are sent out and paid. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Servicing");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "ul")(26, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, "To ensure that the building remains tidy and that all furniture and equipment is appropriately stored after use.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, "Make sure that the hall is kept clean at all times.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](31, "To ensure that the car park and area around the hall is kept tidy and maintained.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](33, "Management of Systems");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](34, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](35, "To manage and adjust systems and services within the Hall as and when required with particular regard to: ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "ul")(37, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, "Testing the fire alarm system on a weekly basis and maintain test register.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](40, "Testing the emergency lighting system on a monthly basis and recording the results.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](42, "Regulating the heating system, if required, to ensure that an adequate level of heating is maintained while ensuring unnecessary usage is avoided.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](43, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "Recording on a quarterly basis the electricity meter readings and advise the Treasurer of the reading.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "Record on a monthly basis the electricity meter readings for the tennis court and advise the tennis club of the readings");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](48, "To complete on a monthly basis an Inspection Checklist and notify the Trustees of any action needed.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](49, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](50, "Arranging the servicing of the central heating and fire systems when required.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](51, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Carry out legionella water test and recording the results. Need to notify Trustees of any action required. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](54, "Maintenance and Safety");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "ul")(56, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "To ensure that the Trust is promptly informed of any new maintenance issues, effecting furniture, fittings and equipment.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](59, "To ensure that all lights and heating are working effectively, changing light bulbs/strip lighting and occasionally working at height.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](60, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](61, "To carry out regular maintenance and decorating as and when required both for the hall and the outside of the pavilion.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](62, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](63, "To maintain the first aid box and accident record.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](64, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](65, "Setting Up");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](66, "ul")(67, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, "To assist with (as appropriate) the setting out and subsequent removal and securing after use, chairs, tables and other equipment in the hall.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](69, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](70, "Security");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](71, "ul")(72, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](73, "Be the first point of contact in an emergency, responding to and liaising with the emergency services out of hours as needed.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](74, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](75, "You may be occasionally called out at unsociable hours or at weekends to deal with security issues, make emergency repairs or allow access to any contractor who may be working at the Hall.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](76, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](77, "Supervision of Premises");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](78, "ul")(79, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](80, "To monitor the activities in the Hall to ensure that hirers comply with the Hall's Conditions of Hire and other statutory requirements.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](81, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](82, "To open and close the Hall at times appropriate to the booking schedule and to secure the premises when the Hall is not in use.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](83, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](84, "To retain custody of a set of keys to the building.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](85, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](86, "General");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](87, "ul")(88, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](89, "Understand and implement fire safety regulations, Health and Safety Regulations, COSHH, emergency procedures and the rules for evacuating the building.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](90, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](91, "Be familiar with the Health & Safety Policy and the Risk Assessment");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](92, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](93, "Ensure compliance with the Trust's council Fire Risk Assessment Plan");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](94, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](95, "Complete monthly timesheets and submit to the Treasurer for checking on the 1st of each month.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](96, "li");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](97, "Prepare a regular report for Trustees and attend trustee meetings.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](98, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](99, "If you are interested in finding out more or think you would make the ideal candidate, please email ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](100, "a", 1);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](101, "trustees@wmh.org.uk");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](102, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](103, "Closing date for applications is 17th February 2023.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     }
   },
   encapsulation: 2
@@ -768,10 +601,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function HomeComponent_33_ng_template_0_Template(rf, ctx) {
+function HomeComponent_17_ng_template_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "img", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -780,9 +613,9 @@ function HomeComponent_33_ng_template_0_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", img_r1.url, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"])("alt", img_r1.title);
   }
 }
-function HomeComponent_33_Template(rf, ctx) {
+function HomeComponent_17_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, HomeComponent_33_ng_template_0_Template, 2, 2, "ng-template", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, HomeComponent_17_ng_template_0_Template, 2, 2, "ng-template", 16);
   }
 }
 class HomeComponent {
@@ -838,9 +671,9 @@ class HomeComponent {
 (0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_defineProperty_js__WEBPACK_IMPORTED_MODULE_0__["default"])(HomeComponent, "\u0275cmp", /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
   type: HomeComponent,
   selectors: [["ng-component"]],
-  decls: 75,
+  decls: 59,
   vars: 2,
-  consts: [[1, "jumbotron", "p-2"], [1, "container-fluid"], [1, "display-4", "text-center"], [1, "text-center"], ["href", "mailto:trustees@wmh.org.uk"], ["href", "caretaker"], [1, "carousel", "slide", 2, "max-width", "750px", "margin", "auto", "margin-bottom", "20px", 3, "interval"], [4, "ngFor", "ngForOf"], ["target", "_blank", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308"], ["routerLink", "/contact", 1, "btn", "btn-primary", "btn-large"], [1, "container"], [1, "row"], [1, "col-md-4"], ["routerLink", "/sports", 1, "btn", "btn-secondary"], ["routerLink", "/wedding", 1, "btn", "btn-secondary"], ["src", "assets/sidney_sime.jpg"], ["href", "https://www.sidneysimegallery.org.uk", 1, "btn", "btn-secondary"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], [3, "src", "alt"]],
+  consts: [[1, "jumbotron", "p-2"], [1, "container-fluid"], [1, "display-4", "text-center"], [1, "text-center"], ["href", "mailto:trustees@wmh.org.uk"], [1, "carousel", "slide", 2, "max-width", "750px", "margin", "auto", "margin-bottom", "20px", 3, "interval"], [4, "ngFor", "ngForOf"], ["target", "_blank", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308"], ["routerLink", "/contact", 1, "btn", "btn-primary", "btn-large"], [1, "container"], [1, "row"], [1, "col-md-4"], ["routerLink", "/sports", 1, "btn", "btn-secondary"], ["routerLink", "/wedding", 1, "btn", "btn-secondary"], ["src", "assets/sidney_sime.jpg"], ["href", "https://www.sidneysimegallery.org.uk", 1, "btn", "btn-secondary"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], [3, "src", "alt"]],
   template: function HomeComponent_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "h1", 2);
@@ -848,93 +681,72 @@ class HomeComponent {
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "hr");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h1", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Worplesdon Memorial Hall is looking for a Caretaker");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "Volunteer Treasurer Needed");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "We are looking to appoint a friendly, energetic, and reliable individual with a range of practical skills for the role of Caretaker to join our team and contribute to the smooth running of the village hall. The successful applicant will have a range of duties across the site and should be self-motivated, dependable and trustworthy and able to work under their own initiative to prioritise workloads. Responsibilities include looking after the security of the building, minor maintenance and repairs, ensuring the cleanliness of the premises, meeting potential hirers and preparing the hall for bookings. The caretaker will need to be available to attend the hall at irregular hours to help with the overall running of the facilities.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Worplesdon Memorial Hall and Recreation Ground CIO is seeking a treasurer to join the running of our Village Hall. The Treasurer\u2019s responsibilities include liaising with the Trust, ensuring payments in and out are accurately and timely made, preparing the annual Charity Commission Report and annual accounts, producing monthly reports to the Trustees and attending trust meetings. Applicants should be well organised and computer literate so as to manage email correspondence and online banking. ");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "The post is permanent and subject to a period of successful probation. The hours worked will be flexible and consistent with the day to day use of the hall and should not exceed a maximum 30 hours per week. We are looking for the successful candidate to start as soon as possible. As part of the salary package, the cottage on site will be provided. ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](10, "If you are interested we would love to hear from you. Simply email ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "a", 4);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "trustees@wmh.org.uk");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](12, "If you are interested in finding out more or think you would make the ideal candidate, please email ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "a", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](14, "trustees@wmh.org.uk");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, " and we will be in touch.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](14, "hr")(15, "br");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "ngb-carousel", 5);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](17, HomeComponent_17_Template, 1, 0, null, 6);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](18, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, " Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the village, easy access from Guildford and adequate parking, the hall is an ideal venue for all kinds of social activities, public or private, including weddings.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, "There is good access to the hall for the disabled, which is facilitated by the availability of parking next to the hall entrance. The toilets have disabled facilities.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "p")(23, "b");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Free wi-fi");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](25, " is available throughout the building.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](27, "Our address is: ");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "a", 7);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, " Worplesdon Memorial Hall, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](15, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](16, "Closing date for applications is 17th February 2023.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "p")(18, "a", 5);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, "Click here for the Job Description");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](20, "hr");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "h1", 3);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](22, "Volunteer Treasurer Needed");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Worplesdon Memorial Hall and Recreation Ground CIO is seeking a treasurer to join the running of our Village Hall. The Treasurer\u2019s responsibilities include liaising with the Trust, ensuring payments in and out are accurately and timely made, preparing the annual Charity Commission Report and annual accounts, producing monthly reports to the Trustees and attending trust meetings. Applicants should be well organised and computer literate so as to manage email correspondence and online banking. ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](26, "If you are interested we would love to hear from you. Simply email ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](27, "a", 4);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "trustees@wmh.org.uk");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](29, " and we will be in touch.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](30, "hr")(31, "br");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "ngb-carousel", 6);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](33, HomeComponent_33_Template, 1, 0, null, 7);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](35, " Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the village, easy access from Guildford and adequate parking, the hall is an ideal venue for all kinds of social activities, public or private, including weddings.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](37, "There is good access to the hall for the disabled, which is facilitated by the availability of parking next to the hall entrance. The toilets have disabled facilities.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](38, "p")(39, "b");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](40, "Free wi-fi");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, " is available throughout the building.");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](43, "Our address is: ");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "a", 8);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](45, " Worplesdon Memorial Hall, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](46, "a", 9);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, "Contact Us");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](30, "a", 8);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](31, "Contact Us");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "div", 10)(49, "div", 11)(50, "div", 12)(51, "h2");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Sports");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](32, "div", 9)(33, "div", 10)(34, "div", 11)(35, "h2");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](36, "Sports");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](53, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](54, "With a Tennis Club, Cricket Club and a Football Club as well as a children's playground, Worplesdon Memorial Hall is the ideal venue for your sporting activities");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](38, "With a Tennis Club, Cricket Club and a Football Club as well as a children's playground, Worplesdon Memorial Hall is the ideal venue for your sporting activities");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](55, "p")(56, "a", 13);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](57, "Learn More");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](39, "p")(40, "a", 12);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](41, "Learn More");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](58, "div", 12)(59, "h2");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](60, "Events");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "div", 11)(43, "h2");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](44, "Events");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](61, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](62, "From holding dance classes to your Wedding, we are your number one local venue");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](45, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](46, "From holding dance classes to your Wedding, we are your number one local venue");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](63, "p")(64, "a", 14);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](65, "Learn More");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "p")(48, "a", 13);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, "Learn More");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](66, "div", 12)(67, "h3");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](68, "Sidney Sime Gallery");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "div", 11)(51, "h3");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](52, "Sidney Sime Gallery");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](69, "img", 15);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](70, "p");
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](71, "On the first floor of the Hall there is a small gallery devoted to the fascinating and highly characteristic work of Sidney Sime (1865-1941), the famous artist, illustrator and caricaturist. Sime owned a cottage at Worplesdon and spent much of his time here during the latter part of his life.");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](53, "img", 14);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](54, "p");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](55, "On the first floor of the Hall there is a small gallery devoted to the fascinating and highly characteristic work of Sidney Sime (1865-1941), the famous artist, illustrator and caricaturist. Sime owned a cottage at Worplesdon and spent much of his time here during the latter part of his life.");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](72, "p")(73, "a", 16);
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](74, "Learn More");
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](56, "p")(57, "a", 15);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](58, "Learn More");
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
     }
     if (rf & 2) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](32);
+      _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](16);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("interval", 3000);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
       _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.grounds);

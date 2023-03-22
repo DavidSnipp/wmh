@@ -14,7 +14,6 @@ import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly'
 import { FlyerComponent } from './flyer.component'
 import { WhatsonComponent } from './whatson.component'
-import { CaretakerComponent } from './caretaker.component'
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,7 +33,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'bookings', component: BookingsComponent },
   { path: 'whatson', component: WhatsonComponent },
-  { path: 'caretaker', component: CaretakerComponent },
+  // { path: 'caretaker', component: CaretakerComponent },
   { path: 'flyers/:flyer', component: FlyerComponent }
 ]
 
