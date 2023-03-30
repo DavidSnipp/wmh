@@ -20,7 +20,6 @@ import { KellyRoomComponent } from './rooms/kelly';
 import { FlyerComponent } from './flyer.component'
 import { SafeHtmlPipe } from './safehtml.pipe';
 import { WhatsonComponent } from './whatson.component'
-import { CaretakerComponent } from './caretaker.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +27,7 @@ import { CaretakerComponent } from './caretaker.component'
     SportsComponent,
     WeddingComponent,
     HistoryComponent,
-    CaretakerComponent,
+    // CaretakerComponent,
     ContactComponent,
     RoomsComponent,
     WalkerRoomComponent,
