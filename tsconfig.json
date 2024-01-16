@@ -1,53 +1,17 @@
+/*
+  This is a "Solution Style" tsconfig.json file, and is used by editors and TypeScript’s language server to improve development experience.
+  It is not intended to be used to perform a compilation.
+
+  To learn more about this file see: https://angular.io/config/solution-tsconfig.
+*/
 {
-  "compilerOptions": {
-    "allowJs": true,
-    "checkJs": false,
-    "baseUrl": "./",
-    "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "ES2022",
-    "module": "ES2022",
-    "useDefineForClassFields": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitAny": true,
-    "pretty": true,
-    "strictNullChecks": true,
-    "allowSyntheticDefaultImports": true,
-    "typeRoots": [
-      "node_modules/@types",
-      "src/types"
-    ],
-    "types": [
-    ],
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
-  },
-  "include": [
-  ],
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "preserveWhitespaces": false,
-    "fullTemplateTypeCheck": true
-  },
-  "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
   ]
 }

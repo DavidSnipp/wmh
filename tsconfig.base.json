@@ -4,6 +4,7 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -13,10 +14,24 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
-    "module": "ES2022",
     "lib": [
       "es2018",
       "dom"
     ],
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true
+  },
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
   }
 }

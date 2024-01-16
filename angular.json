@@ -6,8 +6,8 @@
     "wmh": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:application": {
-          "strict": true
+        "@schematics/angular:component": {
+          "style": "scss"
         }
       },
       "root": "",
@@ -15,15 +15,13 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist",
             "index": "src/index.html",
-            "browser": "src/main.ts",
-            "polyfills": [
-              "src/polyfills.ts"
-            ],
-            "tsConfig": "tsconfig.json",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/ghspa.js",
               "src/404.html",
@@ -36,7 +34,13 @@
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -46,85 +50,43 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "optimization": {
-                "fonts": {
-                  "inline": true
-                },
-                "styles": {
-                  "inlineCritical": true,
-                  "minify": true
-                },
-                "scripts": true
-              },
-              "outputHashing": "bundles",
+              "optimization": true,
+              "outputHashing": "all",
               "sourceMap": false,
-              "namedChunks": true,
-              "extractLicenses": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "3mb",
+                  "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb"
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
                 }
-              ]
-            },
-            "development": {
-              "optimization": false,
-              "extractLicenses": false,
-              "sourceMap": true
-            },
-            "test": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.test.ts"
-                }
-              ],
-              "assets": [
-                "src/test",
-                "src/images",
-                "src/favicon.ico",
-                "src/assets",
-                "src/robots.txt",
-                "src/manifest.json",
-                "src/admin/reports/default.html"
               ]
             }
-          },
-          "defaultConfiguration": "production"
+          }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "wmh:build"
+          },
           "configurations": {
             "production": {
-              "buildTarget": "wmh:build:production"
-            },
-            "development": {
-              "buildTarget": "wmh:build:development"
-            },
-            "test": {
-              "buildTarget": "wmh:build:test"
+              "browserTarget": "wmh:build:production"
             }
-          },
-          "defaultConfiguration": "development"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "wmh:build"
-          }
-        },
-        "lint": {
-          "builder": "@angular-eslint/builder:lint",
-          "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
+            "browserTarget": "wmh:build"
           }
         },
         "test": {
@@ -139,11 +101,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/app/app.css",
-              "src/loader.css",
-              "src/app/inspinia.css"
+              "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "wmh:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "wmh:serve:production"
+            }
           }
         }
       }
@@ -151,5 +123,13 @@
   },
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+    }
   }
 }
