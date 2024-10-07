@@ -6831,7 +6831,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵparseCookieValue": () => (/* binding */ parseCookieValue),
 /* harmony export */   "ɵsetRootDomAdapter": () => (/* binding */ setRootDomAdapter)
 /* harmony export */ });
-/* harmony import */ var C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
+/* harmony import */ var c_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 7580);
 
 /**
@@ -14475,7 +14475,7 @@ function assetPriorityCountBelowThreshold(_x) {
  * This assert function is meant to only run on the browser.
  */
 function _assetPriorityCountBelowThreshold() {
-  _assetPriorityCountBelowThreshold = (0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (appRef) {
+  _assetPriorityCountBelowThreshold = (0,c_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (appRef) {
     if (IMGS_WITH_PRIORITY_ATTR_COUNT === 0) {
       IMGS_WITH_PRIORITY_ATTR_COUNT++;
       yield (0,_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵwhenStable"])(appRef);
@@ -14602,7 +14602,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ɵREQUESTS_CONTRIBUTE_TO_STABILITY": () => (/* binding */ REQUESTS_CONTRIBUTE_TO_STABILITY),
 /* harmony export */   "ɵwithHttpTransferCache": () => (/* binding */ withHttpTransferCache)
 /* harmony export */ });
-/* harmony import */ var C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
+/* harmony import */ var c_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 9204);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 7580);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 9452);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! rxjs */ 3942);
@@ -16136,7 +16136,7 @@ class FetchBackend {
   }
   doRequest(request, signal, observer) {
     var _this = this;
-    return (0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,c_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const init = _this.createRequestInit(request);
       let response;
       try {
@@ -16193,7 +16193,7 @@ class FetchBackend {
         // Perform response processing outside of Angular zone to
         // ensure no excessive change detection runs are executed
         // Here calling the async ReadableStreamDefaultReader.read() is responsible for triggering CD
-        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,C_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        yield _this.ngZone.runOutsideAngular( /*#__PURE__*/(0,c_Stardraw_wmh_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           while (true) {
             const {
               done,
@@ -81967,7 +81967,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs */ 5797);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! rxjs */ 9999);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! rxjs */ 9439);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! rxjs */ 774);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! rxjs */ 774);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! rxjs */ 3617);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs/operators */ 2576);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs/operators */ 3900);
@@ -81976,7 +81976,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! rxjs/operators */ 3037);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! rxjs/operators */ 1817);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! rxjs/operators */ 6647);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! rxjs/operators */ 4334);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! rxjs/operators */ 4334);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! rxjs/operators */ 8764);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! rxjs/operators */ 5842);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! rxjs/operators */ 5074);
@@ -82200,7 +82200,7 @@ function NgbDatepickerMonth_Conditional_0_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, NgbDatepickerMonth_Conditional_0_Conditional_1_Template, 2, 1, "div", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](2, NgbDatepickerMonth_Conditional_0_For_3_Template, 2, 1, "div", 2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIdentity"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](2, NgbDatepickerMonth_Conditional_0_For_3_Template, 2, 1, "div", 2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIndex"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -82512,7 +82512,7 @@ function NgbPagination_ng_template_12_For_1_Template(rf, ctx) {
 }
 function NgbPagination_ng_template_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](0, NgbPagination_ng_template_12_For_1_Template, 3, 6, "li", 14, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIdentity"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](0, NgbPagination_ng_template_12_For_1_Template, 3, 6, "li", 14, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIndex"]);
   }
   if (rf & 2) {
     const pages_r10 = ctx.pages;
@@ -82998,9 +82998,9 @@ function NgbTypeaheadWindow_For_3_Template(rf, ctx) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("mouseenter", function NgbTypeaheadWindow_For_3_Template_button_mouseenter_0_listener() {
-      const ɵ$index_5_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4).$index;
+      const $index_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4).$index;
       const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r5.markActive(ɵ$index_5_r5));
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r5.markActive($index_r5));
     })("click", function NgbTypeaheadWindow_For_3_Template_button_click_0_listener() {
       const result_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4).$implicit;
       const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -83011,11 +83011,11 @@ function NgbTypeaheadWindow_For_3_Template(rf, ctx) {
   }
   if (rf & 2) {
     const result_r7 = ctx.$implicit;
-    const ɵ$index_5_r5 = ctx.$index;
+    const $index_r5 = ctx.$index;
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     const rt_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("active", ɵ$index_5_r5 === ctx_r5.activeIdx);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", ctx_r5.id + "-" + ɵ$index_5_r5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("active", $index_r5 === ctx_r5.activeIdx);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("id", ctx_r5.id + "-" + $index_r5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", ctx_r5.resultTemplate || rt_r8)("ngTemplateOutletContext", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction3"](5, _c14, result_r7, ctx_r5.term, ctx_r5.formatter));
   }
@@ -83316,9 +83316,7 @@ const ngbCollapsingTransition = (element, animation, context) => {
     context.maxSize = maxSize;
     // Fix the height before starting the animation
     element.style[dimension] = direction !== 'show' ? maxSize : '0px';
-    classList.remove('collapse');
-    classList.remove('collapsing');
-    classList.remove('show');
+    classList.remove('collapse', 'collapsing', 'show');
     reflow(element);
     // Start the animation
     classList.add('collapsing');
@@ -83555,10 +83553,8 @@ class NgbAccordionBody {
     this._destroyViewIfExists();
   }
   _destroyViewIfExists() {
-    if (this._viewRef) {
-      this._viewRef.destroy();
-      this._viewRef = null;
-    }
+    this._viewRef?.destroy();
+    this._viewRef = null;
   }
   _createViewIfNotExists() {
     if (!this._viewRef) {
@@ -83587,12 +83583,7 @@ class NgbAccordionBody {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._bodyTpl = _t.first);
         }
       },
-      hostVars: 2,
-      hostBindings: function NgbAccordionBody_HostBindings(rf, ctx) {
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion-body", true);
-        }
-      },
+      hostAttrs: [1, "accordion-body"],
       standalone: true
     });
   }
@@ -83604,7 +83595,7 @@ class NgbAccordionBody {
       selector: '[ngbAccordionBody]',
       standalone: true,
       host: {
-        '[class.accordion-body]': 'true'
+        class: 'accordion-body'
       }
     }]
   }], null, {
@@ -83637,13 +83628,12 @@ class NgbAccordionCollapse {
     this.ɵdir = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
       type: NgbAccordionCollapse,
       selectors: [["", "ngbAccordionCollapse", ""]],
-      hostAttrs: ["role", "region"],
-      hostVars: 4,
+      hostAttrs: ["role", "region", 1, "accordion-collapse"],
+      hostVars: 2,
       hostBindings: function NgbAccordionCollapse_HostBindings(rf, ctx) {
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("id", ctx.item.collapseId);
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-labelledby", ctx.item.toggleId);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion-collapse", true);
         }
       },
       exportAs: ["ngbAccordionCollapse"],
@@ -83661,7 +83651,7 @@ class NgbAccordionCollapse {
       selector: '[ngbAccordionCollapse]',
       host: {
         role: 'region',
-        '[class.accordion-collapse]': 'true',
+        class: 'accordion-collapse',
         '[id]': 'item.collapseId',
         '[attr.aria-labelledby]': 'item.toggleId'
       },
@@ -83744,12 +83734,11 @@ class NgbAccordionButton {
     this.ɵdir = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
       type: NgbAccordionButton,
       selectors: [["button", "ngbAccordionButton", ""]],
-      hostAttrs: ["type", "button"],
-      hostVars: 3,
+      hostAttrs: ["type", "button", 1, "accordion-button"],
+      hostVars: 1,
       hostBindings: function NgbAccordionButton_HostBindings(rf, ctx) {
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("disabled", ctx.item.disabled);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion-button", true);
         }
       },
       standalone: true,
@@ -83765,7 +83754,7 @@ class NgbAccordionButton {
       standalone: true,
       host: {
         '[disabled]': 'item.disabled',
-        '[class.accordion-button]': 'true',
+        class: 'accordion-button',
         type: 'button'
       },
       hostDirectives: [NgbAccordionToggle]
@@ -83790,11 +83779,11 @@ class NgbAccordionHeader {
     this.ɵdir = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
       type: NgbAccordionHeader,
       selectors: [["", "ngbAccordionHeader", ""]],
-      hostAttrs: ["role", "heading"],
-      hostVars: 4,
+      hostAttrs: ["role", "heading", 1, "accordion-header"],
+      hostVars: 2,
       hostBindings: function NgbAccordionHeader_HostBindings(rf, ctx) {
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion-header", true)("collapsed", ctx.item.collapsed);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("collapsed", ctx.item.collapsed);
         }
       },
       standalone: true
@@ -83809,7 +83798,7 @@ class NgbAccordionHeader {
       standalone: true,
       host: {
         role: 'heading',
-        '[class.accordion-header]': 'true',
+        class: 'accordion-header',
         '[class.collapsed]': 'item.collapsed'
       }
     }]
@@ -83993,11 +83982,11 @@ class NgbAccordionItem {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._collapse = _t.first);
         }
       },
-      hostVars: 3,
+      hostAttrs: [1, "accordion-item"],
+      hostVars: 1,
       hostBindings: function NgbAccordionItem_HostBindings(rf, ctx) {
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("id", ctx.id);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion-item", true);
         }
       },
       inputs: {
@@ -84025,8 +84014,8 @@ class NgbAccordionItem {
       exportAs: 'ngbAccordionItem',
       standalone: true,
       host: {
-        '[class.accordion-item]': 'true',
-        '[id]': 'id'
+        '[id]': 'id',
+        class: 'accordion-item'
       }
     }]
   }], null, {
@@ -84219,12 +84208,7 @@ class NgbAccordionDirective {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._items = _t);
         }
       },
-      hostVars: 2,
-      hostBindings: function NgbAccordionDirective_HostBindings(rf, ctx) {
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("accordion", true);
-        }
-      },
+      hostAttrs: [1, "accordion"],
       inputs: {
         animation: "animation",
         closeOthers: "closeOthers",
@@ -84249,7 +84233,7 @@ class NgbAccordionDirective {
       standalone: true,
       exportAs: 'ngbAccordion',
       host: {
-        '[class.accordion]': 'true'
+        class: 'accordion'
       }
     }]
   }], null, {
@@ -84600,13 +84584,11 @@ const isBeingAnimated = ({
   return classList.contains('carousel-item-start') || classList.contains('carousel-item-end');
 };
 const removeDirectionClasses = classList => {
-  classList.remove('carousel-item-start');
-  classList.remove('carousel-item-end');
+  classList.remove('carousel-item-start', 'carousel-item-end');
 };
 const removeClasses = classList => {
   removeDirectionClasses(classList);
-  classList.remove('carousel-item-prev');
-  classList.remove('carousel-item-next');
+  classList.remove('carousel-item-prev', 'carousel-item-next');
 };
 const ngbCarouselTransitionIn = (element, animation, {
   direction
@@ -84615,7 +84597,6 @@ const ngbCarouselTransitionIn = (element, animation, {
     classList
   } = element;
   if (!animation) {
-    removeDirectionClasses(classList);
     removeClasses(classList);
     classList.add('active');
     return;
@@ -84641,7 +84622,6 @@ const ngbCarouselTransitionOut = (element, animation, {
     classList
   } = element;
   if (!animation) {
-    removeDirectionClasses(classList);
     removeClasses(classList);
     classList.remove('active');
     return;
@@ -84728,6 +84708,7 @@ class NgbCarousel {
     this._cd = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
     this._container = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef);
     this._destroyRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.DestroyRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._interval$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__.BehaviorSubject(this._config.interval);
     this._mouseHover$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__.BehaviorSubject(false);
     this._focused$ = new rxjs__WEBPACK_IMPORTED_MODULE_12__.BehaviorSubject(false);
@@ -84855,7 +84836,7 @@ class NgbCarousel {
       this._cd.markForCheck();
       // The following code need to be done asynchronously, after the dom becomes stable,
       // otherwise all changes will be undone.
-      this._ngZone.onStable.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
+      (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => {
         for (const {
           id
         } of this.slides) {
@@ -84866,6 +84847,9 @@ class NgbCarousel {
             element.classList.remove('active');
           }
         }
+      }, {
+        phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+        injector: this._injector
       });
     });
   }
@@ -84966,7 +84950,7 @@ class NgbCarousel {
         });
       });
       transitions.push(transition);
-      (0,rxjs__WEBPACK_IMPORTED_MODULE_21__.zip)(...transitions).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
+      (0,rxjs__WEBPACK_IMPORTED_MODULE_20__.zip)(...transitions).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_21__.take)(1)).subscribe(() => {
         this._transitionIds = null;
         this.slid.emit({
           prev: previousId,
@@ -85805,12 +85789,22 @@ class NgbDatepickerI18nDefault extends NgbDatepickerI18n {
   constructor() {
     super(...arguments);
     this._locale = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.LOCALE_ID);
-    this._monthsShort = (0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.getLocaleMonthNames)(this._locale, _angular_common__WEBPACK_IMPORTED_MODULE_13__.FormStyle.Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Abbreviated);
-    this._monthsFull = (0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.getLocaleMonthNames)(this._locale, _angular_common__WEBPACK_IMPORTED_MODULE_13__.FormStyle.Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Wide);
+    this._monthsShort = [...Array(12).keys()].map(month => Intl.DateTimeFormat(this._locale, {
+      month: 'short',
+      timeZone: 'UTC'
+    }).format(Date.UTC(2000, month)));
+    this._monthsFull = [...Array(12).keys()].map(month => Intl.DateTimeFormat(this._locale, {
+      month: 'long',
+      timeZone: 'UTC'
+    }).format(Date.UTC(2000, month)));
   }
-  getWeekdayLabel(weekday, width) {
-    const weekdaysStartingOnSunday = (0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.getLocaleDayNames)(this._locale, _angular_common__WEBPACK_IMPORTED_MODULE_13__.FormStyle.Standalone, width === undefined ? _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Short : width);
-    const weekdays = weekdaysStartingOnSunday.map((day, index) => weekdaysStartingOnSunday[(index + 1) % 7]);
+  getWeekdayLabel(weekday, width = 'narrow') {
+    // 1 MAY 2000 is a Monday
+    const weekdays = [1, 2, 3, 4, 5, 6, 7].map(day => Intl.DateTimeFormat(this._locale, {
+      weekday: width,
+      timeZone: 'UTC'
+    }).format(Date.UTC(2000, 4, day)));
+    // `weekday` is 1 (Mon) to 7 (Sun)
     return weekdays[weekday - 1] || '';
   }
   getMonthShortName(month) {
@@ -85921,7 +85915,7 @@ class NgbDatepickerService {
         }
       },
       weekdays: weekdays => {
-        const weekdayWidth = weekdays === true || weekdays === false ? _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Short : weekdays;
+        const weekdayWidth = weekdays === true || weekdays === false ? 'narrow' : weekdays;
         const weekdaysVisible = weekdays === true || weekdays === false ? weekdays : true;
         if (this._state.weekdayWidth !== weekdayWidth || this._state.weekdaysVisible !== weekdaysVisible) {
           return {
@@ -85957,7 +85951,7 @@ class NgbDatepickerService {
         years: [],
         months: []
       },
-      weekdayWidth: _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Short,
+      weekdayWidth: 'narrow',
       weekdaysVisible: true
     };
   }
@@ -86185,7 +86179,7 @@ class NgbDatepickerConfig {
     this.navigation = 'select';
     this.outsideDays = 'visible';
     this.showWeekNumbers = false;
-    this.weekdays = _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Short;
+    this.weekdays = 'narrow';
   }
   static {
     this.ɵfac = function NgbDatepickerConfig_Factory(__ngFactoryType__) {
@@ -86287,21 +86281,6 @@ class NgbDateStructAdapter extends NgbDateAdapter {
     type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.Injectable
   }], null, null);
 })();
-var Key;
-(function (Key) {
-  Key[Key["Tab"] = 9] = "Tab";
-  Key[Key["Enter"] = 13] = "Enter";
-  Key[Key["Escape"] = 27] = "Escape";
-  Key[Key["Space"] = 32] = "Space";
-  Key[Key["PageUp"] = 33] = "PageUp";
-  Key[Key["PageDown"] = 34] = "PageDown";
-  Key[Key["End"] = 35] = "End";
-  Key[Key["Home"] = 36] = "Home";
-  Key[Key["ArrowLeft"] = 37] = "ArrowLeft";
-  Key[Key["ArrowUp"] = 38] = "ArrowUp";
-  Key[Key["ArrowRight"] = 39] = "ArrowRight";
-  Key[Key["ArrowDown"] = 40] = "ArrowDown";
-})(Key || (Key = {}));
 
 /**
  * A service that represents the keyboard navigation.
@@ -86319,34 +86298,33 @@ class NgbDatepickerKeyboardService {
       state,
       calendar
     } = datepicker;
-    /* eslint-disable-next-line deprecation/deprecation */
-    switch (event.which) {
-      case Key.PageUp:
+    switch (event.key) {
+      case 'PageUp':
         datepicker.focusDate(calendar.getPrev(state.focusedDate, event.shiftKey ? 'y' : 'm', 1));
         break;
-      case Key.PageDown:
+      case 'PageDown':
         datepicker.focusDate(calendar.getNext(state.focusedDate, event.shiftKey ? 'y' : 'm', 1));
         break;
-      case Key.End:
+      case 'End':
         datepicker.focusDate(event.shiftKey ? state.maxDate : state.lastDate);
         break;
-      case Key.Home:
+      case 'Home':
         datepicker.focusDate(event.shiftKey ? state.minDate : state.firstDate);
         break;
-      case Key.ArrowLeft:
+      case 'ArrowLeft':
         datepicker.focusDate(calendar.getPrev(state.focusedDate, 'd', 1));
         break;
-      case Key.ArrowUp:
+      case 'ArrowUp':
         datepicker.focusDate(calendar.getPrev(state.focusedDate, 'd', calendar.getDaysPerWeek()));
         break;
-      case Key.ArrowRight:
+      case 'ArrowRight':
         datepicker.focusDate(calendar.getNext(state.focusedDate, 'd', 1));
         break;
-      case Key.ArrowDown:
+      case 'ArrowDown':
         datepicker.focusDate(calendar.getNext(state.focusedDate, 'd', calendar.getDaysPerWeek()));
         break;
-      case Key.Enter:
-      case Key.Space:
+      case 'Enter':
+      case ' ':
         datepicker.focusSelect();
         break;
       default:
@@ -87008,7 +86986,7 @@ class NgbDatepickerMonth {
 				@if (datepicker.showWeekNumbers) {
 					<div class="ngb-dp-weekday ngb-dp-showweek small">{{ i18n.getWeekLabel() }}</div>
 				}
-				@for (weekday of viewModel.weekdays; track weekday) {
+				@for (weekday of viewModel.weekdays; track $index) {
 					<div class="ngb-dp-weekday small" role="columnheader">{{ weekday }}</div>
 				}
 			</div>
@@ -87063,8 +87041,10 @@ class NgbDatepicker {
     this._ngbDateAdapter = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(NgbDateAdapter);
     this._ngZone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
     this._destroyRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.DestroyRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._controlValue = null;
     this._publicState = {};
+    this._initialized = false;
     /**
      * The reference to a custom template for the day.
      *
@@ -87154,7 +87134,7 @@ class NgbDatepicker {
      *
      * * `true` - weekdays are displayed using default width
      * * `false` - weekdays are not displayed
-     * * `TranslationWidth` - weekdays are displayed using specified width
+     * * `"short" | "long" | "narrow"` - weekdays are displayed using specified width
      *
      * @since 9.1.0
      */
@@ -87265,7 +87245,12 @@ class NgbDatepicker {
     this._service.focusSelect();
   }
   focus() {
-    this._ngZone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => this._nativeElement.querySelector('div.ngb-dp-day[tabindex="0"]')?.focus());
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => {
+      this._nativeElement.querySelector('div.ngb-dp-day[tabindex="0"]')?.focus();
+    }, {
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.Read,
+      injector: this._injector
+    });
   }
   /**
    * Navigates to the provided date.
@@ -87308,12 +87293,13 @@ class NgbDatepicker {
     if (!this.dayTemplate) {
       this.dayTemplate = this._defaultDayTemplate;
     }
+    this._initialized = true;
   }
   ngOnChanges(changes) {
     const inputs = {};
     ['dayTemplateData', 'displayMonths', 'markDisabled', 'firstDayOfWeek', 'navigation', 'minDate', 'maxDate', 'outsideDays', 'weekdays'].filter(name => name in changes).forEach(name => inputs[name] = this[name]);
     this._service.set(inputs);
-    if ('startDate' in changes) {
+    if ('startDate' in changes && this._initialized) {
       const {
         currentValue,
         previousValue
@@ -87486,7 +87472,7 @@ class NgbDatepicker {
 		</ng-template>
 
 		<ng-template #defaultContentTemplate>
-			@for (month of model.months; track month; let i = $index) {
+			@for (month of model.months; track month) {
 				<div class="ngb-dp-month">
 					@if (navigation === 'none' || (displayMonths > 1 && navigation === 'select')) {
 						<div class="ngb-dp-month-name">
@@ -87629,8 +87615,7 @@ function ngbAutoClose(zone, document, type, close, closed$, insideElements, igno
           return matchesSelectorIfAny(element, insideSelector) || !isContainedIn(element, insideElements);
         }
       };
-      const escapes$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(document, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(closed$), /* eslint-disable-next-line deprecation/deprecation */
-      (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.which === Key.Escape), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_24__.tap)(e => e.preventDefault()));
+      const escapes$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(document, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.key === 'Escape'), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_24__.tap)(e => e.preventDefault()));
       // we have to pre-calculate 'shouldCloseOnClick' on 'mousedown',
       // because on 'mouseup' DOM nodes might be detached
       const mouseDowns$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(document, 'mousedown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_15__.map)(shouldCloseOnClick), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(closed$));
@@ -87664,8 +87649,7 @@ const ngbFocusTrap = (zone, element, stopFocusTrap$, refocusOnClick = false) => 
     // last focused element
     const lastFocusedElement$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(element, 'focusin').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(stopFocusTrap$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_15__.map)(e => e.target));
     // 'tab' / 'shift+tab' stream
-    (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(element, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(stopFocusTrap$), /* eslint-disable-next-line deprecation/deprecation */
-    (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.which === Key.Tab), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_25__.withLatestFrom)(lastFocusedElement$)).subscribe(([tabEvent, focusedElement]) => {
+    (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(element, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(stopFocusTrap$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.key === 'Tab'), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_25__.withLatestFrom)(lastFocusedElement$)).subscribe(([tabEvent, focusedElement]) => {
       const [first, last] = getFocusableBoundaryElements(element);
       if ((focusedElement === first || focusedElement === element) && tabEvent.shiftKey) {
         last.focus();
@@ -88027,6 +88011,7 @@ class NgbInputDatepicker {
     this._dateAdapter = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(NgbDateAdapter);
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._changeDetector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._config = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(NgbInputDatepickerConfig);
     this._cRef = null;
     this._disabled = false;
@@ -88182,7 +88167,9 @@ class NgbInputDatepicker {
    */
   open() {
     if (!this.isOpen()) {
-      this._cRef = this._vcRef.createComponent(NgbDatepicker);
+      this._cRef = this._vcRef.createComponent(NgbDatepicker, {
+        injector: this._injector
+      });
       this._applyPopupStyling(this._cRef.location.nativeElement);
       this._applyDatepickerInputs(this._cRef);
       this._subscribeForDatepickerOutputs(this._cRef.instance);
@@ -88221,10 +88208,14 @@ class NgbInputDatepicker {
             hostElement,
             targetElement: this._cRef.location.nativeElement,
             placement: this.placement,
-            appendToBody: this.container === 'body',
             updatePopperOptions: options => this.popperOptions(addPopperOffset([0, 2])(options))
           });
-          this._zoneSubscription = this._ngZone.onStable.subscribe(() => this._positioning.update());
+          this._afterRenderRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterRender)(() => {
+            this._positioning.update();
+          }, {
+            phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+            injector: this._injector
+          });
         }
       });
       this._setCloseHandlers();
@@ -88235,10 +88226,10 @@ class NgbInputDatepicker {
    */
   close() {
     if (this.isOpen()) {
-      this._vcRef.remove(this._vcRef.indexOf(this._cRef.hostView));
+      this._cRef?.destroy();
       this._cRef = null;
       this._positioning.destroy();
-      this._zoneSubscription?.unsubscribe();
+      this._afterRenderRef?.destroy();
       this._destroyCloseHandlers$.next();
       this.closed.emit();
       this._changeDetector.markForCheck();
@@ -90325,7 +90316,8 @@ class NgbDropdownMenu {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.menuItems = _t);
         }
       },
-      hostVars: 4,
+      hostAttrs: [1, "dropdown-menu"],
+      hostVars: 2,
       hostBindings: function NgbDropdownMenu_HostBindings(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keydown.ArrowUp", function NgbDropdownMenu_keydown_ArrowUp_HostBindingHandler($event) {
@@ -90347,7 +90339,7 @@ class NgbDropdownMenu {
           });
         }
         if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("dropdown-menu", true)("show", ctx.dropdown.isOpen());
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("show", ctx.dropdown.isOpen());
         }
       },
       standalone: true
@@ -90361,7 +90353,7 @@ class NgbDropdownMenu {
       selector: '[ngbDropdownMenu]',
       standalone: true,
       host: {
-        '[class.dropdown-menu]': 'true',
+        class: 'dropdown-menu',
         '[class.show]': 'dropdown.isOpen()',
         '(keydown.ArrowUp)': 'dropdown.onKeyDown($event)',
         '(keydown.ArrowDown)': 'dropdown.onKeyDown($event)',
@@ -90513,6 +90505,7 @@ class NgbDropdown {
     this._changeDetector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
     this._config = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(NgbDropdownConfig);
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._ngZone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
     this._nativeElement = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef).nativeElement;
     this._destroyCloseHandlers$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
@@ -90568,11 +90561,14 @@ class NgbDropdown {
     }
   }
   ngAfterContentInit() {
-    this._ngZone.onStable.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => {
       this._applyPlacementClasses();
       if (this._open) {
         this._setCloseHandlers();
       }
+    }, {
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.Write,
+      injector: this._injector
     });
   }
   ngOnChanges(changes) {
@@ -90583,8 +90579,7 @@ class NgbDropdown {
       this._positioning.setOptions({
         hostElement: this._anchor.nativeElement,
         targetElement: this._bodyContainer || this._menu.nativeElement,
-        placement: this.placement,
-        appendToBody: this.container === 'body'
+        placement: this.placement
       });
       this._applyPlacementClasses();
     }
@@ -90623,11 +90618,15 @@ class NgbDropdown {
               hostElement: this._anchor.nativeElement,
               targetElement: this._bodyContainer || this._menu.nativeElement,
               placement: this.placement,
-              appendToBody: this.container === 'body',
               updatePopperOptions: options => this.popperOptions(addPopperOffset([0, 2])(options))
             });
             this._applyPlacementClasses();
-            this._zoneSubscription = this._ngZone.onStable.subscribe(() => this._positionMenu());
+            this._afterRenderRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterRender)(() => {
+              this._positionMenu();
+            }, {
+              phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.Write,
+              injector: this._injector
+            });
           });
         }
       }
@@ -90650,7 +90649,7 @@ class NgbDropdown {
       this._open = false;
       this._resetContainer();
       this._positioning.destroy();
-      this._zoneSubscription?.unsubscribe();
+      this._afterRenderRef?.destroy();
       this._destroyCloseHandlers$.next();
       this.openChange.emit(false);
       this._changeDetector.markForCheck();
@@ -90670,8 +90669,9 @@ class NgbDropdown {
     this.close();
   }
   onKeyDown(event) {
-    /* eslint-disable-next-line deprecation/deprecation */
-    const key = event.which;
+    const {
+      key
+    } = event;
     const itemElements = this._getMenuElements();
     let position = -1;
     let itemElement = null;
@@ -90687,16 +90687,16 @@ class NgbDropdown {
       });
     }
     // closing on Enter / Space
-    if (key === Key.Space || key === Key.Enter) {
+    if (key === ' ' || key === 'Enter') {
       if (itemElement && (this.autoClose === true || this.autoClose === 'inside')) {
         // Item is either a button or a link, so click will be triggered by the browser on Enter or Space.
         // So we have to register a one-time click handler that will fire after any user defined click handlers
         // to close the dropdown
-        (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(itemElement, 'click').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => this.close());
+        (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(itemElement, 'click').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_21__.take)(1)).subscribe(() => this.close());
       }
       return;
     }
-    if (key === Key.Tab) {
+    if (key === 'Tab') {
       if (event.target && this.isOpen() && this.autoClose) {
         if (this._anchor.nativeElement === event.target) {
           if (this.container === 'body' && !event.shiftKey) {
@@ -90722,7 +90722,7 @@ class NgbDropdown {
             this.close();
           }
         } else {
-          (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(event.target, 'focusout').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(({
+          (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(event.target, 'focusout').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_21__.take)(1)).subscribe(({
             relatedTarget
           }) => {
             if (!this._nativeElement.contains(relatedTarget)) {
@@ -90738,20 +90738,20 @@ class NgbDropdown {
       this.open();
       if (itemElements.length) {
         switch (key) {
-          case Key.ArrowDown:
+          case 'ArrowDown':
             position = Math.min(position + 1, itemElements.length - 1);
             break;
-          case Key.ArrowUp:
+          case 'ArrowUp':
             if (this._isDropup() && position === -1) {
               position = itemElements.length - 1;
               break;
             }
             position = Math.max(position - 1, 0);
             break;
-          case Key.Home:
+          case 'Home':
             position = 0;
             break;
-          case Key.End:
+          case 'End':
             position = itemElements.length - 1;
             break;
         }
@@ -91037,7 +91037,15 @@ class PopupService {
     const {
       nativeElement
     } = this._windowRef.location;
-    const transition$ = this._ngZone.onStable.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_32__.mergeMap)(() => ngbRunTransition(this._ngZone, nativeElement, ({
+    const nextRenderSubject = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => {
+      nextRenderSubject.next();
+      nextRenderSubject.complete();
+    }, {
+      injector: this._injector,
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite
+    });
+    const transition$ = nextRenderSubject.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_32__.mergeMap)(() => ngbRunTransition(this._ngZone, nativeElement, ({
       classList
     }) => classList.add('show'), {
       animation,
@@ -91058,16 +91066,10 @@ class PopupService {
       animation,
       runningTransition: 'stop'
     }).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_24__.tap)(() => {
-      if (this._windowRef) {
-        // this is required because of the container='body' option
-        this._viewContainerRef.remove(this._viewContainerRef.indexOf(this._windowRef.hostView));
-        this._windowRef = null;
-      }
-      if (this._contentRef?.viewRef) {
-        this._applicationRef.detachView(this._contentRef.viewRef);
-        this._contentRef.viewRef.destroy();
-        this._contentRef = null;
-      }
+      this._windowRef?.destroy();
+      this._contentRef?.viewRef?.destroy();
+      this._windowRef = null;
+      this._contentRef = null;
     }));
   }
   _getContentRef(content, templateContext) {
@@ -91146,18 +91148,20 @@ class NgbModalBackdrop {
   constructor() {
     this._nativeElement = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef).nativeElement;
     this._zone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
   }
   ngOnInit() {
-    this._zone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
-      ngbRunTransition(this._zone, this._nativeElement, (element, animation) => {
-        if (animation) {
-          reflow(element);
-        }
-        element.classList.add('show');
-      }, {
-        animation: this.animation,
-        runningTransition: 'continue'
-      });
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => ngbRunTransition(this._zone, this._nativeElement, (element, animation) => {
+      if (animation) {
+        reflow(element);
+      }
+      element.classList.add('show');
+    }, {
+      animation: this.animation,
+      runningTransition: 'continue'
+    }), {
+      injector: this._injector,
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite
     });
   }
   hide() {
@@ -91401,9 +91405,7 @@ class NgbModalRef {
       } = this._windowCmptRef.location;
       nativeElement.parentNode.removeChild(nativeElement);
       this._windowCmptRef.destroy();
-      if (this._contentRef && this._contentRef.viewRef) {
-        this._contentRef.viewRef.destroy();
-      }
+      this._contentRef?.viewRef?.destroy();
       this._windowCmptRef = null;
       this._contentRef = null;
     });
@@ -91419,7 +91421,7 @@ class NgbModalRef {
       }
     });
     // all done
-    (0,rxjs__WEBPACK_IMPORTED_MODULE_21__.zip)(windowTransition$, backdropTransition$).subscribe(() => {
+    (0,rxjs__WEBPACK_IMPORTED_MODULE_20__.zip)(windowTransition$, backdropTransition$).subscribe(() => {
       this._hidden.next();
       this._hidden.complete();
     });
@@ -91435,6 +91437,7 @@ class NgbModalWindow {
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._elRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef);
     this._zone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._closed$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
     this._elWithFocus = null; // element that is focused prior to modal opening
     this.backdrop = true;
@@ -91451,8 +91454,9 @@ class NgbModalWindow {
   }
   ngOnInit() {
     this._elWithFocus = this._document.activeElement;
-    this._zone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
-      this._show();
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => this._show(), {
+      injector: this._injector,
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite
     });
   }
   ngOnDestroy() {
@@ -91468,7 +91472,7 @@ class NgbModalWindow {
     };
     const windowTransition$ = ngbRunTransition(this._zone, nativeElement, () => nativeElement.classList.remove('show'), context);
     const dialogTransition$ = ngbRunTransition(this._zone, this._dialogEl.nativeElement, () => {}, context);
-    const transitions$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_21__.zip)(windowTransition$, dialogTransition$);
+    const transitions$ = (0,rxjs__WEBPACK_IMPORTED_MODULE_20__.zip)(windowTransition$, dialogTransition$);
     transitions$.subscribe(() => {
       this.hidden.next();
       this.hidden.complete();
@@ -91489,7 +91493,7 @@ class NgbModalWindow {
       element.classList.add('show');
     }, context);
     const dialogTransition$ = ngbRunTransition(this._zone, this._dialogEl.nativeElement, () => {}, context);
-    (0,rxjs__WEBPACK_IMPORTED_MODULE_21__.zip)(windowTransition$, dialogTransition$).subscribe(() => {
+    (0,rxjs__WEBPACK_IMPORTED_MODULE_20__.zip)(windowTransition$, dialogTransition$).subscribe(() => {
       this.shown.next();
       this.shown.complete();
     });
@@ -91501,8 +91505,7 @@ class NgbModalWindow {
       nativeElement
     } = this._elRef;
     this._zone.runOutsideAngular(() => {
-      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), /* eslint-disable-next-line deprecation/deprecation */
-      (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.which === Key.Escape)).subscribe(event => {
+      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.key === 'Escape')).subscribe(event => {
         if (this.keyboard) {
           requestAnimationFrame(() => {
             if (!event.defaultPrevented) {
@@ -91516,7 +91519,7 @@ class NgbModalWindow {
       // We're listening to 'mousedown' and 'mouseup' to prevent modal from closing when pressing the mouse
       // inside the modal dialog and releasing it outside
       let preventClose = false;
-      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(this._dialogEl.nativeElement, 'mousedown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_24__.tap)(() => preventClose = false), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_18__.switchMap)(() => (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'mouseup').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1))), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(({
+      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(this._dialogEl.nativeElement, 'mousedown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_24__.tap)(() => preventClose = false), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_18__.switchMap)(() => (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'mouseup').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_21__.take)(1))), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(({
         target
       }) => nativeElement === target)).subscribe(() => {
         preventClose = true;
@@ -91779,7 +91782,7 @@ class NgbModalStack {
     // We have to cleanup DOM after the last modal when BOTH 'hidden' was emitted and 'result' promise was resolved:
     // - with animations OFF, 'hidden' emits synchronously, then 'result' is resolved asynchronously
     // - with animations ON, 'result' is resolved asynchronously, then 'hidden' emits asynchronously
-    ngbModalRef.hidden.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => Promise.resolve(true).then(() => {
+    ngbModalRef.hidden.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_21__.take)(1)).subscribe(() => Promise.resolve(true).then(() => {
       if (!this._modalRefs.length) {
         this._document.body.classList.remove('modal-open');
         this._restoreScrollBar();
@@ -92199,13 +92202,6 @@ class NgbNavItem {
      */
     this.hidden = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
   }
-  ngAfterContentChecked() {
-    // We are using @ContentChildren instead of @ContentChild as in the Angular version being used
-    // only @ContentChildren allows us to specify the {descendants: false} option.
-    // Without {descendants: false} we are hitting bugs described in:
-    // https://github.com/ng-bootstrap/ng-bootstrap/issues/2240
-    this.contentTpl = this.contentTpls.first;
-  }
   ngOnInit() {
     if (!isDefined(this.domId)) {
       this.domId = `ngb-nav-${navCounter++}`;
@@ -92244,15 +92240,10 @@ class NgbNavItem {
         }
         if (rf & 2) {
           let _t;
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.contentTpls = _t);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.contentTpl = _t.first);
         }
       },
-      hostVars: 2,
-      hostBindings: function NgbNavItem_HostBindings(rf, ctx) {
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("nav-item", true);
-        }
-      },
+      hostAttrs: [1, "nav-item"],
       inputs: {
         destroyOnHide: "destroyOnHide",
         disabled: "disabled",
@@ -92276,7 +92267,7 @@ class NgbNavItem {
       exportAs: 'ngbNavItem',
       standalone: true,
       host: {
-        '[class.nav-item]': 'true'
+        class: 'nav-item'
       }
     }]
   }], null, {
@@ -92299,8 +92290,8 @@ class NgbNavItem {
     hidden: [{
       type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.Output
     }],
-    contentTpls: [{
-      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ContentChildren,
+    contentTpl: [{
+      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ContentChild,
       args: [NgbNavContent, {
         descendants: false
       }]
@@ -92405,8 +92396,6 @@ class NgbNav {
     if (this.roles !== 'tablist' || !this.keyboard) {
       return;
     }
-    /* eslint-disable-next-line deprecation/deprecation */
-    const key = event.which;
     const enabledLinks = this.links.filter(link => !link.navItem.disabled);
     const {
       length
@@ -92418,19 +92407,19 @@ class NgbNav {
       }
     });
     if (length) {
-      switch (key) {
-        case Key.ArrowUp:
-        case Key.ArrowLeft:
+      switch (event.key) {
+        case 'ArrowUp':
+        case 'ArrowLeft':
           position = (position - 1 + length) % length;
           break;
-        case Key.ArrowRight:
-        case Key.ArrowDown:
+        case 'ArrowRight':
+        case 'ArrowDown':
           position = (position + 1) % length;
           break;
-        case Key.Home:
+        case 'Home':
           position = 0;
           break;
-        case Key.End:
+        case 'End':
           position = length - 1;
           break;
       }
@@ -92511,7 +92500,8 @@ class NgbNav {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.links = _t);
         }
       },
-      hostVars: 6,
+      hostAttrs: [1, "nav"],
+      hostVars: 4,
       hostBindings: function NgbNav_HostBindings(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keydown.arrowLeft", function NgbNav_keydown_arrowLeft_HostBindingHandler($event) {
@@ -92532,7 +92522,7 @@ class NgbNav {
         }
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-orientation", ctx.orientation === "vertical" && ctx.roles === "tablist" ? "vertical" : undefined)("role", ctx.role ? ctx.role : ctx.roles ? "tablist" : undefined);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("nav", true)("flex-column", ctx.orientation === "vertical");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("flex-column", ctx.orientation === "vertical");
         }
       },
       inputs: {
@@ -92563,7 +92553,7 @@ class NgbNav {
       exportAs: 'ngbNav',
       standalone: true,
       host: {
-        '[class.nav]': 'true',
+        class: 'nav',
         '[class.flex-column]': `orientation === 'vertical'`,
         '[attr.aria-orientation]': `orientation === 'vertical' && roles === 'tablist' ? 'vertical' : undefined`,
         '[attr.role]': `role ? role : roles ? 'tablist' : undefined`,
@@ -92650,12 +92640,13 @@ class NgbNavLinkBase {
     this.ɵdir = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({
       type: NgbNavLinkBase,
       selectors: [["", "ngbNavLink", ""]],
-      hostVars: 14,
+      hostAttrs: [1, "nav-link"],
+      hostVars: 12,
       hostBindings: function NgbNavLinkBase_HostBindings(rf, ctx) {
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵhostProperty"]("id", ctx.navItem.domId);
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("role", ctx.role ? ctx.role : ctx.nav.roles ? "tab" : undefined)("tabindex", ctx.tabindex)("aria-controls", ctx.navItem.isPanelInDom() ? ctx.navItem.panelDomId : null)("aria-selected", ctx.navItem.active)("aria-disabled", ctx.navItem.disabled);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("nav-link", true)("nav-item", ctx.navItem.isNgContainer())("active", ctx.navItem.active)("disabled", ctx.navItem.disabled);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("nav-item", ctx.navItem.isNgContainer())("active", ctx.navItem.active)("disabled", ctx.navItem.disabled);
         }
       },
       standalone: true
@@ -92670,7 +92661,7 @@ class NgbNavLinkBase {
       standalone: true,
       host: {
         '[id]': 'navItem.domId',
-        '[class.nav-link]': 'true',
+        class: 'nav-link',
         '[class.nav-item]': 'navItem.isNgContainer()',
         '[attr.role]': `role ? role : nav.roles ? 'tab' : undefined`,
         '[class.active]': 'navItem.active',
@@ -92908,8 +92899,7 @@ class NgbNavOutlet {
   }
   _updateActivePane() {
     this._activePane = this._getActivePane();
-    this._activePane?.nativeElement.classList.add('show');
-    this._activePane?.nativeElement.classList.add('active');
+    this._activePane?.nativeElement.classList.add('show', 'active');
   }
   _getPaneForItem(item) {
     return this._panes && this._panes.find(pane => pane.item === item) || null;
@@ -92935,12 +92925,7 @@ class NgbNavOutlet {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx._panes = _t);
         }
       },
-      hostVars: 2,
-      hostBindings: function NgbNavOutlet_HostBindings(rf, ctx) {
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("tab-content", true);
-        }
-      },
+      hostAttrs: [1, "tab-content"],
       inputs: {
         paneRole: "paneRole",
         nav: [0, "ngbNavOutlet", "nav"]
@@ -92973,7 +92958,7 @@ class NgbNavOutlet {
       standalone: true,
       imports: [NgbNavPane, _angular_common__WEBPACK_IMPORTED_MODULE_13__.NgTemplateOutlet],
       host: {
-        '[class.tab-content]': 'true'
+        class: 'tab-content'
       },
       encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ViewEncapsulation.None,
       changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectionStrategy.OnPush,
@@ -93648,7 +93633,7 @@ class NgbPagination {
 		<ng-template #ellipsis>...</ng-template>
 		<ng-template #defaultNumber let-page let-currentPage="currentPage">{{ page }}</ng-template>
 		<ng-template #defaultPages let-page let-pages="pages" let-disabled="disabled">
-			@for (pageNumber of pages; track pageNumber) {
+			@for (pageNumber of pages; track $index) {
 				<li
 					class="page-item"
 					[class.active]="pageNumber === page"
@@ -94161,6 +94146,7 @@ class NgbPopover {
     this._ngZone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._changeDetector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._ngbPopoverWindowId = `ngb-popover-${nextId$1++}`;
     this._popupService = new PopupService(NgbPopoverWindow);
     this._windowRef = null;
@@ -94205,14 +94191,18 @@ class NgbPopover {
           hostElement: this._getPositionTargetElement(),
           targetElement: this._windowRef.location.nativeElement,
           placement: this.placement,
-          appendToBody: this.container === 'body',
           baseClass: 'bs-popover',
           updatePopperOptions: options => this.popperOptions(addPopperOffset([0, 8])(options))
         });
         Promise.resolve().then(() => {
           // This update is required for correct arrow placement
           this._positioning.update();
-          this._zoneSubscription = this._ngZone.onStable.subscribe(() => this._positioning.update());
+        });
+        this._afterRenderRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterRender)(() => {
+          this._positioning.update();
+        }, {
+          phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+          injector: this._injector
         });
       });
       ngbAutoClose(this._ngZone, this._document, this.autoClose, () => this.close(), this.hidden, [this._windowRef.location.nativeElement]);
@@ -94230,7 +94220,7 @@ class NgbPopover {
       this._popupService.close(animation).subscribe(() => {
         this._windowRef = null;
         this._positioning.destroy();
-        this._zoneSubscription?.unsubscribe();
+        this._afterRenderRef?.destroy();
         this.hidden.emit();
         this._changeDetector.markForCheck();
       });
@@ -94604,7 +94594,8 @@ class NgbProgressbar {
         'aria-valuemin': '0',
         '[attr.aria-valuemax]': 'max',
         '[attr.aria-label]': 'ariaLabel',
-        '[style.width.%]': 'stacked ? getPercentValue() : null'
+        '[style.width.%]': 'stacked ? getPercentValue() : null',
+        '[style.height]': 'height'
       },
       template: `
 		<div
@@ -94652,9 +94643,6 @@ class NgbProgressbar {
     }],
     height: [{
       type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.Input
-    }, {
-      type: _angular_core__WEBPACK_IMPORTED_MODULE_0__.HostBinding,
-      args: ['style.height']
     }]
   });
 })();
@@ -94843,20 +94831,19 @@ class NgbRating {
     }
   }
   handleKeyDown(event) {
-    /* eslint-disable-next-line deprecation/deprecation */
-    switch (event.which) {
-      case Key.ArrowDown:
-      case Key.ArrowLeft:
+    switch (event.key) {
+      case 'ArrowDown':
+      case 'ArrowLeft':
         this.update(this.rate - 1);
         break;
-      case Key.ArrowUp:
-      case Key.ArrowRight:
+      case 'ArrowUp':
+      case 'ArrowRight':
         this.update(this.rate + 1);
         break;
-      case Key.Home:
+      case 'Home':
         this.update(0);
         break;
-      case Key.End:
+      case 'End':
         this.update(this.max);
         break;
       default:
@@ -96074,7 +96061,8 @@ class NgbTimepickerI18n {
 class NgbTimepickerI18nDefault extends NgbTimepickerI18n {
   constructor() {
     super(...arguments);
-    this._periods = (0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.getLocaleDayPeriods)((0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.LOCALE_ID), _angular_common__WEBPACK_IMPORTED_MODULE_13__.FormStyle.Standalone, _angular_common__WEBPACK_IMPORTED_MODULE_13__.TranslationWidth.Narrow);
+    this._locale = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.LOCALE_ID);
+    this._periods = [(0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.formatDate)(new Date(3600000), 'a', this._locale, 'UTC'), (0,_angular_common__WEBPACK_IMPORTED_MODULE_13__.formatDate)(new Date(3600000 * 13), 'a', this._locale, 'UTC')];
   }
   getMorningPeriod() {
     return this._periods[0];
@@ -96875,6 +96863,7 @@ class NgbToast {
     this.ariaLive = ariaLive;
     this._config = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(NgbToastConfig);
     this._zone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._element = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef);
     /**
      * If `true`, toast opening and closing will be animated.
@@ -96921,9 +96910,12 @@ class NgbToast {
     this.ariaLive ??= this._config.ariaLive;
   }
   ngAfterContentInit() {
-    this._zone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => {
       this._init();
       this.show();
+    }, {
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+      injector: this._injector
     });
   }
   ngOnChanges(changes) {
@@ -97368,6 +97360,7 @@ class NgbTooltip {
     this._ngZone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._changeDetector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._ngbTooltipWindowId = `ngb-tooltip-${nextId++}`;
     this._popupService = new PopupService(NgbTooltipWindow);
     this._windowRef = null;
@@ -97423,14 +97416,18 @@ class NgbTooltip {
           hostElement: this._getPositionTargetElement(),
           targetElement: this._windowRef.location.nativeElement,
           placement: this.placement,
-          appendToBody: this.container === 'body',
           baseClass: 'bs-tooltip',
           updatePopperOptions: options => this.popperOptions(addPopperOffset([0, 6])(options))
         });
         Promise.resolve().then(() => {
           // This update is required for correct arrow placement
           this._positioning.update();
-          this._zoneSubscription = this._ngZone.onStable.subscribe(() => this._positioning.update());
+        });
+        this._afterRenderRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterRender)(() => {
+          this._positioning.update();
+        }, {
+          phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+          injector: this._injector
         });
       });
       ngbAutoClose(this._ngZone, this._document, this.autoClose, () => this.close(), this.hidden, [this._windowRef.location.nativeElement], [this._nativeElement]);
@@ -97448,7 +97445,7 @@ class NgbTooltip {
       this._popupService.close(animation).subscribe(() => {
         this._windowRef = null;
         this._positioning.destroy();
-        this._zoneSubscription?.unsubscribe();
+        this._afterRenderRef?.destroy();
         this.hidden.emit();
         this._changeDetector.markForCheck();
       });
@@ -97484,7 +97481,7 @@ class NgbTooltip {
   }
   ngOnDestroy() {
     this.close(false);
-    // This check is needed as it might happen that ngOnDestroy is called before ngOnInit
+    // This check is necessary because it's possible that ngOnDestroy could be invoked before ngOnInit.
     // under certain conditions, see: https://github.com/ng-bootstrap/ng-bootstrap/issues/2199
     this._unregisterListenersFn?.();
   }
@@ -97672,7 +97669,7 @@ class NgbHighlight {
       consts: [[3, "class"]],
       template: function NgbHighlight_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](0, NgbHighlight_For_1_Template, 2, 1, null, null, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIdentity"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](0, NgbHighlight_For_1_Template, 2, 1, null, null, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIndex"]);
         }
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeater"](ctx.parts);
@@ -97693,8 +97690,8 @@ class NgbHighlight {
       changeDetection: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectionStrategy.OnPush,
       encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_0__.ViewEncapsulation.None,
       template: `
-		@for (part of parts; track part; let odd = $odd) {
-			@if (odd) {
+		@for (part of parts; track $index) {
+			@if ($odd) {
 				<span class="{{ highlightClass }}">{{ part }}</span>
 			} @else {
 				<ng-container>{{ part }}</ng-container>
@@ -97926,7 +97923,7 @@ class NgbTypeaheadWindow {
       template: function NgbTypeaheadWindow_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NgbTypeaheadWindow_ng_template_0_Template, 1, 2, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](2, NgbTypeaheadWindow_For_3_Template, 2, 9, "button", 1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIdentity"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterCreate"](2, NgbTypeaheadWindow_For_3_Template, 2, 9, "button", 1, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrepeaterTrackByIndex"]);
         }
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -97957,14 +97954,14 @@ class NgbTypeaheadWindow {
 		<ng-template #rt let-result="result" let-term="term" let-formatter="formatter">
 			<ngb-highlight [result]="formatter(result)" [term]="term" />
 		</ng-template>
-		@for (result of results; track result; let idx = $index) {
+		@for (result of results; track $index) {
 			<button
 				type="button"
 				class="dropdown-item"
 				role="option"
-				[id]="id + '-' + idx"
-				[class.active]="idx === activeIdx"
-				(mouseenter)="markActive(idx)"
+				[id]="id + '-' + $index"
+				[class.active]="$index === activeIdx"
+				(mouseenter)="markActive($index)"
 				(click)="select(result)"
 			>
 				<ng-template
@@ -98019,6 +98016,7 @@ class NgbTypeahead {
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._ngZone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
     this._changeDetector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ChangeDetectorRef);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._popupService = new PopupService(NgbTypeaheadWindow);
     this._positioning = ngbPositioning();
     this._subscription = null;
@@ -98143,20 +98141,19 @@ class NgbTypeahead {
     if (!this.isPopupOpen()) {
       return;
     }
-    /* eslint-disable-next-line deprecation/deprecation */
-    switch (event.which) {
-      case Key.ArrowDown:
+    switch (event.key) {
+      case 'ArrowDown':
         event.preventDefault();
         this._windowRef.instance.next();
         this._showHint();
         break;
-      case Key.ArrowUp:
+      case 'ArrowUp':
         event.preventDefault();
         this._windowRef.instance.prev();
         this._showHint();
         break;
-      case Key.Enter:
-      case Key.Tab:
+      case 'Enter':
+      case 'Tab':
         {
           const result = this._windowRef.instance.getActive();
           if (isDefined(result)) {
@@ -98192,10 +98189,14 @@ class NgbTypeahead {
             hostElement: this._nativeElement,
             targetElement: this._windowRef.location.nativeElement,
             placement: this.placement,
-            appendToBody: this.container === 'body',
             updatePopperOptions: options => this.popperOptions(addPopperOffset([0, 2])(options))
           });
-          this._zoneSubscription = this._ngZone.onStable.subscribe(() => this._positioning.update());
+          this._afterRenderRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterRender)(() => {
+            this._positioning.update();
+          }, {
+            phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite,
+            injector: this._injector
+          });
         }
       });
       ngbAutoClose(this._ngZone, this._document, 'outside', () => this.dismissPopup(), this._closed$, [this._nativeElement, this._windowRef.location.nativeElement]);
@@ -98204,7 +98205,7 @@ class NgbTypeahead {
   _closePopup() {
     this._popupService.close().subscribe(() => {
       this._positioning.destroy();
-      this._zoneSubscription?.unsubscribe();
+      this._afterRenderRef?.destroy();
       this._closed$.next();
       this._windowRef = null;
       this.activeDescendant = null;
@@ -98629,9 +98630,7 @@ class NgbOffcanvasRef {
       } = this._panelCmptRef.location;
       nativeElement.parentNode.removeChild(nativeElement);
       this._panelCmptRef.destroy();
-      if (this._contentRef && this._contentRef.viewRef) {
-        this._contentRef.viewRef.destroy();
-      }
+      this._contentRef?.viewRef?.destroy();
       this._panelCmptRef = null;
       this._contentRef = null;
     });
@@ -98647,7 +98646,7 @@ class NgbOffcanvasRef {
       }
     });
     // all done
-    (0,rxjs__WEBPACK_IMPORTED_MODULE_21__.zip)(panelTransition$, backdropTransition$).subscribe(() => {
+    (0,rxjs__WEBPACK_IMPORTED_MODULE_20__.zip)(panelTransition$, backdropTransition$).subscribe(() => {
       this._hidden.next();
       this._hidden.complete();
     });
@@ -98662,19 +98661,21 @@ class NgbOffcanvasBackdrop {
   constructor() {
     this._nativeElement = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef).nativeElement;
     this._zone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this.dismissEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__.EventEmitter();
   }
   ngOnInit() {
-    this._zone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
-      ngbRunTransition(this._zone, this._nativeElement, (element, animation) => {
-        if (animation) {
-          reflow(element);
-        }
-        element.classList.add('show');
-      }, {
-        animation: this.animation,
-        runningTransition: 'continue'
-      });
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => ngbRunTransition(this._zone, this._nativeElement, (element, animation) => {
+      if (animation) {
+        reflow(element);
+      }
+      element.classList.add('show');
+    }, {
+      animation: this.animation,
+      runningTransition: 'continue'
+    }), {
+      injector: this._injector,
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite
     });
   }
   hide() {
@@ -98764,6 +98765,7 @@ class NgbOffcanvasPanel {
     this._document = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_common__WEBPACK_IMPORTED_MODULE_13__.DOCUMENT);
     this._elRef = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.ElementRef);
     this._zone = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.NgZone);
+    this._injector = (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.inject)(_angular_core__WEBPACK_IMPORTED_MODULE_0__.Injector);
     this._closed$ = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
     this._elWithFocus = null; // element that is focused prior to offcanvas opening
     this.keyboard = true;
@@ -98777,8 +98779,9 @@ class NgbOffcanvasPanel {
   }
   ngOnInit() {
     this._elWithFocus = this._document.activeElement;
-    this._zone.onStable.asObservable().pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_20__.take)(1)).subscribe(() => {
-      this._show();
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_0__.afterNextRender)(() => this._show(), {
+      injector: this._injector,
+      phase: _angular_core__WEBPACK_IMPORTED_MODULE_0__.AfterRenderPhase.MixedReadWrite
     });
   }
   ngOnDestroy() {
@@ -98826,8 +98829,7 @@ class NgbOffcanvasPanel {
       nativeElement
     } = this._elRef;
     this._zone.runOutsideAngular(() => {
-      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), /* eslint-disable-next-line deprecation/deprecation */
-      (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.which === Key.Escape)).subscribe(event => {
+      (0,rxjs__WEBPACK_IMPORTED_MODULE_6__.fromEvent)(nativeElement, 'keydown').pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_7__.takeUntil)(this._closed$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_8__.filter)(e => e.key === 'Escape')).subscribe(event => {
         if (this.keyboard) {
           requestAnimationFrame(() => {
             if (!event.defaultPrevented) {

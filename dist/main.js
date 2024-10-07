@@ -840,7 +840,7 @@ class CaterRoomComponent {
     selectors: [["ng-component"]],
     decls: 16,
     vars: 1,
-    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/cater floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/cater floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=cater`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/cater1.jpg", "alt", ""], ["src", "../../assets/rooms/cater2.jpg", "alt", ""], ["src", "../../assets/rooms/cater3.jpg", "alt", ""], ["src", "../../assets/rooms/cater4.jpg", "alt", ""], ["src", "../../assets/rooms/cater5.jpg", "alt", ""]],
+    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/cater floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/cater floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=cater`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/cater1.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/cater2.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/cater3.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/cater4.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/cater5.jpg", "alt", "", 1, "d-block", "w-100"]],
     template: function CaterRoomComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "ngb-carousel", 2);
@@ -907,7 +907,7 @@ class HalseyRoomComponent {
     selectors: [["ng-component"]],
     decls: 13,
     vars: 1,
-    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/halsey floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/halsey floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=halsey`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/halsey1.jpg", "alt", ""], ["src", "../../assets/rooms/halsey2.jpg", "alt", ""]],
+    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/halsey floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/halsey floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=halsey`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/halsey1.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/halsey2.jpg", "alt", "", 1, "d-block", "w-100"]],
     template: function HalseyRoomComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "ngb-carousel", 2);
@@ -974,7 +974,7 @@ class KellyRoomComponent {
     selectors: [["ng-component"]],
     decls: 13,
     vars: 1,
-    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/kelly floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/kelly floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=kelly`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/kelly1.jpg", "alt", ""], ["src", "../../assets/rooms/kelly2.jpg", "alt", ""]],
+    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/kelly floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/kelly floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=kelly`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/kelly1.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/kelly2.jpg", "alt", "", 1, "d-block", "w-100"]],
     template: function KellyRoomComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "ngb-carousel", 2);
@@ -1049,7 +1049,7 @@ class ToveyRoomComponent {
     selectors: [["ng-component"]],
     decls: 12,
     vars: 2,
-    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], [4, "ngFor", "ngForOf"], ["href", "../../assets/rooms/tovey floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/tovey floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=tovey`, "width", "100%", "height", "100%"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["alt", "", 2, "width", "100%", 3, "src"]],
+    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], [4, "ngFor", "ngForOf"], ["href", "../../assets/rooms/tovey floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/tovey floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=tovey`, "width", "100%", "height", "100%"], ["ngbSlide", ""], [1, "picsum-img-wrapper"], ["alt", "", 1, "d-block", "w-100", 3, "src"]],
     template: function ToveyRoomComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "ngb-carousel", 2);
@@ -1139,7 +1139,7 @@ class WalkerRoomComponent {
     selectors: [["ng-component"]],
     decls: 16,
     vars: 1,
-    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/walker floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/walker floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=walker`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/walker1.jpg", "alt", ""], ["src", "../../assets/rooms/walker2.jpg", "alt", ""], ["src", "../../assets/rooms/walker3.jpg", "alt", ""], ["src", "../../assets/rooms/walker4.jpg", "alt", ""], ["src", "../../assets/rooms/walker5.jpg", "alt", ""]],
+    consts: [[1, "row", 2, "height", "900px"], [1, "col-sm-4", 2, "max-width", "750px"], [1, "carousel", "slide", 2, "width", "100%", 3, "interval"], ["ngbSlide", ""], ["href", "../../assets/rooms/walker floorplan.png", "target", "_blank"], ["src", "../../assets/rooms/walker floorplan.png", 2, "width", "100%"], [1, "col-sm-8"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]`https://hallbookingonline.com/worplesdon/plugin.php?filter=walker`, "width", "100%", "height", "100%"], [1, "picsum-img-wrapper"], ["src", "../../assets/rooms/walker1.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/walker2.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/walker3.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/walker4.jpg", "alt", "", 1, "d-block", "w-100"], ["src", "../../assets/rooms/walker5.jpg", "alt", "", 1, "d-block", "w-100"]],
     template: function WalkerRoomComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "ngb-carousel", 2);
