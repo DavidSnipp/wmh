@@ -9,9 +9,12 @@ import { startWith, switchMap } from 'rxjs/operators';
 })
 export class FlyerComponent {
 
-  html$ = this.route.params.pipe(
-    switchMap(params => this.httpClient.get(`assets/flyers/${params.flyer}`, { responseType: 'text' })),
-    startWith('')
-  )
-  constructor(private route: ActivatedRoute, private httpClient: HttpClient) { }
+  html$;
+
+  constructor(private route: ActivatedRoute, private httpClient: HttpClient) {
+    this.html$ = this.route.params.pipe(
+      switchMap(params => this.httpClient.get(`assets/flyers/${params.flyer}`, { responseType: 'text' })),
+      startWith('')
+    );
+  }
 }
