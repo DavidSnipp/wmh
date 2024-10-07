@@ -3,7 +3,7 @@
     <ngb-carousel [interval]="3000" class="carousel slide" style="width: 100%">
       <ng-template *ngFor="let item of pictures" ngbSlide>
         <div class="picsum-img-wrapper">
-          <img [src]="url(item)" alt="" style="width: 100%">
+          <img [src]="url(item)" alt="" class="d-block w-100">
         </div>
       </ng-template>
     </ngb-carousel>
