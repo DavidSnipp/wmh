@@ -69182,7 +69182,7 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: false, decls: 46, vars: 2, consts: [[1, "Site-content"], [1, "container-fluid", "margin-bottom-20"], [1, "row"], [1, "col-sm-12"], [1, "navbar", "navbar-expand-md", "navbar-light", "bg-light"], ["routerLink", "", 1, "navbar-brand"], ["src", "../assets/logo/3.svg", "height", "100px"], ["type", "button", "toggle", "collapse", "aria-expanded", "false", 1, "navbar-toggler", "collapsed", 3, "click"], [1, "navbar-toggler-icon"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "nav", "navbar-nav"], ["routerLinkActive", "active", 1, "nav-item"], ["target", "_blank", "href", "https://hallbookingonline.com/worplesdon/", 1, "nav-link"], ["routerLink", "whatson", 1, "nav-link"], ["routerLink", "rooms", 1, "nav-link"], ["routerLink", "sports", 1, "nav-link"], ["routerLink", "wedding", 1, "nav-link"], ["routerLink", "history", 1, "nav-link"], ["routerLink", "contact", 1, "nav-link"], [1, "container-fluid"], [1, "col-md-12"], [1, "sticky-bottom"], [1, "footer"], [1, "container"], [1, "ml-2"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: false, decls: 43, vars: 2, consts: [[1, "Site-content"], [1, "container-fluid", "margin-bottom-20"], [1, "row"], [1, "col-sm-12"], [1, "navbar", "navbar-expand-md", "navbar-light", "bg-light"], ["routerLink", "", 1, "navbar-brand"], ["src", "../assets/logo/3.svg", "height", "100px"], ["type", "button", "toggle", "collapse", "aria-expanded", "false", 1, "navbar-toggler", "collapsed", 3, "click"], [1, "navbar-toggler-icon"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "nav", "navbar-nav"], ["routerLinkActive", "active", 1, "nav-item"], ["target", "_blank", "href", "https://hallbookingonline.com/worplesdon/", 1, "nav-link"], ["routerLink", "rooms", 1, "nav-link"], ["routerLink", "sports", 1, "nav-link"], ["routerLink", "wedding", 1, "nav-link"], ["routerLink", "history", 1, "nav-link"], ["routerLink", "contact", 1, "nav-link"], [1, "container-fluid"], [1, "col-md-12"], [1, "sticky-bottom"], [1, "footer"], [1, "container"], [1, "ml-2"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "nav", 4)(5, "a", 5);
       \u0275\u0275element(6, "img", 6);
@@ -69197,34 +69197,31 @@ var AppComponent = class _AppComponent {
       \u0275\u0275text(13, "Bookings");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(14, "li", 11)(15, "a", 13);
-      \u0275\u0275text(16, "Whats On");
+      \u0275\u0275text(16, "Roomsa");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(17, "li", 11)(18, "a", 14);
-      \u0275\u0275text(19, "Rooms");
+      \u0275\u0275text(19, "Sports");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(20, "li", 11)(21, "a", 15);
-      \u0275\u0275text(22, "Sports");
+      \u0275\u0275text(22, "Weddings");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(23, "li", 11)(24, "a", 16);
-      \u0275\u0275text(25, "Weddings");
+      \u0275\u0275text(25, "History");
       \u0275\u0275elementEnd()();
       \u0275\u0275elementStart(26, "li", 11)(27, "a", 17);
-      \u0275\u0275text(28, "History");
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(29, "li", 11)(30, "a", 18);
-      \u0275\u0275text(31, "Contact");
+      \u0275\u0275text(28, "Contact");
       \u0275\u0275elementEnd()()()()()()();
-      \u0275\u0275elementStart(32, "div", 19)(33, "div", 2)(34, "div", 20);
-      \u0275\u0275element(35, "router-outlet");
+      \u0275\u0275elementStart(29, "div", 18)(30, "div", 2)(31, "div", 19);
+      \u0275\u0275element(32, "router-outlet");
       \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(36, "div", 21)(37, "div", 19)(38, "div", 2)(39, "div", 20)(40, "footer", 22)(41, "div", 23)(42, "div", 2)(43, "div", 3)(44, "p", 24);
-      \u0275\u0275text(45);
+      \u0275\u0275elementStart(33, "div", 20)(34, "div", 18)(35, "div", 2)(36, "div", 19)(37, "footer", 21)(38, "div", 22)(39, "div", 2)(40, "div", 3)(41, "p", 23);
+      \u0275\u0275text(42);
       \u0275\u0275elementEnd()()()()()()()()()();
     }
     if (rf & 2) {
       \u0275\u0275advance(9);
       \u0275\u0275property("ngbCollapse", ctx.isCollapsed);
-      \u0275\u0275advance(36);
+      \u0275\u0275advance(33);
       \u0275\u0275textInterpolate1(" \xA9 2019-", ctx.year, " Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights Reserved. ");
     }
   }, dependencies: [RouterOutlet, RouterLink, RouterLinkActive, NgbCollapse], encapsulation: 2 });
@@ -69232,7 +69229,7 @@ var AppComponent = class _AppComponent {
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(AppComponent, [{
     type: Component,
-    args: [{ selector: "app-root", standalone: false, template: '<div class="Site-content">\n  <div class="container-fluid margin-bottom-20">\n    <div class="row">\n      <div class="col-sm-12">\n        <nav class="navbar navbar-expand-md navbar-light bg-light">\n          <a class="navbar-brand" routerLink=""><img src="../assets/logo/3.svg" height="100px"></a>\n          <button type="button" toggle="collapse" class="navbar-toggler collapsed" (click)="isCollapsed = !isCollapsed"\n            aria-expanded="false">\n            <span class="navbar-toggler-icon"></span>\n          </button>\n          <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">\n            <ul class="nav navbar-nav">\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" target="_blank" href="https://hallbookingonline.com/worplesdon/">Bookings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="whatson">Whats On</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="rooms">Rooms</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="sports">Sports</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="wedding">Weddings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="history">History</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="contact">Contact</a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </div>\n    </div>\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="sticky-bottom">\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <footer class="footer">\n            <div class="container">\n              <div class="row">\n                <div class="col-sm-12">\n                  <p class="ml-2">\n                    \xA9 2019-{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights\n                    Reserved.\n                  </p>\n                </div>\n              </div>\n            </div>\n          </footer>\n        </div>\n      </div>\n    </div>\n  </div>\n' }]
+    args: [{ selector: "app-root", standalone: false, template: '<div class="Site-content">\n  <div class="container-fluid margin-bottom-20">\n    <div class="row">\n      <div class="col-sm-12">\n        <nav class="navbar navbar-expand-md navbar-light bg-light">\n          <a class="navbar-brand" routerLink=""><img src="../assets/logo/3.svg" height="100px"></a>\n          <button type="button" toggle="collapse" class="navbar-toggler collapsed" (click)="isCollapsed = !isCollapsed"\n            aria-expanded="false">\n            <span class="navbar-toggler-icon"></span>\n          </button>\n          <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">\n            <ul class="nav navbar-nav">\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" target="_blank" href="https://hallbookingonline.com/worplesdon/">Bookings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="rooms">Roomsa</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="sports">Sports</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="wedding">Weddings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="history">History</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="contact">Contact</a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </div>\n    </div>\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="sticky-bottom">\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <footer class="footer">\n            <div class="container">\n              <div class="row">\n                <div class="col-sm-12">\n                  <p class="ml-2">\n                    \xA9 2019-{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights\n                    Reserved.\n                  </p>\n                </div>\n              </div>\n            </div>\n          </footer>\n        </div>\n      </div>\n    </div>\n  </div>\n' }]
   }], null, null);
 })();
 (() => {
