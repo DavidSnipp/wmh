@@ -4,8 +4,9 @@ import { ActivatedRoute } from '@angular/router';
 import { startWith, switchMap } from 'rxjs/operators';
 
 @Component({
-  templateUrl: './flyer.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush
+    templateUrl: './flyer.component.html',
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class FlyerComponent {
 

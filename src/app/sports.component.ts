@@ -5,7 +5,8 @@ export interface Image {
   title: string;
 }
 @Component({
-  templateUrl: './sports.component.html'
+    templateUrl: './sports.component.html',
+    standalone: false
 })
 export class SportsComponent {
   images: Image[] = [{

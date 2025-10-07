@@ -3,7 +3,8 @@ import { HttpClient } from '@angular/common/http'
 import { map, catchError, of, shareReplay } from 'rxjs'
 
 @Component({
-  templateUrl: './contact.component.html'
+    templateUrl: './contact.component.html',
+    standalone: false
 })
 export class ContactComponent {
   options = { center: { lat: 51.277002, lng: -0.610312 }, zoom: 15 }

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core'
 
 @Component({
-  templateUrl: './halsey.html'
+    templateUrl: './halsey.html',
+    standalone: false
 })
 export class HalseyRoomComponent {
 

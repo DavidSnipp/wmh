@@ -2,7 +2,8 @@ import { Component } from '@angular/core'
 import { Image } from './sports.component'
 
 @Component({
-  templateUrl: './home.component.html'
+    templateUrl: './home.component.html',
+    standalone: false
 })
 export class HomeComponent {
   grounds: Image[] = [{
