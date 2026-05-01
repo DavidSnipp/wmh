@@ -1,4 +1,9 @@
-// node_modules/.pnpm/@angular+localize@20.3.3_@angular+compiler-cli@20.3.3_@angular+compiler@20.3.3_typescri_6c865215e86c69aa7eacced4cb9a5186/node_modules/@angular/localize/fesm2022/localize2.mjs
+// node_modules/.pnpm/@angular+localize@21.2.11_@angular+compiler-cli@21.2.11_@angular+compiler@21.2.11_types_36cda237e1f80d6453c9824064861d76/node_modules/@angular/localize/fesm2022/_localize-chunk.mjs
+/**
+ * @license Angular v21.2.11
+ * (c) 2010-2026 Google LLC. https://angular.dev/
+ * License: MIT
+ */
 var BLOCK_MARKER$1 = ":";
 var Endian;
 (function(Endian2) {
@@ -32,10 +37,20 @@ function stripBlock(messagePart, rawMessagePart) {
   return rawMessagePart.charAt(0) === BLOCK_MARKER ? messagePart.substring(findEndOfBlock(messagePart, rawMessagePart) + 1) : messagePart;
 }
 
-// node_modules/.pnpm/@angular+localize@20.3.3_@angular+compiler-cli@20.3.3_@angular+compiler@20.3.3_typescri_6c865215e86c69aa7eacced4cb9a5186/node_modules/@angular/localize/fesm2022/init.mjs
+// node_modules/.pnpm/@angular+localize@21.2.11_@angular+compiler-cli@21.2.11_@angular+compiler@21.2.11_types_36cda237e1f80d6453c9824064861d76/node_modules/@angular/localize/fesm2022/init.mjs
+/**
+ * @license Angular v21.2.11
+ * (c) 2010-2026 Google LLC. https://angular.dev/
+ * License: MIT
+ */
 globalThis.$localize = $localize;
 
 // node_modules/.pnpm/zone.js@0.15.1/node_modules/zone.js/fesm2015/zone.js
+/**
+ * @license Angular v<unknown>
+ * (c) 2010-2025 Google LLC. https://angular.io/
+ * License: MIT
+ */
 var global = globalThis;
 function __symbol__(name) {
   const symbolPrefix = global["__Zone_symbol_prefix"] || "__zone_symbol__";
@@ -2414,21 +2429,4 @@ function patchCommon(Zone2) {
 var Zone$1 = loadZone();
 patchCommon(Zone$1);
 patchBrowser(Zone$1);
-/*! Bundled license information:
-
-@angular/localize/fesm2022/localize2.mjs:
-@angular/localize/fesm2022/init.mjs:
-  (**
-   * @license Angular v20.3.3
-   * (c) 2010-2025 Google LLC. https://angular.io/
-   * License: MIT
-   *)
-
-zone.js/fesm2015/zone.js:
-  (**
-   * @license Angular v<unknown>
-   * (c) 2010-2025 Google LLC. https://angular.io/
-   * License: MIT
-   *)
-*/
 //# sourceMappingURL=polyfills.js.map

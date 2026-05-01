@@ -3,14 +3,14 @@
 <!-- <p>Telephone: <a href="tel:01483 232117">01483 232117</a></p> -->
 <p>Email: <a href="mailto:hall@wmh.org.uk">hall&#64;wmh.org.uk</a></p>
 <p>Address: <a target="_blank"
-    href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
-    Memorial Hall Cottage, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF.</a></p>
-<ng-container *ngIf="apiLoaded | async">
+  href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
+Memorial Hall Cottage, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF.</a></p>
+@if (apiLoaded | async) {
   <google-map [options]="options">
     <map-marker [position]="options.center"></map-marker>
   </google-map>
-</ng-container>
+}
 <br>
-<p>Contacting the Trustees</p>
-<p>The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, may be
-  contacted at <a href="mailto:trustees@wmh.org.uk">trustees&#64;wmh.org.uk</a></p>
+  <p>Contacting the Trustees</p>
+  <p>The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, may be
+    contacted at <a href="mailto:trustees@wmh.org.uk">trustees&#64;wmh.org.uk</a></p>
