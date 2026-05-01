@@ -1,45 +1,89 @@
-<p>The Sports Ground and Tennis Courts grounds adjoining the hall support many local sporting activities:</p>
+<section class="mb-4">
+  <h1 class="mb-3">Sports &amp; recreation</h1>
+  <p class="lead">
+    The recreation ground and tennis courts adjoining the hall are home to three
+    long-standing local clubs. New members are always welcome &mdash; please get in
+    touch with each club directly.
+  </p>
+</section>
 
-<p>There is a long-standing tradition of cricket on the field. <a
-target="_blank" href="https://wbcc.play-cricket.com/home">Worplesdon and Burpham Cricket Club</a> can trace its formation back to
-1890 and its Worplesdon predecessor first began to use the site in 1912.</p>
-<p><a target="_blank" href="https://www.pitchero.com/clubs/worplesdonphoenix">Worplesdon Phoenix Football Club</a> plays regular league matches
-at weekends and occasional games during the week.</p>
+<section class="mb-5">
+  <ngb-carousel [interval]="4000" class="home-carousel">
+    @for (img of slides; track img.url) {
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="img.url" [alt]="img.title">
+        </div>
+      </ng-template>
+    }
+  </ngb-carousel>
+</section>
 
-<ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
-  @for (img of grounds; track img) {
-    <ng-template ngbSlide>
-      <!-- <div class="carousel-caption">
-      <h3>{{img.title}}</h3>
-      <p>A Description</p>
-    </div> -->
-    <div class="picsum-img-wrapper">
-      <img [src]="img.url" [alt]="img.title">
+<section class="mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Cricket</h2>
+          <p class="card-text flex-grow-1">
+            There is a long-standing tradition of cricket on the field.
+            <strong>Worplesdon and Burpham Cricket Club</strong> traces its formation
+            back to 1890, and its Worplesdon predecessor first used the site in 1912.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start"
+             target="_blank"
+             rel="noopener"
+             href="https://wbcc.play-cricket.com/home">
+            Visit the cricket club
+          </a>
+        </div>
+      </article>
     </div>
-  </ng-template>
-}
-</ngb-carousel>
 
-<h2 style="text-align: center;"><a target="_blank" href="http://clubspark.lta.org.uk/WorplesdonTennisClub/">Worplesdon Tennis Club</a>
-</h2>
-<ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
-  @for (img of images; track img) {
-    <ng-template ngbSlide>
-      <!-- <div class="carousel-caption">
-      <h3>{{img.title}}</h3>
-      <p>A Description</p>
-    </div> -->
-    <div class="picsum-img-wrapper">
-      <img [src]="img.url" [alt]="img.title">
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Football</h2>
+          <p class="card-text flex-grow-1">
+            <strong>Worplesdon Phoenix Football Club</strong> plays regular league
+            matches at weekends and occasional games during the week.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start"
+             target="_blank"
+             rel="noopener"
+             href="https://www.pitchero.com/clubs/worplesdonphoenix">
+            Visit the football club
+          </a>
+        </div>
+      </article>
     </div>
-  </ng-template>
-}
-</ngb-carousel>
 
-<p>Worplesdon Tennis Club was formed in 1991 using the two existing public courts and has since added two more for Club
-  use.
-  A new Club House was opened in 2005. The Club has a thriving membership of adults and juniors - players of all
-abilities are welcome.</p>
-<p>A sports pavilion serving the Cricket, Football and Tennis Clubs was opened in 2008.</p>
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Tennis</h2>
+          <p class="card-text flex-grow-1">
+            <strong>Worplesdon Tennis Club</strong> was formed in 1991 using the two
+            existing public courts, and has since added two more for club use. A new
+            club house was opened in 2005. The club has a thriving membership of
+            adults and juniors &mdash; players of all abilities are welcome.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start"
+             target="_blank"
+             rel="noopener"
+             href="http://clubspark.lta.org.uk/WorplesdonTennisClub/">
+            Visit the tennis club
+          </a>
+        </div>
+      </article>
+    </div>
 
-<p>All clubs are delighted to welcome new members and enquiries can be made via the club web sites.</p>
+  </div>
+</section>
+
+<section class="mb-4">
+  <p class="text-muted small mb-0">
+    A sports pavilion serving the cricket, football and tennis clubs was opened in 2008.
+  </p>
+</section>

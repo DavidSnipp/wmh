@@ -1,16 +1,50 @@
-<!-- <p>The Hall Manager and Caretaker is Mr Phil Bowers, who lives in the cottage alongside the Hall.</p> -->
+<section class="mb-4">
+  <h1 class="mb-3">Contact us</h1>
+  <p class="lead">
+    Get in touch about hiring the hall, the recreation ground, or anything else.
+  </p>
+</section>
 
-<!-- <p>Telephone: <a href="tel:01483 232117">01483 232117</a></p> -->
-<p>Email: <a href="mailto:hall@wmh.org.uk">hall&#64;wmh.org.uk</a></p>
-<p>Address: <a target="_blank"
-  href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
-Memorial Hall Cottage, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF.</a></p>
-@if (apiLoaded | async) {
-  <google-map [options]="options">
-    <map-marker [position]="options.center"></map-marker>
-  </google-map>
-}
-<br>
-  <p>Contacting the Trustees</p>
-  <p>The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, may be
-    contacted at <a href="mailto:trustees@wmh.org.uk">trustees&#64;wmh.org.uk</a></p>
+<section class="mb-5">
+  <div class="row g-3 align-items-stretch">
+    <div class="col-md-5">
+      <div class="p-3 border rounded h-100 bg-light">
+        <h2 class="h5 mb-3">Hall enquiries</h2>
+        <p class="mb-2">
+          <strong>Email:</strong>
+          <a href="mailto:hall&#64;wmh.org.uk">hall&#64;wmh.org.uk</a>
+        </p>
+        <address class="mb-0">
+          Memorial Hall Cottage<br>
+          Perry Hill, Worplesdon<br>
+          Guildford, Surrey GU3 3RF
+        </address>
+        <a class="btn btn-sm btn-outline-primary mt-3"
+           target="_blank"
+           rel="noopener"
+           href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-7">
+      @if (apiLoaded | async) {
+        <google-map class="contact-map" [options]="options">
+          <map-marker [position]="options.center"></map-marker>
+        </google-map>
+      }
+    </div>
+  </div>
+</section>
+
+<section class="mb-5">
+  <div class="p-3 border rounded bg-light">
+    <h2 class="h5 mb-2">Contacting the trustees</h2>
+    <p class="mb-0">
+      The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and
+      Recreation Ground, can be reached at
+      <a href="mailto:trustees&#64;wmh.org.uk">trustees&#64;wmh.org.uk</a>.
+    </p>
+  </div>
+</section>

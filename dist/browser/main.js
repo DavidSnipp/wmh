@@ -39594,10 +39594,11 @@ var NgbCarouselModule = class _NgbCarouselModule {
 })();
 
 // src/app/home.component.ts
-function HomeComponent_For_9_ng_template_0_Template(rf, ctx) {
+var _forTrack0 = ($index, $item) => $item.url;
+function HomeComponent_For_7_ng_template_0_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 15);
-    \u0275\u0275element(1, "img", 16);
+    \u0275\u0275elementStart(0, "div", 27);
+    \u0275\u0275element(1, "img", 28);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -39606,133 +39607,108 @@ function HomeComponent_For_9_ng_template_0_Template(rf, ctx) {
     \u0275\u0275property("src", img_r1.url, \u0275\u0275sanitizeUrl)("alt", img_r1.title);
   }
 }
-function HomeComponent_For_9_Template(rf, ctx) {
+function HomeComponent_For_7_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275template(0, HomeComponent_For_9_ng_template_0_Template, 2, 2, "ng-template", 5);
+    \u0275\u0275template(0, HomeComponent_For_7_ng_template_0_Template, 2, 2, "ng-template", 4);
   }
 }
 var HomeComponent = class _HomeComponent {
   grounds = [
-    {
-      url: "../assets/grounds/14.jpg",
-      title: "Title 1"
-    },
-    {
-      url: "../assets/grounds/15.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/16.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/17.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/18.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/19.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/20.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/21.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/22.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/23.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/24.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/25.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/26.jpg",
-      title: "Title 2"
-    },
-    {
-      url: "../assets/grounds/27.jpg",
-      title: "Title 2"
-    }
+    { url: "../assets/20210322_141153.jpg", title: "Worplesdon Memorial Hall, viewed from the recreation ground" },
+    { url: "../assets/grounds/18.jpg", title: "Football match on the recreation ground" },
+    { url: "../assets/grounds/27.jpg", title: "Summer cricket match in front of the pavilion" },
+    { url: "../assets/grounds/16.jpg", title: "Tennis players on the all-weather courts" },
+    { url: "../assets/grounds/25.jpg", title: "Community gathering by the pavilion" },
+    { url: "../assets/grounds/23.jpg", title: "Outdoor fitness class on the grass" },
+    { url: "../assets/grounds/19.jpg", title: "Junior cricket practice by the pavilion" },
+    { url: "../assets/grounds/24.jpg", title: "Wide view of the recreation ground" },
+    { url: "../assets/grounds/17.jpg", title: "Recreation ground under a big Surrey sky" },
+    { url: "../assets/grounds/14.jpg", title: "The football pitch in winter" },
+    { url: "../assets/grounds/15.jpg", title: "The cricket square and pavilion" },
+    { url: "../assets/grounds/20.jpg", title: "Pitch covers laid out on the cricket square" },
+    { url: "../assets/grounds/21.jpg", title: "Cricket pitch covers from across the field" },
+    { url: "../assets/grounds/26.jpg", title: "Groundsman preparing the cricket pitch" }
   ];
   static \u0275fac = function HomeComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HomeComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["ng-component"]], standalone: false, decls: 51, vars: 1, consts: [[1, "jumbotron", "p-2"], [1, "container-fluid"], [1, "display-4", "text-center"], ["src", "../assets/Bookkeeper Ad.png", 2, "margin", "auto", "display", "block", "width", "750px"], [1, "carousel", "slide", 2, "max-width", "750px", "margin", "auto", "margin-bottom", "20px", 3, "interval"], ["ngbSlide", ""], ["target", "_blank", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308"], ["routerLink", "/contact", 1, "btn", "btn-primary", "btn-large"], [1, "container"], [1, "row"], [1, "col-md-4"], ["routerLink", "/sports", 1, "btn", "btn-secondary"], ["href", "https://hallbookingonline.com/worplesdon/", 1, "btn", "btn-secondary"], ["src", "assets/sidney_sime.jpg"], ["href", "https://www.sidneysimegallery.org.uk", 1, "btn", "btn-secondary"], [1, "picsum-img-wrapper"], [3, "src", "alt"]], template: function HomeComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["ng-component"]], standalone: false, decls: 66, vars: 1, consts: [[1, "home-hero", "mb-4"], [1, "display-5", "text-center", "mb-3"], [1, "lead", "text-center", "mb-4"], [1, "home-carousel", "mb-4", 3, "interval"], ["ngbSlide", ""], [1, "mb-5"], [1, "row", "g-3", "align-items-stretch"], [1, "col-lg-8"], ["routerLink", "/contact", 1, "btn", "btn-primary"], ["href", "https://hallbookingonline.com/worplesdon/", 1, "btn", "btn-outline-secondary", "ms-2"], [1, "col-lg-4"], [1, "p-3", "border", "rounded", "h-100", "bg-light"], [1, "h5", "mb-2"], [1, "mb-3"], ["target", "_blank", "rel", "noopener", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308", 1, "btn", "btn-sm", "btn-outline-primary"], [1, "row", "row-cols-1", "row-cols-md-3", "g-3"], [1, "col"], [1, "card", "h-100"], ["src", "../assets/grounds/18.jpg", "alt", "Football match on the recreation ground", 1, "card-img-top"], [1, "card-body", "d-flex", "flex-column"], [1, "h5", "card-title"], [1, "card-text", "flex-grow-1"], ["routerLink", "/sports", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], ["src", "../assets/wedding/pic1.jpg", "alt", "Tables set for an event in the hall", 1, "card-img-top"], ["href", "https://hallbookingonline.com/worplesdon/", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], ["src", "assets/sidney_sime.jpg", "alt", "Artwork by Sidney Sime", 1, "card-img-top"], ["href", "https://www.sidneysimegallery.org.uk", "target", "_blank", "rel", "noopener", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], [1, "picsum-img-wrapper"], [3, "src", "alt"]], template: function HomeComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "h1", 2);
-      \u0275\u0275text(3, "Worplesdon Memorial Hall and Recreation Ground CIO");
+      \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "Worplesdon Memorial Hall & Recreation Ground");
       \u0275\u0275elementEnd();
-      \u0275\u0275element(4, "br")(5, "img", 3)(6, "br");
-      \u0275\u0275elementStart(7, "ngb-carousel", 4);
-      \u0275\u0275repeaterCreate(8, HomeComponent_For_9_Template, 1, 0, null, 5, \u0275\u0275repeaterTrackByIdentity);
+      \u0275\u0275elementStart(3, "p", 2);
+      \u0275\u0275text(4, " A village hall and recreation ground in the heart of Worplesdon, near Guildford. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(10, "p");
-      \u0275\u0275text(11, " Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the village, easy access from Guildford and adequate parking, the hall is an ideal venue for all kinds of social activities, public or private, including weddings.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(12, "p");
-      \u0275\u0275text(13, "There is good access to the hall for the disabled, which is facilitated by the availability of parking next to the hall entrance. The toilets have disabled facilities.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(14, "p")(15, "b");
-      \u0275\u0275text(16, "Free wi-fi");
-      \u0275\u0275elementEnd();
-      \u0275\u0275text(17, " is available throughout the building.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(18, "p");
-      \u0275\u0275text(19, "Our address is: ");
-      \u0275\u0275elementStart(20, "a", 6);
-      \u0275\u0275text(21, " Worplesdon Memorial Hall, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF");
+      \u0275\u0275elementStart(5, "ngb-carousel", 3);
+      \u0275\u0275repeaterCreate(6, HomeComponent_For_7_Template, 1, 0, null, 4, _forTrack0);
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(22, "a", 7);
-      \u0275\u0275text(23, "Contact Us");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(24, "div", 8)(25, "div", 9)(26, "div", 10)(27, "h2");
-      \u0275\u0275text(28, "Sports");
+      \u0275\u0275elementStart(8, "section", 5)(9, "div", 6)(10, "div", 7)(11, "p");
+      \u0275\u0275text(12, " Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the village, easy access from Guildford and ample parking, the hall is an ideal venue for all kinds of social activities \u2014 public or private \u2014 including weddings. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(29, "p");
-      \u0275\u0275text(30, "With a Tennis Club, Cricket Club and a Football Club as well as a children's playground, Worplesdon Memorial Hall is the ideal venue for your sporting activities");
+      \u0275\u0275elementStart(13, "p");
+      \u0275\u0275text(14, " There is good access to the hall for disabled visitors, helped by parking next to the hall entrance. The toilets have disabled facilities, and ");
+      \u0275\u0275elementStart(15, "strong");
+      \u0275\u0275text(16, "free Wi-Fi");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(31, "p")(32, "a", 11);
-      \u0275\u0275text(33, "Learn More");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(34, "div", 10)(35, "h2");
-      \u0275\u0275text(36, "Events");
+      \u0275\u0275text(17, " is available throughout the building. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(37, "p");
-      \u0275\u0275text(38, "From holding dance classes to your Wedding, we are your number one local venue");
+      \u0275\u0275elementStart(18, "a", 8);
+      \u0275\u0275text(19, "Contact us");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(39, "p")(40, "a", 12);
-      \u0275\u0275text(41, "Learn More");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(42, "div", 10)(43, "h3");
-      \u0275\u0275text(44, "Sidney Sime Gallery");
+      \u0275\u0275elementStart(20, "a", 9);
+      \u0275\u0275text(21, " Book the hall ");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(22, "div", 10)(23, "div", 11)(24, "h2", 12);
+      \u0275\u0275text(25, "Find us");
       \u0275\u0275elementEnd();
-      \u0275\u0275element(45, "img", 13);
-      \u0275\u0275elementStart(46, "p");
-      \u0275\u0275text(47, "On the first floor of the Hall there is a small gallery devoted to the fascinating and highly characteristic work of Sidney Sime (1865-1941), the famous artist, illustrator and caricaturist. Sime owned a cottage at Worplesdon and spent much of his time here during the latter part of his life.");
+      \u0275\u0275elementStart(26, "address", 13);
+      \u0275\u0275text(27, " Worplesdon Memorial Hall");
+      \u0275\u0275element(28, "br");
+      \u0275\u0275text(29, " Perry Hill, Worplesdon");
+      \u0275\u0275element(30, "br");
+      \u0275\u0275text(31, " Guildford, Surrey GU3 3RF ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(48, "p")(49, "a", 14);
-      \u0275\u0275text(50, "Learn More");
+      \u0275\u0275elementStart(32, "a", 14);
+      \u0275\u0275text(33, " Open in Google Maps ");
       \u0275\u0275elementEnd()()()()();
+      \u0275\u0275elementStart(34, "section", 5)(35, "div", 15)(36, "div", 16)(37, "article", 17);
+      \u0275\u0275element(38, "img", 18);
+      \u0275\u0275elementStart(39, "div", 19)(40, "h2", 20);
+      \u0275\u0275text(41, "Sports");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(42, "p", 21);
+      \u0275\u0275text(43, " Tennis, cricket and football clubs all use the recreation ground, and there's a children's playground on site. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(44, "a", 22);
+      \u0275\u0275text(45, " Learn more ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(46, "div", 16)(47, "article", 17);
+      \u0275\u0275element(48, "img", 23);
+      \u0275\u0275elementStart(49, "div", 19)(50, "h2", 20);
+      \u0275\u0275text(51, "Events & bookings");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(52, "p", 21);
+      \u0275\u0275text(53, " From weekly dance and exercise classes to weddings, parties and community events \u2014 we're your local venue. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(54, "a", 24);
+      \u0275\u0275text(55, " Book online ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(56, "div", 16)(57, "article", 17);
+      \u0275\u0275element(58, "img", 25);
+      \u0275\u0275elementStart(59, "div", 19)(60, "h2", 20);
+      \u0275\u0275text(61, "Sidney Sime Gallery");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(62, "p", 21);
+      \u0275\u0275text(63, " On the first floor of the hall, a small gallery is devoted to the work of Sidney Sime (1865\u20131941) \u2014 artist, illustrator and caricaturist, who lived in Worplesdon in his later years. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(64, "a", 26);
+      \u0275\u0275text(65, " Visit the gallery site ");
+      \u0275\u0275elementEnd()()()()()();
     }
     if (rf & 2) {
-      \u0275\u0275advance(7);
-      \u0275\u0275property("interval", 3e3);
+      \u0275\u0275advance(5);
+      \u0275\u0275property("interval", 4e3);
       \u0275\u0275advance();
       \u0275\u0275repeater(ctx.grounds);
     }
@@ -39741,60 +39717,120 @@ var HomeComponent = class _HomeComponent {
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(HomeComponent, [{
     type: Component,
-    args: [{ standalone: false, template: `<div class="jumbotron p-2">
-  <div class="container-fluid">
-    <h1 class="display-4 text-center">Worplesdon Memorial Hall and Recreation Ground CIO</h1>
-    <br>
-      <img style="margin:auto;display: block;width:750px" src="../assets/Bookkeeper Ad.png">
-      <br>
-        <ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">
-          @for (img of grounds; track img) {
-            <ng-template ngbSlide>
-              <div class="picsum-img-wrapper">
-                <img [src]="img.url" [alt]="img.title">
-              </div>
-            </ng-template>
-          }
-        </ngb-carousel>
-        <p>
-          Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey. With its central position in the
-          village, easy access from Guildford and adequate parking, the hall is an ideal venue for all kinds of social
-        activities, public or private, including weddings.</p>
-        <p>There is good access to the hall for the disabled, which is facilitated by the availability of
-        parking next to the hall entrance. The toilets have disabled facilities.</p>
-        <p><b>Free wi-fi</b> is available throughout the building.</p>
-        <p>Our address is: <a target="_blank"
-          href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
-        Worplesdon Memorial Hall, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF</a></p>
-        <a class="btn btn-primary btn-large" routerLink="/contact">Contact Us</a>
+    args: [{ standalone: false, template: `<section class="home-hero mb-4">
+  <h1 class="display-5 text-center mb-3">Worplesdon Memorial Hall &amp; Recreation Ground</h1>
+  <p class="lead text-center mb-4">
+    A village hall and recreation ground in the heart of Worplesdon, near Guildford.
+  </p>
+
+  <ngb-carousel [interval]="4000" class="home-carousel mb-4">
+    @for (img of grounds; track img.url) {
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="img.url" [alt]="img.title">
+        </div>
+      </ng-template>
+    }
+  </ngb-carousel>
+</section>
+
+<section class="mb-5">
+  <div class="row g-3 align-items-stretch">
+    <div class="col-lg-8">
+      <p>
+        Worplesdon Memorial Hall is a popular village hall near Guildford in Surrey.
+        With its central position in the village, easy access from Guildford and
+        ample parking, the hall is an ideal venue for all kinds of social activities
+        &mdash; public or private &mdash; including weddings.
+      </p>
+      <p>
+        There is good access to the hall for disabled visitors, helped by parking
+        next to the hall entrance. The toilets have disabled facilities, and
+        <strong>free Wi-Fi</strong> is available throughout the building.
+      </p>
+      <a class="btn btn-primary" routerLink="/contact">Contact us</a>
+      <a class="btn btn-outline-secondary ms-2" href="https://hallbookingonline.com/worplesdon/">
+        Book the hall
+      </a>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="p-3 border rounded h-100 bg-light">
+        <h2 class="h5 mb-2">Find us</h2>
+        <address class="mb-3">
+          Worplesdon Memorial Hall<br>
+          Perry Hill, Worplesdon<br>
+          Guildford, Surrey GU3 3RF
+        </address>
+        <a class="btn btn-sm btn-outline-primary"
+           target="_blank"
+           rel="noopener"
+           href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">
+          Open in Google Maps
+        </a>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Sports</h2>
-          <p>With a Tennis Club, Cricket Club and a Football Club as well as a children's playground, Worplesdon Memorial
-          Hall is the ideal venue for your sporting activities</p>
-          <p><a class="btn btn-secondary" routerLink="/sports">Learn More</a> </p>
+  </div>
+</section>
+
+<section class="mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+
+    <div class="col">
+      <article class="card h-100">
+        <img src="../assets/grounds/18.jpg" class="card-img-top" alt="Football match on the recreation ground">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Sports</h2>
+          <p class="card-text flex-grow-1">
+            Tennis, cricket and football clubs all use the recreation ground, and
+            there's a children's playground on site.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start" routerLink="/sports">
+            Learn more
+          </a>
         </div>
-        <div class="col-md-4">
-          <h2>Events</h2>
-          <p>From holding dance classes to your Wedding, we are your number one local venue</p>
-          <p><a class="btn btn-secondary" href="https://hallbookingonline.com/worplesdon/">Learn More</a> </p>
-        </div>
-        <div class="col-md-4">
-          <h3>Sidney Sime Gallery</h3>
-          <img src="assets/sidney_sime.jpg">
-          <p>On the first floor of the Hall there is
-            a small gallery devoted to the fascinating and
-            highly characteristic work of Sidney Sime (1865-1941),
-            the famous artist, illustrator and caricaturist. Sime owned a cottage at Worplesdon and spent much of his
-            time here during
-          the latter part of his life.</p>
-          <p><a class="btn btn-secondary" href="https://www.sidneysimegallery.org.uk">Learn More</a> </p>
-        </div>
-      </div>
+      </article>
     </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <img src="../assets/wedding/pic1.jpg" class="card-img-top" alt="Tables set for an event in the hall">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Events &amp; bookings</h2>
+          <p class="card-text flex-grow-1">
+            From weekly dance and exercise classes to weddings, parties and
+            community events &mdash; we're your local venue.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start"
+             href="https://hallbookingonline.com/worplesdon/">
+            Book online
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <img src="assets/sidney_sime.jpg" class="card-img-top" alt="Artwork by Sidney Sime">
+        <div class="card-body d-flex flex-column">
+          <h2 class="h5 card-title">Sidney Sime Gallery</h2>
+          <p class="card-text flex-grow-1">
+            On the first floor of the hall, a small gallery is devoted to the
+            work of Sidney Sime (1865&ndash;1941) &mdash; artist, illustrator and
+            caricaturist, who lived in Worplesdon in his later years.
+          </p>
+          <a class="btn btn-outline-primary mt-2 align-self-start"
+             href="https://www.sidneysimegallery.org.uk"
+             target="_blank"
+             rel="noopener">
+            Visit the gallery site
+          </a>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</section>
 ` }]
   }], null, null);
 })();
@@ -39807,91 +39843,267 @@ var WeddingComponent = class _WeddingComponent {
   static \u0275fac = function WeddingComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _WeddingComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WeddingComponent, selectors: [["ng-component"]], standalone: false, decls: 73, vars: 0, consts: [["href", "https://www.worplesdonparish.com", "target", "_blank"], [1, "card-deck"], [1, "card", 2, "width", "18rem"], ["src", "../assets/wedding/pic1.jpg", 1, "card-img-top"], [1, "card-body"], [1, "card-text"], ["src", "../assets/wedding/pic2.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic3.jpg", 1, "card-img-top"], [1, "card-columns"], ["src", "../assets/wedding/pic4.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic5.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic9.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic6.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic7.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic8.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic10.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic11.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic12.jpg", 1, "card-img-top"], ["src", "../assets/wedding/pic13.jpg", 1, "card-img-top"]], template: function WeddingComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WeddingComponent, selectors: [["ng-component"]], standalone: false, decls: 114, vars: 0, consts: [[1, "wedding-intro", "mb-4"], [1, "mb-3"], [1, "lead"], [1, "row", "g-3", "align-items-stretch"], [1, "col-md-6"], [1, "p-3", "border", "rounded", "h-100", "bg-light"], [1, "h5", "mb-3"], [1, "list-unstyled", "mb-0"], [1, "list-unstyled", "mb-2"], ["href", "tel:01483233091"], ["href", "tel:01483232117"], ["href", "https://www.worplesdonparish.com", "target", "_blank", "rel", "noopener"], [1, "mb-5"], [1, "row", "row-cols-1", "row-cols-md-2", "row-cols-lg-3", "g-3"], [1, "col"], [1, "card", "h-100"], ["src", "../assets/wedding/pic1.jpg", "alt", "Round tables dressed in blush pink for a wedding breakfast", 1, "card-img-top"], [1, "card-body"], [1, "card-text", "mb-0"], ["src", "../assets/wedding/pic2.jpg", "alt", "Long banquet tables with blue chair sashes and bunting", 1, "card-img-top"], ["src", "../assets/wedding/pic3.jpg", "alt", "Top table with floral runner and live band setup behind", 1, "card-img-top"], [1, "row", "row-cols-2", "row-cols-md-3", "row-cols-lg-4", "g-3", "wedding-gallery"], [1, "m-0"], ["src", "../assets/wedding/pic4.jpg", "alt", "St Mary's Church tower with bluebells along the path"], ["src", "../assets/wedding/pic6.jpg", "alt", "Lych Gate decorated with white floral arrangements"], ["src", "../assets/wedding/pic9.jpg", "alt", "Bride and her father walking through the Lych Gate"], ["src", "../assets/wedding/pic7.jpg", "alt", "Floral archway in the church porch"], ["src", "../assets/wedding/pic8.jpg", "alt", "Wedding ceremony at the altar inside the church"], ["src", "../assets/wedding/pic10.jpg", "alt", "Wedding guests gathered outside the church porch"], ["src", "../assets/wedding/pic12.jpg", "alt", "Bride and groom under the decorated Lych Gate"], ["src", "../assets/wedding/pic11.jpg", "alt", "White horse-drawn carriage with two grey horses"], ["src", "../assets/wedding/pic5.jpg", "alt", "Worplesdon Memorial Hall exterior"], ["src", "../assets/wedding/pic13.jpg", "alt", "Banquet tables set for an evening reception in the hall"]], template: function WeddingComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "h1");
-      \u0275\u0275text(1, "Wedding receptions in the Hall");
+      \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "Wedding receptions in the Hall");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(2, "\nPrices for ceremony from \xA3585. Price for reception from \xA31000.\nCall us to discuss your special requirements \u2013 your numbers \u2013 your catering needs \u2013 your ceremony wish-list.\nWe are here to help.\nPlease Call:\nFor weddings: 01483 233091\nFor reception: 01483 232117\nSee also:\n");
-      \u0275\u0275elementStart(3, "a", 0);
-      \u0275\u0275text(4, "www.worplesdonparish.com");
+      \u0275\u0275elementStart(3, "p", 2);
+      \u0275\u0275text(4, " Call us to discuss your special requirements \u2014 your numbers, your catering needs, your ceremony wish-list. We are here to help. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(5, "h2");
-      \u0275\u0275text(6, "The Village Reception");
+      \u0275\u0275elementStart(5, "div", 3)(6, "div", 4)(7, "div", 5)(8, "h2", 6);
+      \u0275\u0275text(9, "Pricing");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(7, "div", 1)(8, "div", 2);
-      \u0275\u0275element(9, "img", 3);
-      \u0275\u0275elementStart(10, "div", 4)(11, "p", 5);
-      \u0275\u0275text(12, "The Worplesdon Memorial Hall offers the flexibility to design your reception whichever way suits you best");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(13, "div", 2);
-      \u0275\u0275element(14, "img", 6);
-      \u0275\u0275elementStart(15, "div", 4)(16, "p", 5);
-      \u0275\u0275text(17, "Whether a formal dinner or an informal buffet, the Memorial Hall makes sure that all your friends and family feel at home.");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(18, "div", 2);
-      \u0275\u0275element(19, "img", 7);
-      \u0275\u0275elementStart(20, "div", 4)(21, "p", 5);
-      \u0275\u0275text(22, "A range of rooms are available so that your wedding party can change their outfits. ");
+      \u0275\u0275elementStart(10, "ul", 7)(11, "li")(12, "strong");
+      \u0275\u0275text(13, "Ceremony");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(14, " from \xA3585");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(15, "li")(16, "strong");
+      \u0275\u0275text(17, "Reception");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(18, " from \xA31,000");
       \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(23, "h2");
-      \u0275\u0275text(24, "Weddings at Worplesdon");
+      \u0275\u0275elementStart(19, "div", 4)(20, "div", 5)(21, "h2", 6);
+      \u0275\u0275text(22, "Get in touch");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(25, "p");
-      \u0275\u0275text(26, "If you are thinking of tying the knot then think about being married here at Worplesdon. Worplesdon village offers a wonderful experience. A traditional church wedding followed by a village reception.\n");
+      \u0275\u0275elementStart(23, "ul", 8)(24, "li")(25, "strong");
+      \u0275\u0275text(26, "Weddings:");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(27, "div", 8)(28, "div", 2);
-      \u0275\u0275element(29, "img", 9);
-      \u0275\u0275elementStart(30, "div", 4)(31, "p", 5);
-      \u0275\u0275text(32, "St. Mary\u2019s Church, Worplesdon, offers a traditional wedding service in an historic setting. ");
+      \u0275\u0275elementStart(27, "a", 9);
+      \u0275\u0275text(28, "01483 233091");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(29, "li")(30, "strong");
+      \u0275\u0275text(31, "Reception:");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(32, "a", 10);
+      \u0275\u0275text(33, "01483 232117");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(33, "div", 2);
-      \u0275\u0275element(34, "img", 10)(35, "div", 4);
+      \u0275\u0275elementStart(34, "a", 11);
+      \u0275\u0275text(35, " www.worplesdonparish.com ");
+      \u0275\u0275elementEnd()()()()();
+      \u0275\u0275elementStart(36, "section", 12)(37, "h2", 1);
+      \u0275\u0275text(38, "The Village Reception");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(36, "div", 2);
-      \u0275\u0275element(37, "img", 11);
-      \u0275\u0275elementStart(38, "div", 4)(39, "p", 5);
-      \u0275\u0275text(40, "From the Lych Gate, a footpath winds up to the church porch");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(41, "div", 2);
-      \u0275\u0275element(42, "img", 12)(43, "div", 4);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(44, "div", 2);
-      \u0275\u0275element(45, "img", 13)(46, "div", 4);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(47, "div", 2);
-      \u0275\u0275element(48, "img", 14)(49, "div", 4);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(50, "div", 2);
-      \u0275\u0275element(51, "img", 11);
-      \u0275\u0275elementStart(52, "div", 4)(53, "p", 5);
-      \u0275\u0275text(54, "The church interior retains its original feel, hardly changed from earlier times");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(55, "div", 2);
-      \u0275\u0275element(56, "img", 15);
-      \u0275\u0275elementStart(57, "div", 4)(58, "p", 5);
-      \u0275\u0275text(59, "Enjoy being married in the traditional way. Weddings have been conducted at St. Mary\u2019s for many years");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(60, "div", 2);
-      \u0275\u0275element(61, "img", 16)(62, "div", 4);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(63, "div", 2);
-      \u0275\u0275element(64, "img", 17);
-      \u0275\u0275elementStart(65, "div", 4)(66, "p", 5);
-      \u0275\u0275text(67, "After the ceremony, enjoy a time with your photographer outside this historic village church. ");
-      \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(68, "div", 2);
-      \u0275\u0275element(69, "img", 18);
-      \u0275\u0275elementStart(70, "div", 4)(71, "p", 5);
-      \u0275\u0275text(72, "Then move to the Memorial Hall in the village to continue your festivities.");
+      \u0275\u0275elementStart(39, "div", 13)(40, "div", 14)(41, "div", 15);
+      \u0275\u0275element(42, "img", 16);
+      \u0275\u0275elementStart(43, "div", 17)(44, "p", 18);
+      \u0275\u0275text(45, " Round tables and a soft colour scheme \u2014 the hall takes on whatever style you choose. ");
       \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(46, "div", 14)(47, "div", 15);
+      \u0275\u0275element(48, "img", 19);
+      \u0275\u0275elementStart(49, "div", 17)(50, "p", 18);
+      \u0275\u0275text(51, " Long banquet tables seat larger parties, with bunting and balloons for a relaxed, celebratory feel. ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(52, "div", 14)(53, "div", 15);
+      \u0275\u0275element(54, "img", 20);
+      \u0275\u0275elementStart(55, "div", 17)(56, "p", 18);
+      \u0275\u0275text(57, " The stage easily takes a live band or DJ, so the wedding breakfast can flow straight into the evening party. ");
+      \u0275\u0275elementEnd()()()()()();
+      \u0275\u0275elementStart(58, "section", 12)(59, "h2", 1);
+      \u0275\u0275text(60, "Weddings at Worplesdon");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(61, "p");
+      \u0275\u0275text(62, " If you are thinking of tying the knot then think about being married here at Worplesdon. The village offers a wonderful experience: a traditional church wedding followed by a village reception. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(63, "div", 21)(64, "div", 14)(65, "figure", 22);
+      \u0275\u0275element(66, "img", 23);
+      \u0275\u0275elementStart(67, "figcaption");
+      \u0275\u0275text(68, "St. Mary's Church, Worplesdon \u2014 a traditional service in an historic setting.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(69, "div", 14)(70, "figure", 22);
+      \u0275\u0275element(71, "img", 24);
+      \u0275\u0275elementStart(72, "figcaption");
+      \u0275\u0275text(73, "The Lych Gate, dressed with flowers, welcomes the wedding party.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(74, "div", 14)(75, "figure", 22);
+      \u0275\u0275element(76, "img", 25);
+      \u0275\u0275elementStart(77, "figcaption");
+      \u0275\u0275text(78, "The bride arrives, walking through the Lych Gate with her father.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(79, "div", 14)(80, "figure", 22);
+      \u0275\u0275element(81, "img", 26);
+      \u0275\u0275elementStart(82, "figcaption");
+      \u0275\u0275text(83, "A floral arch frames the church porch as guests take their seats.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(84, "div", 14)(85, "figure", 22);
+      \u0275\u0275element(86, "img", 27);
+      \u0275\u0275elementStart(87, "figcaption");
+      \u0275\u0275text(88, "The ceremony inside the church, beneath its stained-glass windows.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(89, "div", 14)(90, "figure", 22);
+      \u0275\u0275element(91, "img", 28);
+      \u0275\u0275elementStart(92, "figcaption");
+      \u0275\u0275text(93, "Guests gather outside the porch to greet the newlyweds.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(94, "div", 14)(95, "figure", 22);
+      \u0275\u0275element(96, "img", 29);
+      \u0275\u0275elementStart(97, "figcaption");
+      \u0275\u0275text(98, "Bride and groom pause for photographs under the Lych Gate.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(99, "div", 14)(100, "figure", 22);
+      \u0275\u0275element(101, "img", 30);
+      \u0275\u0275elementStart(102, "figcaption");
+      \u0275\u0275text(103, "A horse-drawn carriage waits to take the couple from the church.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(104, "div", 14)(105, "figure", 22);
+      \u0275\u0275element(106, "img", 31);
+      \u0275\u0275elementStart(107, "figcaption");
+      \u0275\u0275text(108, "From the church, it's a short journey to the Memorial Hall for the reception.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(109, "div", 14)(110, "figure", 22);
+      \u0275\u0275element(111, "img", 32);
+      \u0275\u0275elementStart(112, "figcaption");
+      \u0275\u0275text(113, "Inside the hall, long tables and warm lighting set the scene for the celebration.");
+      \u0275\u0275elementEnd()()()()();
     }
   }, encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(WeddingComponent, [{
     type: Component,
-    args: [{ standalone: false, template: '<h1>Wedding receptions in the Hall</h1>\nPrices for ceremony from \xA3585. Price for reception from \xA31000.\nCall us to discuss your special requirements \u2013 your numbers \u2013 your catering needs \u2013 your ceremony wish-list.\nWe are here to help.\nPlease Call:\nFor weddings: 01483 233091\nFor reception: 01483 232117\nSee also:\n<a href="https://www.worplesdonparish.com" target="_blank">www.worplesdonparish.com</a>\n<h2>The Village Reception</h2>\n\n<div class="card-deck">\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic1.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">The Worplesdon Memorial Hall offers the flexibility to design your reception whichever way\n        suits you best</p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic2.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">Whether a formal dinner or an informal buffet, the Memorial Hall makes sure that all your\n        friends and family feel\n        at\n        home.</p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic3.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">A range of rooms are available so that your wedding party can change their outfits.\n      </p>\n    </div>\n  </div>\n</div>\n<h2>Weddings at Worplesdon</h2>\n<p>If you are thinking of tying the knot then think about being married here at Worplesdon.\n  Worplesdon village offers a wonderful experience. A traditional church wedding followed by a village reception.\n</p>\n<div class="card-columns">\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic4.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">St. Mary\u2019s Church, Worplesdon, offers a traditional wedding service in an historic setting.\n      </p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic5.jpg" class="card-img-top">\n    <div class="card-body">\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic9.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">From the Lych Gate, a footpath winds up to the church porch</p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic6.jpg" class="card-img-top">\n    <div class="card-body">\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic7.jpg" class="card-img-top">\n    <div class="card-body">\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic8.jpg" class="card-img-top">\n    <div class="card-body">\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic9.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">The church interior retains its original feel, hardly changed from earlier times</p>\n    </div>\n  </div>\n\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic10.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">Enjoy being married in the traditional way. Weddings have been conducted at St. Mary\u2019s for\n        many years</p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic11.jpg" class="card-img-top">\n    <div class="card-body">\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic12.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">After the ceremony, enjoy a time with your photographer outside this historic village church.\n      </p>\n    </div>\n  </div>\n  <div class="card" style="width: 18rem;">\n    <img src="../assets/wedding/pic13.jpg" class="card-img-top">\n    <div class="card-body">\n      <p class="card-text">Then move to the Memorial Hall in the village to continue your festivities.</p>\n    </div>\n  </div>\n</div>\n' }]
+    args: [{ standalone: false, template: `<section class="wedding-intro mb-4">
+  <h1 class="mb-3">Wedding receptions in the Hall</h1>
+  <p class="lead">
+    Call us to discuss your special requirements \u2014 your numbers, your catering needs, your
+    ceremony wish-list. We are here to help.
+  </p>
+
+  <div class="row g-3 align-items-stretch">
+    <div class="col-md-6">
+      <div class="p-3 border rounded h-100 bg-light">
+        <h2 class="h5 mb-3">Pricing</h2>
+        <ul class="list-unstyled mb-0">
+          <li><strong>Ceremony</strong> from \xA3585</li>
+          <li><strong>Reception</strong> from \xA31,000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="p-3 border rounded h-100 bg-light">
+        <h2 class="h5 mb-3">Get in touch</h2>
+        <ul class="list-unstyled mb-2">
+          <li><strong>Weddings:</strong> <a href="tel:01483233091">01483 233091</a></li>
+          <li><strong>Reception:</strong> <a href="tel:01483232117">01483 232117</a></li>
+        </ul>
+        <a href="https://www.worplesdonparish.com" target="_blank" rel="noopener">
+          www.worplesdonparish.com
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-5">
+  <h2 class="mb-3">The Village Reception</h2>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+    <div class="col">
+      <div class="card h-100">
+        <img src="../assets/wedding/pic1.jpg" class="card-img-top" alt="Round tables dressed in blush pink for a wedding breakfast">
+        <div class="card-body">
+          <p class="card-text mb-0">
+            Round tables and a soft colour scheme \u2014 the hall takes on whatever style you choose.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../assets/wedding/pic2.jpg" class="card-img-top" alt="Long banquet tables with blue chair sashes and bunting">
+        <div class="card-body">
+          <p class="card-text mb-0">
+            Long banquet tables seat larger parties, with bunting and balloons for a relaxed,
+            celebratory feel.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="../assets/wedding/pic3.jpg" class="card-img-top" alt="Top table with floral runner and live band setup behind">
+        <div class="card-body">
+          <p class="card-text mb-0">
+            The stage easily takes a live band or DJ, so the wedding breakfast can flow
+            straight into the evening party.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-5">
+  <h2 class="mb-3">Weddings at Worplesdon</h2>
+  <p>
+    If you are thinking of tying the knot then think about being married here at Worplesdon.
+    The village offers a wonderful experience: a traditional church wedding followed by a
+    village reception.
+  </p>
+
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 wedding-gallery">
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic4.jpg" alt="St Mary's Church tower with bluebells along the path">
+        <figcaption>St. Mary's Church, Worplesdon \u2014 a traditional service in an historic setting.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic6.jpg" alt="Lych Gate decorated with white floral arrangements">
+        <figcaption>The Lych Gate, dressed with flowers, welcomes the wedding party.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic9.jpg" alt="Bride and her father walking through the Lych Gate">
+        <figcaption>The bride arrives, walking through the Lych Gate with her father.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic7.jpg" alt="Floral archway in the church porch">
+        <figcaption>A floral arch frames the church porch as guests take their seats.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic8.jpg" alt="Wedding ceremony at the altar inside the church">
+        <figcaption>The ceremony inside the church, beneath its stained-glass windows.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic10.jpg" alt="Wedding guests gathered outside the church porch">
+        <figcaption>Guests gather outside the porch to greet the newlyweds.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic12.jpg" alt="Bride and groom under the decorated Lych Gate">
+        <figcaption>Bride and groom pause for photographs under the Lych Gate.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic11.jpg" alt="White horse-drawn carriage with two grey horses">
+        <figcaption>A horse-drawn carriage waits to take the couple from the church.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic5.jpg" alt="Worplesdon Memorial Hall exterior">
+        <figcaption>From the church, it's a short journey to the Memorial Hall for the reception.</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <figure class="m-0">
+        <img src="../assets/wedding/pic13.jpg" alt="Banquet tables set for an evening reception in the hall">
+        <figcaption>Inside the hall, long tables and warm lighting set the scene for the celebration.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+` }]
   }], null, null);
 })();
 (() => {
@@ -39899,10 +40111,11 @@ var WeddingComponent = class _WeddingComponent {
 })();
 
 // src/app/sports.component.ts
-function SportsComponent_For_13_ng_template_0_Template(rf, ctx) {
+var _forTrack02 = ($index, $item) => $item.url;
+function SportsComponent_For_8_ng_template_0_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 6);
-    \u0275\u0275element(1, "img", 7);
+    \u0275\u0275elementStart(0, "div", 16);
+    \u0275\u0275element(1, "img", 17);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -39911,119 +40124,101 @@ function SportsComponent_For_13_ng_template_0_Template(rf, ctx) {
     \u0275\u0275property("src", img_r1.url, \u0275\u0275sanitizeUrl)("alt", img_r1.title);
   }
 }
-function SportsComponent_For_13_Template(rf, ctx) {
+function SportsComponent_For_8_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275template(0, SportsComponent_For_13_ng_template_0_Template, 2, 2, "ng-template", 3);
-  }
-}
-function SportsComponent_For_19_ng_template_0_Template(rf, ctx) {
-  if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 6);
-    \u0275\u0275element(1, "img", 7);
-    \u0275\u0275elementEnd();
-  }
-  if (rf & 2) {
-    const img_r2 = \u0275\u0275nextContext().$implicit;
-    \u0275\u0275advance();
-    \u0275\u0275property("src", img_r2.url, \u0275\u0275sanitizeUrl)("alt", img_r2.title);
-  }
-}
-function SportsComponent_For_19_Template(rf, ctx) {
-  if (rf & 1) {
-    \u0275\u0275template(0, SportsComponent_For_19_ng_template_0_Template, 2, 2, "ng-template", 3);
+    \u0275\u0275template(0, SportsComponent_For_8_ng_template_0_Template, 2, 2, "ng-template", 5);
   }
 }
 var SportsComponent = class _SportsComponent {
-  images = [{
-    url: "../assets/tennis/1.jpg",
-    title: "Title 1"
-  }, {
-    url: "../assets/tennis/2.jpg",
-    title: "Title 2"
-  }, {
-    url: "../assets/tennis/3.jpg",
-    title: "Title 3"
-  }, {
-    url: "../assets/tennis/4.jpg",
-    title: "Title 4"
-  }, {
-    url: "../assets/tennis/5.jpg",
-    title: "Title 5"
-  }];
-  grounds = [
-    { url: "../assets/grounds/1.jpg", title: "Title 1" },
-    { url: "../assets/grounds/2.jpg", title: "Title 2" },
-    { url: "../assets/grounds/3.jpg", title: "Title 3" },
-    { url: "../assets/grounds/4.jpg", title: "Title 4" },
-    { url: "../assets/grounds/5.jpg", title: "Title 5" },
-    { url: "../assets/grounds/6.jpg", title: "Title 6" },
-    { url: "../assets/grounds/7.jpg", title: "Title 7" },
-    { url: "../assets/grounds/8.jpg", title: "Title 8" },
-    { url: "../assets/grounds/9.jpg", title: "Title 9" },
-    { url: "../assets/grounds/10.jpg", title: "Title 10" },
-    { url: "../assets/grounds/11.jpg", title: "Title 11" },
-    { url: "../assets/grounds/12.jpg", title: "Title 12" },
-    { url: "../assets/grounds/13.jpg", title: "Title 13" }
+  slides = [
+    { url: "../assets/grounds/1.jpg", title: "On the recreation ground" },
+    { url: "../assets/tennis/1.jpg", title: "Tennis at Worplesdon" },
+    { url: "../assets/grounds/2.jpg", title: "On the recreation ground" },
+    { url: "../assets/tennis/2.jpg", title: "Tennis at Worplesdon" },
+    { url: "../assets/grounds/3.jpg", title: "On the recreation ground" },
+    { url: "../assets/tennis/3.jpg", title: "Tennis at Worplesdon" },
+    { url: "../assets/grounds/4.jpg", title: "On the recreation ground" },
+    { url: "../assets/tennis/4.jpg", title: "Tennis at Worplesdon" },
+    { url: "../assets/grounds/5.jpg", title: "On the recreation ground" },
+    { url: "../assets/tennis/5.jpg", title: "Tennis at Worplesdon" },
+    { url: "../assets/grounds/6.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/7.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/8.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/9.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/10.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/11.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/12.jpg", title: "On the recreation ground" },
+    { url: "../assets/grounds/13.jpg", title: "On the recreation ground" }
   ];
   static \u0275fac = function SportsComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _SportsComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _SportsComponent, selectors: [["ng-component"]], standalone: false, decls: 26, vars: 2, consts: [["target", "_blank", "href", "https://wbcc.play-cricket.com/home"], ["target", "_blank", "href", "https://www.pitchero.com/clubs/worplesdonphoenix"], [1, "carousel", "slide", 2, "max-width", "750px", "margin", "auto", "margin-bottom", "20px", 3, "interval"], ["ngbSlide", ""], [2, "text-align", "center"], ["target", "_blank", "href", "http://clubspark.lta.org.uk/WorplesdonTennisClub/"], [1, "picsum-img-wrapper"], [3, "src", "alt"]], template: function SportsComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _SportsComponent, selectors: [["ng-component"]], standalone: false, decls: 48, vars: 1, consts: [[1, "mb-4"], [1, "mb-3"], [1, "lead"], [1, "mb-5"], [1, "home-carousel", 3, "interval"], ["ngbSlide", ""], [1, "row", "row-cols-1", "row-cols-md-3", "g-3"], [1, "col"], [1, "card", "h-100"], [1, "card-body", "d-flex", "flex-column"], [1, "h5", "card-title"], [1, "card-text", "flex-grow-1"], ["target", "_blank", "rel", "noopener", "href", "https://wbcc.play-cricket.com/home", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], ["target", "_blank", "rel", "noopener", "href", "https://www.pitchero.com/clubs/worplesdonphoenix", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], ["target", "_blank", "rel", "noopener", "href", "http://clubspark.lta.org.uk/WorplesdonTennisClub/", 1, "btn", "btn-outline-primary", "mt-2", "align-self-start"], [1, "text-muted", "small", "mb-0"], [1, "picsum-img-wrapper"], [3, "src", "alt"]], template: function SportsComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "p");
-      \u0275\u0275text(1, "The Sports Ground and Tennis Courts grounds adjoining the hall support many local sporting activities:");
+      \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "Sports & recreation");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(2, "p");
-      \u0275\u0275text(3, "There is a long-standing tradition of cricket on the field. ");
-      \u0275\u0275elementStart(4, "a", 0);
-      \u0275\u0275text(5, "Worplesdon and Burpham Cricket Club");
-      \u0275\u0275elementEnd();
-      \u0275\u0275text(6, " can trace its formation back to\n1890 and its Worplesdon predecessor first began to use the site in 1912.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(7, "p")(8, "a", 1);
-      \u0275\u0275text(9, "Worplesdon Phoenix Football Club");
-      \u0275\u0275elementEnd();
-      \u0275\u0275text(10, " plays regular league matches\nat weekends and occasional games during the week.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(11, "ngb-carousel", 2);
-      \u0275\u0275repeaterCreate(12, SportsComponent_For_13_Template, 1, 0, null, 3, \u0275\u0275repeaterTrackByIdentity);
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(14, "h2", 4)(15, "a", 5);
-      \u0275\u0275text(16, "Worplesdon Tennis Club");
+      \u0275\u0275elementStart(3, "p", 2);
+      \u0275\u0275text(4, " The recreation ground and tennis courts adjoining the hall are home to three long-standing local clubs. New members are always welcome \u2014 please get in touch with each club directly. ");
       \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(17, "ngb-carousel", 2);
-      \u0275\u0275repeaterCreate(18, SportsComponent_For_19_Template, 1, 0, null, 3, \u0275\u0275repeaterTrackByIdentity);
+      \u0275\u0275elementStart(5, "section", 3)(6, "ngb-carousel", 4);
+      \u0275\u0275repeaterCreate(7, SportsComponent_For_8_Template, 1, 0, null, 5, _forTrack02);
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(9, "section", 3)(10, "div", 6)(11, "div", 7)(12, "article", 8)(13, "div", 9)(14, "h2", 10);
+      \u0275\u0275text(15, "Cricket");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(20, "p");
-      \u0275\u0275text(21, "Worplesdon Tennis Club was formed in 1991 using the two existing public courts and has since added two more for Club use. A new Club House was opened in 2005. The Club has a thriving membership of adults and juniors - players of all\nabilities are welcome.");
+      \u0275\u0275elementStart(16, "p", 11);
+      \u0275\u0275text(17, " There is a long-standing tradition of cricket on the field. ");
+      \u0275\u0275elementStart(18, "strong");
+      \u0275\u0275text(19, "Worplesdon and Burpham Cricket Club");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(22, "p");
-      \u0275\u0275text(23, "A sports pavilion serving the Cricket, Football and Tennis Clubs was opened in 2008.");
+      \u0275\u0275text(20, " traces its formation back to 1890, and its Worplesdon predecessor first used the site in 1912. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(24, "p");
-      \u0275\u0275text(25, "All clubs are delighted to welcome new members and enquiries can be made via the club web sites.");
+      \u0275\u0275elementStart(21, "a", 12);
+      \u0275\u0275text(22, " Visit the cricket club ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(23, "div", 7)(24, "article", 8)(25, "div", 9)(26, "h2", 10);
+      \u0275\u0275text(27, "Football");
       \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(28, "p", 11)(29, "strong");
+      \u0275\u0275text(30, "Worplesdon Phoenix Football Club");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(31, " plays regular league matches at weekends and occasional games during the week. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(32, "a", 13);
+      \u0275\u0275text(33, " Visit the football club ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(34, "div", 7)(35, "article", 8)(36, "div", 9)(37, "h2", 10);
+      \u0275\u0275text(38, "Tennis");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(39, "p", 11)(40, "strong");
+      \u0275\u0275text(41, "Worplesdon Tennis Club");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(42, " was formed in 1991 using the two existing public courts, and has since added two more for club use. A new club house was opened in 2005. The club has a thriving membership of adults and juniors \u2014 players of all abilities are welcome. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(43, "a", 14);
+      \u0275\u0275text(44, " Visit the tennis club ");
+      \u0275\u0275elementEnd()()()()()();
+      \u0275\u0275elementStart(45, "section", 0)(46, "p", 15);
+      \u0275\u0275text(47, " A sports pavilion serving the cricket, football and tennis clubs was opened in 2008. ");
+      \u0275\u0275elementEnd()();
     }
     if (rf & 2) {
-      \u0275\u0275advance(11);
-      \u0275\u0275property("interval", 3e3);
+      \u0275\u0275advance(6);
+      \u0275\u0275property("interval", 4e3);
       \u0275\u0275advance();
-      \u0275\u0275repeater(ctx.grounds);
-      \u0275\u0275advance(5);
-      \u0275\u0275property("interval", 3e3);
-      \u0275\u0275advance();
-      \u0275\u0275repeater(ctx.images);
+      \u0275\u0275repeater(ctx.slides);
     }
   }, dependencies: [NgbCarousel, NgbSlide], encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(SportsComponent, [{
     type: Component,
-    args: [{ standalone: false, template: '<p>The Sports Ground and Tennis Courts grounds adjoining the hall support many local sporting activities:</p>\n\n<p>There is a long-standing tradition of cricket on the field. <a\ntarget="_blank" href="https://wbcc.play-cricket.com/home">Worplesdon and Burpham Cricket Club</a> can trace its formation back to\n1890 and its Worplesdon predecessor first began to use the site in 1912.</p>\n<p><a target="_blank" href="https://www.pitchero.com/clubs/worplesdonphoenix">Worplesdon Phoenix Football Club</a> plays regular league matches\nat weekends and occasional games during the week.</p>\n\n<ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">\n  @for (img of grounds; track img) {\n    <ng-template ngbSlide>\n      <!-- <div class="carousel-caption">\n      <h3>{{img.title}}</h3>\n      <p>A Description</p>\n    </div> -->\n    <div class="picsum-img-wrapper">\n      <img [src]="img.url" [alt]="img.title">\n    </div>\n  </ng-template>\n}\n</ngb-carousel>\n\n<h2 style="text-align: center;"><a target="_blank" href="http://clubspark.lta.org.uk/WorplesdonTennisClub/">Worplesdon Tennis Club</a>\n</h2>\n<ngb-carousel [interval]="3000" class="carousel slide" style="max-width: 750px;margin: auto;margin-bottom: 20px;">\n  @for (img of images; track img) {\n    <ng-template ngbSlide>\n      <!-- <div class="carousel-caption">\n      <h3>{{img.title}}</h3>\n      <p>A Description</p>\n    </div> -->\n    <div class="picsum-img-wrapper">\n      <img [src]="img.url" [alt]="img.title">\n    </div>\n  </ng-template>\n}\n</ngb-carousel>\n\n<p>Worplesdon Tennis Club was formed in 1991 using the two existing public courts and has since added two more for Club\n  use.\n  A new Club House was opened in 2005. The Club has a thriving membership of adults and juniors - players of all\nabilities are welcome.</p>\n<p>A sports pavilion serving the Cricket, Football and Tennis Clubs was opened in 2008.</p>\n\n<p>All clubs are delighted to welcome new members and enquiries can be made via the club web sites.</p>\n' }]
+    args: [{ standalone: false, template: '<section class="mb-4">\n  <h1 class="mb-3">Sports &amp; recreation</h1>\n  <p class="lead">\n    The recreation ground and tennis courts adjoining the hall are home to three\n    long-standing local clubs. New members are always welcome &mdash; please get in\n    touch with each club directly.\n  </p>\n</section>\n\n<section class="mb-5">\n  <ngb-carousel [interval]="4000" class="home-carousel">\n    @for (img of slides; track img.url) {\n      <ng-template ngbSlide>\n        <div class="picsum-img-wrapper">\n          <img [src]="img.url" [alt]="img.title">\n        </div>\n      </ng-template>\n    }\n  </ngb-carousel>\n</section>\n\n<section class="mb-5">\n  <div class="row row-cols-1 row-cols-md-3 g-3">\n\n    <div class="col">\n      <article class="card h-100">\n        <div class="card-body d-flex flex-column">\n          <h2 class="h5 card-title">Cricket</h2>\n          <p class="card-text flex-grow-1">\n            There is a long-standing tradition of cricket on the field.\n            <strong>Worplesdon and Burpham Cricket Club</strong> traces its formation\n            back to 1890, and its Worplesdon predecessor first used the site in 1912.\n          </p>\n          <a class="btn btn-outline-primary mt-2 align-self-start"\n             target="_blank"\n             rel="noopener"\n             href="https://wbcc.play-cricket.com/home">\n            Visit the cricket club\n          </a>\n        </div>\n      </article>\n    </div>\n\n    <div class="col">\n      <article class="card h-100">\n        <div class="card-body d-flex flex-column">\n          <h2 class="h5 card-title">Football</h2>\n          <p class="card-text flex-grow-1">\n            <strong>Worplesdon Phoenix Football Club</strong> plays regular league\n            matches at weekends and occasional games during the week.\n          </p>\n          <a class="btn btn-outline-primary mt-2 align-self-start"\n             target="_blank"\n             rel="noopener"\n             href="https://www.pitchero.com/clubs/worplesdonphoenix">\n            Visit the football club\n          </a>\n        </div>\n      </article>\n    </div>\n\n    <div class="col">\n      <article class="card h-100">\n        <div class="card-body d-flex flex-column">\n          <h2 class="h5 card-title">Tennis</h2>\n          <p class="card-text flex-grow-1">\n            <strong>Worplesdon Tennis Club</strong> was formed in 1991 using the two\n            existing public courts, and has since added two more for club use. A new\n            club house was opened in 2005. The club has a thriving membership of\n            adults and juniors &mdash; players of all abilities are welcome.\n          </p>\n          <a class="btn btn-outline-primary mt-2 align-self-start"\n             target="_blank"\n             rel="noopener"\n             href="http://clubspark.lta.org.uk/WorplesdonTennisClub/">\n            Visit the tennis club\n          </a>\n        </div>\n      </article>\n    </div>\n\n  </div>\n</section>\n\n<section class="mb-4">\n  <p class="text-muted small mb-0">\n    A sports pavilion serving the cricket, football and tennis clubs was opened in 2008.\n  </p>\n</section>\n' }]
   }], null, null);
 })();
 (() => {
-  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(SportsComponent, { className: "SportsComponent", filePath: "src/app/sports.component.ts", lineNumber: 11 });
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(SportsComponent, { className: "SportsComponent", filePath: "src/app/sports.component.ts", lineNumber: 12 });
 })();
 
 // src/app/history.component.ts
@@ -40031,66 +40226,386 @@ var HistoryComponent = class _HistoryComponent {
   static \u0275fac = function HistoryComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HistoryComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HistoryComponent, selectors: [["ng-component"]], standalone: false, decls: 38, vars: 0, template: function HistoryComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HistoryComponent, selectors: [["ng-component"]], standalone: false, decls: 137, vars: 0, consts: [[1, "mb-4"], [1, "mb-3"], [1, "lead"], [1, "mb-5"], [1, "h3", "mb-3"], [1, "mb-0"], [1, "row", "row-cols-1", "row-cols-md-2", "g-3"], [1, "col"], [1, "card", "h-100"], [1, "card-body"], [1, "h5", "card-title"], [1, "text-muted", "small", "mb-2"], [1, "card-text", "mb-2"], [1, "card-text", "mb-0"]], template: function HistoryComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "h2");
-      \u0275\u0275text(1, "History and Management");
+      \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "History & Management");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(2, "h3");
-      \u0275\u0275text(3, "The Hall was built in 1922 in memory of the local men killed in World War I.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(4, "p");
-      \u0275\u0275text(5, "The land had been donated to Worplesdon Parish Council for this purpose in 1919 by Sir James Lewis Walker (1845-1927), a local landowner who had enjoyed a distinguished career as a banker and newspaper owner in India. A portrait of Sir James can be seen in the hall. He lived in Worplesdon Place at the centre of an estate which included property on both sides of the A322. The house is now the Worplesdon Place Hotel, almost opposite the hall.");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(6, "p");
-      \u0275\u0275text(7, "The Hall itself was built with funds from an anonymous donor, who was later identified as Sir Laurence Edward Halsey (1871-1945). Sir Laurence lived at Gooserye in Worplesdon and was a leading member of the accountancy profession, holding many distinguished appointments, including Auditor to the Duchy of Lancaster. He was High Sheriff of Surrey in 1935.");
+      \u0275\u0275elementStart(3, "p", 2);
+      \u0275\u0275text(4, " The Hall was built in 1922 in memory of the local men killed in the First World War. ");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(5, "section", 3)(6, "h2", 4);
+      \u0275\u0275text(7, "Origins");
       \u0275\u0275elementEnd();
       \u0275\u0275elementStart(8, "p");
-      \u0275\u0275text(9, "Although it retains formal ownership of the land, the Parish Council is not responsible for the management of the property. Instead, the management of the Memorial Hall and Grounds is in the hands of the Worplesdon Memorial Trustees, a registered charity. (This is the registered working name of the charity; the full formal name is Worplesdon Memorial Hall and Recreation Ground and the Sime Trust.)");
+      \u0275\u0275text(9, " The land was donated to Worplesdon Parish Council for this purpose in 1919 by ");
+      \u0275\u0275elementStart(10, "strong");
+      \u0275\u0275text(11, "Sir James Lewis Walker (1845\u20131927)");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(10, "p");
-      \u0275\u0275text(11, "If you would like know more about the work of the trustees, you may like to see our most recent Annual Report and Accounts.");
+      \u0275\u0275text(12, ", a local landowner who had enjoyed a distinguished career as a banker and newspaper owner in India. Sir James lived at Worplesdon Place, at the centre of an estate that included property on both sides of the A322. The house is now the Worplesdon Place Hotel, almost opposite the Hall. A portrait of Sir James hangs inside. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(12, "p");
-      \u0275\u0275text(13, "The trustees are committed to provide the residents of Worplesdon with recreational and social facilities. As volunters, they give their time and efforts to maintain the objectives of the Hall Trust as set out in the original Deed of 1919 and are always seeking to improve and expand the facilities for the benefit all users.");
+      \u0275\u0275elementStart(13, "p");
+      \u0275\u0275text(14, " The Hall itself was built with funds from an anonymous donor, later identified as ");
+      \u0275\u0275elementStart(15, "strong");
+      \u0275\u0275text(16, "Sir Laurence Edward Halsey (1871\u20131945)");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(14, "p")(15, "b");
-      \u0275\u0275text(16, "The Walker Room");
+      \u0275\u0275text(17, ". Sir Laurence lived at Gooserye in Worplesdon and was a leading figure in the accountancy profession, holding many distinguished appointments \u2014 including Auditor to the Duchy of Lancaster. He was High Sheriff of Surrey in 1935. ");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(18, "section", 3)(19, "h2", 4);
+      \u0275\u0275text(20, "Management today");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(17, ", previously known as the Main Hall consists of a large 128.27 sqm open area as well as a Stage which is 38.47 sqm. Sir James Walker of Worplesdon Place who gave the land for the Memorial hall to be built on. He bought Worplesdon Place in about 1905 and lived their until he died in 1927. He was born in India in 1845. During his career he established the Alliance Bank of Simla. He was also a newspaper proprietor of two Indian periodicals. He was friend of Rudyard Kipling, who lived with Sir James and his first wife in India as a child. Sir James was Kiplings first patron and Rudyard Kipling even visited them at Worplesdon Place in 1911. Obviously Sir James spent lot of his life in India. Huge picture on wall is of Sir James Walker in main hall.");
+      \u0275\u0275elementStart(21, "p");
+      \u0275\u0275text(22, " Although it retains formal ownership of the land, the Parish Council is not responsible for the management of the property. Instead, the Memorial Hall and grounds are run by the ");
+      \u0275\u0275elementStart(23, "strong");
+      \u0275\u0275text(24, "Worplesdon Memorial Trustees");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(18, "p")(19, "b");
-      \u0275\u0275text(20, "The Halsey Room");
+      \u0275\u0275text(25, ", a registered charity. (This is the registered working name; the full formal name is ");
+      \u0275\u0275elementStart(26, "em");
+      \u0275\u0275text(27, "Worplesdon Memorial Hall and Recreation Ground and the Sime Trust");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(21, ", previously known as the Small Hall consists of a 47.29 sqm open area. Sir Laurence Halsey (1871-1945) was the 1st Chairman and served 23 years (1921-1944). He gave the monies for the hall to be built. He is buried across at St Mary\u2019s Worplesdon rest of his family in Pirbright. He did not marry or have a family of his own. He lived at Gooserye on Whitmoor common.");
+      \u0275\u0275text(28, ".) ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(22, "p")(23, "b");
-      \u0275\u0275text(24, "The Tovey Room");
+      \u0275\u0275elementStart(29, "p");
+      \u0275\u0275text(30, " The trustees are committed to providing the residents of Worplesdon with recreational and social facilities. As volunteers, they give their time and effort to maintain the objectives set out in the original Deed of 1919, and continually look for ways to improve and expand the facilities for everyone who uses them. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(25, ", previously known as the Conference Room consists of a 10.7 sqm open area. Tovey who was trustee from 1942-1952 Margaret Tovey was Hon secretary from 1948-1974.Rev Duncan Crookes Tovey 1842-1912 had been rector in St Mary\u2019s Parish as well as Worplesdon Parish council chairman from 1899-1909. Plus had played huge part in village life while he lived here. His son also named Duncan died in WW1 in 1918 leaving widow and two sons and a daughter as children. Margaret Joan Woodd Walker later became the wife of one of the sons also named Duncan Lorimer Pattison Tovey 1903-1948. Margaret was also co- author of two history booklets produce called Notes on the history of Worplesdon and the other Worplesdon Old and New. ( named as Joan Tovey) she was very involved in village life and the heavily involved in WI and also of course neighbour of Sidney and Mary Sime recommending to her friend Mary to leave Sidney\u2019s art work to the trustees of the Memorial hall for the purpose of exhibiting her husband\u2019s collection of drawings and paintings bequeathing in her will monies to build a room at the hall. Sir Laurence Halsey had been consulted on this matter before his death.");
+      \u0275\u0275elementStart(31, "p", 5);
+      \u0275\u0275text(32, " If you would like to know more about the trustees' work, please see our most recent Annual Report and Accounts. ");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(33, "section", 3)(34, "h2", 4);
+      \u0275\u0275text(35, "The rooms and their namesakes");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(26, "p")(27, "b");
-      \u0275\u0275text(28, "The Cater Room");
+      \u0275\u0275elementStart(36, "p");
+      \u0275\u0275text(37, " Each room in the Hall is named after a person who shaped its history. The original names \u2014 Main Hall, Small Hall, Conference Room, Committee Room, Council Chambers, Anti-Room \u2014 have been replaced with the names below. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(29, ", previously known as the Committee Room. Terry Cater was the 8th Chairman of WMH from 2004-2018 as well as a Worplesdon Parish councillor for many years. Also as we know Terry\u2019s history with all the hall and sport on the grounds must be second to none. 17 years a trustee/ chairman. Also his father was very heavily involved in both as well. Terry\u2019s father was chair of Worplesdon Parish council during his years as a councillor from 1972-1973 then 1976-1985/6 until his death. Also the wicketkeeper for Fairlands cricket team. He was described by Surrey Advertiser as \u201Cthe spirit of Worplesdon\u201D something his son Terry has continued to do. During covid lockdown Terry volunteered to put new pictures up in the Sime Gallery no easy task for man of mature years. Terry has also been involved as Hon secretary of football club for 12 years and chairman of cricket club for 10 years and player of Worplesdon football and cricket clubs for 42 years and still watches matches . Also was Chairman of the committee responsible to the Worplesdon Parish council for the millennium book Worplesdon A Tale of Four Villages. He received Guildford Mayors award for community service. A families dedication to the well being of the Memorial hall and recreational grounds. As you can see both men 14 years chairman of WMH quite something. Obviously Sir Laurence Halsey the longest serving chairman. Harry his father was known as Mr Worplesdon, he was a member of the territorial army , he was one of the first to serve at Dunkirk and one of twenty in his unit to survive the Battle of Arnham. On his return to Worplesdon he became involved in Fairlands Liddington Hall and Gravetts lane community association FLGCA. He and other residents negotiated purchase of disused nissen hut on Fairlands later in 1963 involved in fund raising and building of current community centre. He later became president of FLGCA. He even was invited to Queen\u2019s garden party for services to community.");
+      \u0275\u0275elementStart(38, "div", 6)(39, "div", 7)(40, "article", 8)(41, "div", 9)(42, "h3", 10);
+      \u0275\u0275text(43, "The Walker Room");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(30, "p")(31, "b");
-      \u0275\u0275text(32, "The Kelly Room");
+      \u0275\u0275elementStart(44, "p", 11);
+      \u0275\u0275text(45, " Previously the Main Hall \xB7 128.27\xA0m\xB2 with a 38.47\xA0m\xB2 stage ");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(33, ", previously known as the Council Chambers consists of a 38.47 sqm located on the first floor, accessible from the stairs at the front of the building to the right of the main entrance. After, Mr Arthur Lindsay Kelly he was 2nd Chairman of WMH trustees , he also served 25 years as chairman of Worplesdon Parish council. He was also Worplesdon Parish council for 55 years. ( My understanding probably the longest serving WPC possibly the next is Sandra Morgan MBE 53 years currently) He died in 1963 he lived later part of his life at Highclere just over the road from the hall between the cottages and the road named The Avenue and before that at Hockley Lands on Burdenshott road recently renamed Hertford Park . A lifetime of public service to Surrey County an alderman since 1947. His funeral was attended by officials of SCC, Guildford rural council of which he had been a founder member of the executive, Woking magistrates court and hospital managements. He was a former chairman of WMH trustees 1945-1959 who was also a former chairman of Worplesdon Parish council. Arthur Lindsay Kelly 1880-1963 was a very prominent figure all around in the Parish and St Mary\u2019s church and community. He is seen in Worplesdon football photographs and he was a cricketer.");
+      \u0275\u0275elementStart(46, "p", 12);
+      \u0275\u0275text(47, " Named after ");
+      \u0275\u0275elementStart(48, "strong");
+      \u0275\u0275text(49, "Sir James Walker of Worplesdon Place");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(34, "p")(35, "b");
-      \u0275\u0275text(36, "The Thompson Room");
+      \u0275\u0275text(50, ", who gave the land on which the Hall stands. He bought Worplesdon Place around 1905 and lived there until his death in 1927. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(37, ", previously known as the Anti-Room or Womens Institute (WI) Room.Winifred Amy Thompson not married was a trustee from 1939-1944 she was also prominent member of Womens institute (WI) and county WI agricultural committee having a jersey cow heard. She was VAD nurse in 1914-1918 and was 15 years the rectors warden at St Mary\u2019s church for 3 rectors. She had two sisters and although not born here very prominent in their time here in Worplesdon.");
+      \u0275\u0275elementStart(51, "p", 13);
+      \u0275\u0275text(52, " Born in India in 1845, Sir James established the Alliance Bank of Simla and owned two Indian periodicals. He was a friend of ");
+      \u0275\u0275elementStart(53, "strong");
+      \u0275\u0275text(54, "Rudyard Kipling");
       \u0275\u0275elementEnd();
+      \u0275\u0275text(55, ", who lived with Sir James and his first wife in India as a child \u2014 Sir James was Kipling's first patron, and Kipling visited him at Worplesdon Place in 1911. The large portrait of Sir James in the main hall is a reminder of the years he spent in India. ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(56, "div", 7)(57, "article", 8)(58, "div", 9)(59, "h3", 10);
+      \u0275\u0275text(60, "The Halsey Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(61, "p", 11);
+      \u0275\u0275text(62, " Previously the Small Hall \xB7 47.29\xA0m\xB2 ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(63, "p", 13);
+      \u0275\u0275text(64, " Named after ");
+      \u0275\u0275elementStart(65, "strong");
+      \u0275\u0275text(66, "Sir Laurence Halsey (1871\u20131945)");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(67, ", who funded the building of the Hall and served as its first Chairman for 23 years (1921\u20131944). He never married, and lived at Gooserye on Whitmoor Common. He is buried at St Mary's, Worplesdon; the rest of his family lie at Pirbright. ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(68, "div", 7)(69, "article", 8)(70, "div", 9)(71, "h3", 10);
+      \u0275\u0275text(72, "The Tovey Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(73, "p", 11);
+      \u0275\u0275text(74, " Previously the Conference Room \xB7 10.7\xA0m\xB2 ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(75, "p", 12);
+      \u0275\u0275text(76, " Named for the Tovey family, who shaped Worplesdon village life across three generations. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(77, "p", 12)(78, "strong");
+      \u0275\u0275text(79, "Rev. Duncan Crookes Tovey (1842\u20131912)");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(80, " was rector of St Mary's and Chairman of Worplesdon Parish Council (1899\u20131909). His son, also named Duncan, was killed in the First World War in 1918, leaving a widow and three children. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(81, "p", 13)(82, "strong");
+      \u0275\u0275text(83, 'Margaret Joan ("Joan") Tovey');
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(84, " later married Duncan Lorimer Pattison Tovey (1903\u20131948); she served as Honorary Secretary of the Hall from 1948 to 1974. A co-author of ");
+      \u0275\u0275elementStart(85, "em");
+      \u0275\u0275text(86, "Notes on the History of Worplesdon");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(87, " and ");
+      \u0275\u0275elementStart(88, "em");
+      \u0275\u0275text(89, "Worplesdon Old and New");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(90, ", she was deeply involved in the WI and was the neighbour of Sidney and Mary Sime \u2014 it was Joan who suggested that Mary leave Sidney's artwork to the Hall trustees, leading to the bequest that funded the Sime Gallery. ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(91, "div", 7)(92, "article", 8)(93, "div", 9)(94, "h3", 10);
+      \u0275\u0275text(95, "The Cater Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(96, "p", 11);
+      \u0275\u0275text(97, "Previously the Committee Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(98, "p", 12);
+      \u0275\u0275text(99, " Named for ");
+      \u0275\u0275elementStart(100, "strong");
+      \u0275\u0275text(101, "Terry Cater");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(102, ", the Hall's eighth Chairman (2004\u20132018) and a Worplesdon Parish Councillor for many years. A trustee for 17 years, he has also been Honorary Secretary of the football club for 12 years and Chairman of the cricket club for 10, and played for both for 42 years. He chaired the committee behind the millennium book ");
+      \u0275\u0275elementStart(103, "em");
+      \u0275\u0275text(104, "Worplesdon: A Tale of Four Villages");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(105, ", and received the Guildford Mayor's award for community service. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(106, "p", 13);
+      \u0275\u0275text(107, " The room also honours his father, ");
+      \u0275\u0275elementStart(108, "strong");
+      \u0275\u0275text(109, "Harry Cater");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(110, ` \u2014 known locally as "Mr Worplesdon". A territorial soldier, he was among the first to serve at Dunkirk, and one of just twenty in his unit to survive the Battle of Arnhem. Back home, he helped negotiate the purchase of a disused Nissen hut on Fairlands and went on to lead the fundraising and building of the present community centre, becoming president of the Fairlands, Liddington Hall and Gravetts Lane Community Association. He was invited to a Queen's garden party for his services to the community. `);
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(111, "div", 7)(112, "article", 8)(113, "div", 9)(114, "h3", 10);
+      \u0275\u0275text(115, "The Kelly Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(116, "p", 11);
+      \u0275\u0275text(117, " Previously the Council Chambers \xB7 38.47\xA0m\xB2 \xB7 first floor ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(118, "p", 12);
+      \u0275\u0275text(119, " Reached by the stairs at the front of the building, to the right of the main entrance. ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(120, "p", 13);
+      \u0275\u0275text(121, " Named after ");
+      \u0275\u0275elementStart(122, "strong");
+      \u0275\u0275text(123, "Arthur Lindsay Kelly (1880\u20131963)");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(124, ", the Hall's second Chairman (1945\u20131959) and a Worplesdon Parish Councillor for 55 years \u2014 quite probably the longest-serving in the Council's history. A Surrey County alderman from 1947, his funeral was attended by officials of Surrey County Council, Guildford Rural Council (where he was a founder member of the executive), Woking Magistrates' Court and the local hospital management. He lived latterly at Highclere, just across the road from the Hall, and before that at Hockley Lands on Burdenshott Road (now Hertford Park). He was a regular figure in Worplesdon football and cricket, and a long-standing member of St Mary's. ");
+      \u0275\u0275elementEnd()()()();
+      \u0275\u0275elementStart(125, "div", 7)(126, "article", 8)(127, "div", 9)(128, "h3", 10);
+      \u0275\u0275text(129, "The Thompson Room");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(130, "p", 11);
+      \u0275\u0275text(131, " Previously the Anti-Room (Women's Institute Room) ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(132, "p", 13);
+      \u0275\u0275text(133, " Named for ");
+      \u0275\u0275elementStart(134, "strong");
+      \u0275\u0275text(135, "Winifred Amy Thompson");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(136, ", a trustee from 1939 to 1944. She was a prominent member of the Women's Institute and the county WI Agricultural Committee, keeping a herd of Jersey cows. She served as a VAD nurse during the First World War, and was Rector's Warden at St Mary's for 15 years under three rectors. ");
+      \u0275\u0275elementEnd()()()()()();
     }
   }, encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(HistoryComponent, [{
     type: Component,
-    args: [{ standalone: false, template: "<h2>History and Management</h2>\n<h3>The Hall was built in 1922 in memory of the local men killed in World War I.</h3>\n<p>The land had been donated to Worplesdon Parish Council for this purpose in 1919 by Sir James Lewis Walker\n  (1845-1927), a local landowner who had enjoyed a distinguished career as a banker and newspaper owner in India. A\n  portrait of Sir James can be seen in the hall. He lived in Worplesdon Place at the centre of an estate which included\n  property on both sides of the A322. The house is now the Worplesdon Place Hotel, almost opposite the hall.</p>\n<p>The Hall itself was built with funds from an anonymous donor, who was later identified as Sir Laurence Edward Halsey\n  (1871-1945). Sir Laurence lived at Gooserye in Worplesdon and was a leading member of the accountancy profession,\n  holding many distinguished appointments, including Auditor to the Duchy of Lancaster. He was High Sheriff of Surrey in\n  1935.</p>\n<p>Although it retains formal ownership of the land, the Parish Council is not responsible for the management of the\n  property. Instead, the management of the Memorial Hall and Grounds is in the hands of the Worplesdon Memorial\n  Trustees, a registered charity. (This is the registered working name of the charity; the full formal name is\n  Worplesdon Memorial Hall and Recreation Ground and the Sime Trust.)</p>\n<p>If you would like know more about the work of the trustees, you may like to see our most recent Annual Report and\n  Accounts.</p>\n<p>The trustees are committed to provide the residents of Worplesdon with recreational and social facilities. As\n  volunters, they give their time and efforts to maintain the objectives of the Hall Trust as set out in the original\n  Deed of 1919 and are always seeking to improve and expand the facilities for the benefit all users.</p>\n\n<p><b>The Walker Room</b>, previously known as the Main Hall consists of a large 128.27 sqm open area as well as a Stage\n  which\n  is 38.47 sqm. Sir James Walker of Worplesdon Place who gave the land for the Memorial hall to be built on. He bought\n  Worplesdon Place in about 1905 and lived their until he died in 1927. He was born in India in 1845. During his\n  career he established the Alliance Bank of Simla. He was also a newspaper proprietor of two Indian periodicals. He\n  was friend of Rudyard Kipling, who lived with Sir James and his first wife in India as a child. Sir James was\n  Kiplings first patron and Rudyard Kipling even visited them at Worplesdon Place in 1911. Obviously Sir James spent\n  lot of his life in India. Huge picture on wall is of Sir James Walker in main hall.</p>\n\n<p><b>The Halsey Room</b>, previously known as the Small Hall consists of a 47.29 sqm open area.\n  Sir Laurence Halsey (1871-1945) was the 1st Chairman and served 23 years (1921-1944). He gave the monies for the hall\n  to\n  be built. He is buried across at St Mary\u2019s Worplesdon rest of his family in Pirbright. He did not marry or have a\n  family\n  of his own. He lived at Gooserye on Whitmoor common.</p>\n\n<p><b>The Tovey Room</b>, previously known as the Conference Room consists of a 10.7 sqm open area.\n  Tovey who was trustee from 1942-1952 Margaret Tovey was Hon secretary from 1948-1974.Rev Duncan Crookes Tovey\n  1842-1912\n  had been rector in St Mary\u2019s Parish as well as Worplesdon Parish council chairman from 1899-1909. Plus had played huge\n  part in village life while he lived here. His son also named Duncan died in WW1 in 1918 leaving widow and two sons and\n  a\n  daughter as children. Margaret Joan Woodd Walker later became the wife of one of the sons also named Duncan Lorimer\n  Pattison Tovey 1903-1948. Margaret was also co- author of two history booklets produce called Notes on the history of\n  Worplesdon and the other Worplesdon Old and New. ( named as Joan Tovey) she was very involved in village life and the\n  heavily involved in WI and also of course neighbour of Sidney and Mary Sime recommending to her friend Mary to leave\n  Sidney\u2019s art work to the trustees of the Memorial hall for the purpose of exhibiting her husband\u2019s collection of\n  drawings and paintings bequeathing in her will monies to build a room at the hall. Sir Laurence Halsey had been\n  consulted on this matter before his death.</p>\n\n<p><b>The Cater Room</b>, previously known as the Committee Room.\n  Terry Cater was the 8th Chairman of WMH from 2004-2018 as well as a Worplesdon Parish councillor for many years.\n  Also as we know Terry\u2019s history with all the hall and sport on the grounds must be second to none. 17 years a\n  trustee/ chairman. Also his father was very heavily involved in both as well. Terry\u2019s father was chair of Worplesdon\n  Parish council during his years as a councillor from 1972-1973 then 1976-1985/6 until his death. Also the\n  wicketkeeper for Fairlands cricket team. He was described by Surrey Advertiser as \u201Cthe spirit of Worplesdon\u201D\n  something his son Terry has continued to do. During covid lockdown Terry volunteered to put new pictures\n  up in the Sime Gallery no easy task for man of mature years. Terry has also been involved as Hon secretary of\n  football club for 12 years and chairman of cricket club for 10 years and player of Worplesdon football and cricket\n  clubs for 42 years and still watches matches . Also was Chairman of the committee responsible to the Worplesdon\n  Parish council for the millennium book Worplesdon A Tale of Four Villages. He received Guildford Mayors award for\n  community service. A families dedication to the well being of the Memorial hall and recreational grounds.\n  As you can see both men 14 years chairman of WMH quite something. Obviously Sir Laurence Halsey the longest serving\n  chairman. Harry his father was known as Mr Worplesdon, he was a member of the territorial army , he was one of the\n  first to serve at Dunkirk and one of twenty in his unit to survive the Battle of Arnham. On his return to Worplesdon\n  he became involved in Fairlands Liddington Hall and Gravetts lane community association FLGCA. He and other\n  residents negotiated purchase of disused nissen hut on Fairlands later in 1963 involved in fund raising and building\n  of current community centre. He later became president of FLGCA. He even was invited to Queen\u2019s garden party for\n  services to community.</p>\n\n<p><b>The Kelly Room</b>, previously known as the Council Chambers consists of a 38.47 sqm located on the first floor,\n  accessible from the stairs at the front of the building to the right of the main\n  entrance. After, Mr Arthur Lindsay Kelly he was 2nd Chairman of WMH trustees , he also served 25 years as chairman\n  of Worplesdon Parish council. He was also Worplesdon Parish council for 55 years. ( My understanding probably the\n  longest serving WPC possibly the next is Sandra Morgan MBE 53 years currently) He died in 1963 he lived later part\n  of his life at Highclere just over the road from the hall between the cottages and the road named The Avenue and\n  before that at Hockley Lands on Burdenshott road recently renamed Hertford Park . A lifetime of public service to\n  Surrey County an alderman since 1947. His funeral was attended by officials of SCC, Guildford rural council of which\n  he had been a founder member of the executive, Woking magistrates court and hospital managements. He was a former\n  chairman of WMH trustees 1945-1959 who was also a former chairman of Worplesdon Parish council. Arthur Lindsay Kelly\n  1880-1963 was a very prominent figure all around in the Parish and St Mary\u2019s church and community. He is seen in\n  Worplesdon football photographs and he was a cricketer.</p>\n\n<p><b>The Thompson Room</b>, previously known as the Anti-Room or Womens Institute (WI) Room.Winifred Amy Thompson not\n  married was a trustee from 1939-1944 she was also prominent member of Womens institute (WI)\n  and county WI agricultural committee having a jersey cow heard. She was VAD nurse in 1914-1918 and was 15 years the\n  rectors warden at St Mary\u2019s church for 3 rectors. She had two sisters and although not born here very prominent in\n  their time here in Worplesdon.</p>\n" }]
+    args: [{ standalone: false, template: `<section class="mb-4">
+  <h1 class="mb-3">History &amp; Management</h1>
+  <p class="lead">
+    The Hall was built in 1922 in memory of the local men killed in the First World War.
+  </p>
+</section>
+
+<section class="mb-5">
+  <h2 class="h3 mb-3">Origins</h2>
+
+  <p>
+    The land was donated to Worplesdon Parish Council for this purpose in 1919 by
+    <strong>Sir James Lewis Walker (1845&ndash;1927)</strong>, a local landowner who had
+    enjoyed a distinguished career as a banker and newspaper owner in India. Sir James
+    lived at Worplesdon Place, at the centre of an estate that included property on both
+    sides of the A322. The house is now the Worplesdon Place Hotel, almost opposite the
+    Hall. A portrait of Sir James hangs inside.
+  </p>
+
+  <p>
+    The Hall itself was built with funds from an anonymous donor, later identified as
+    <strong>Sir Laurence Edward Halsey (1871&ndash;1945)</strong>. Sir Laurence lived at
+    Gooserye in Worplesdon and was a leading figure in the accountancy profession,
+    holding many distinguished appointments &mdash; including Auditor to the Duchy of
+    Lancaster. He was High Sheriff of Surrey in 1935.
+  </p>
+</section>
+
+<section class="mb-5">
+  <h2 class="h3 mb-3">Management today</h2>
+
+  <p>
+    Although it retains formal ownership of the land, the Parish Council is not
+    responsible for the management of the property. Instead, the Memorial Hall and
+    grounds are run by the <strong>Worplesdon Memorial Trustees</strong>, a registered
+    charity. (This is the registered working name; the full formal name is
+    <em>Worplesdon Memorial Hall and Recreation Ground and the Sime Trust</em>.)
+  </p>
+
+  <p>
+    The trustees are committed to providing the residents of Worplesdon with
+    recreational and social facilities. As volunteers, they give their time and effort
+    to maintain the objectives set out in the original Deed of 1919, and continually
+    look for ways to improve and expand the facilities for everyone who uses them.
+  </p>
+
+  <p class="mb-0">
+    If you would like to know more about the trustees' work, please see our most recent
+    Annual Report and Accounts.
+  </p>
+</section>
+
+<section class="mb-5">
+  <h2 class="h3 mb-3">The rooms and their namesakes</h2>
+  <p>
+    Each room in the Hall is named after a person who shaped its history. The original
+    names &mdash; Main Hall, Small Hall, Conference Room, Committee Room, Council
+    Chambers, Anti-Room &mdash; have been replaced with the names below.
+  </p>
+
+  <div class="row row-cols-1 row-cols-md-2 g-3">
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Walker Room</h3>
+          <p class="text-muted small mb-2">
+            Previously the Main Hall &middot; 128.27&nbsp;m&sup2; with a 38.47&nbsp;m&sup2; stage
+          </p>
+          <p class="card-text mb-2">
+            Named after <strong>Sir James Walker of Worplesdon Place</strong>, who gave
+            the land on which the Hall stands. He bought Worplesdon Place around 1905
+            and lived there until his death in 1927.
+          </p>
+          <p class="card-text mb-0">
+            Born in India in 1845, Sir James established the Alliance Bank of Simla and
+            owned two Indian periodicals. He was a friend of <strong>Rudyard Kipling</strong>,
+            who lived with Sir James and his first wife in India as a child &mdash; Sir
+            James was Kipling's first patron, and Kipling visited him at Worplesdon
+            Place in 1911. The large portrait of Sir James in the main hall is a
+            reminder of the years he spent in India.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Halsey Room</h3>
+          <p class="text-muted small mb-2">
+            Previously the Small Hall &middot; 47.29&nbsp;m&sup2;
+          </p>
+          <p class="card-text mb-0">
+            Named after <strong>Sir Laurence Halsey (1871&ndash;1945)</strong>, who
+            funded the building of the Hall and served as its first Chairman for 23
+            years (1921&ndash;1944). He never married, and lived at Gooserye on
+            Whitmoor Common. He is buried at St Mary's, Worplesdon; the rest of his
+            family lie at Pirbright.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Tovey Room</h3>
+          <p class="text-muted small mb-2">
+            Previously the Conference Room &middot; 10.7&nbsp;m&sup2;
+          </p>
+          <p class="card-text mb-2">
+            Named for the Tovey family, who shaped Worplesdon village life across
+            three generations.
+          </p>
+          <p class="card-text mb-2">
+            <strong>Rev. Duncan Crookes Tovey (1842&ndash;1912)</strong> was rector of
+            St Mary's and Chairman of Worplesdon Parish Council (1899&ndash;1909). His
+            son, also named Duncan, was killed in the First World War in 1918, leaving
+            a widow and three children.
+          </p>
+          <p class="card-text mb-0">
+            <strong>Margaret Joan ("Joan") Tovey</strong> later married Duncan Lorimer
+            Pattison Tovey (1903&ndash;1948); she served as Honorary Secretary of the
+            Hall from 1948 to 1974. A co-author of <em>Notes on the History of
+            Worplesdon</em> and <em>Worplesdon Old and New</em>, she was deeply
+            involved in the WI and was the neighbour of Sidney and Mary Sime &mdash; it
+            was Joan who suggested that Mary leave Sidney's artwork to the Hall
+            trustees, leading to the bequest that funded the Sime Gallery.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Cater Room</h3>
+          <p class="text-muted small mb-2">Previously the Committee Room</p>
+          <p class="card-text mb-2">
+            Named for <strong>Terry Cater</strong>, the Hall's eighth Chairman
+            (2004&ndash;2018) and a Worplesdon Parish Councillor for many years. A
+            trustee for 17 years, he has also been Honorary Secretary of the football
+            club for 12 years and Chairman of the cricket club for 10, and played for
+            both for 42 years. He chaired the committee behind the millennium book
+            <em>Worplesdon: A Tale of Four Villages</em>, and received the Guildford
+            Mayor's award for community service.
+          </p>
+          <p class="card-text mb-0">
+            The room also honours his father, <strong>Harry Cater</strong> &mdash;
+            known locally as "Mr Worplesdon". A territorial soldier, he was among the
+            first to serve at Dunkirk, and one of just twenty in his unit to survive
+            the Battle of Arnhem. Back home, he helped negotiate the purchase of a
+            disused Nissen hut on Fairlands and went on to lead the fundraising and
+            building of the present community centre, becoming president of the
+            Fairlands, Liddington Hall and Gravetts Lane Community Association. He
+            was invited to a Queen's garden party for his services to the community.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Kelly Room</h3>
+          <p class="text-muted small mb-2">
+            Previously the Council Chambers &middot; 38.47&nbsp;m&sup2; &middot; first floor
+          </p>
+          <p class="card-text mb-2">
+            Reached by the stairs at the front of the building, to the right of the
+            main entrance.
+          </p>
+          <p class="card-text mb-0">
+            Named after <strong>Arthur Lindsay Kelly (1880&ndash;1963)</strong>, the
+            Hall's second Chairman (1945&ndash;1959) and a Worplesdon Parish
+            Councillor for 55 years &mdash; quite probably the longest-serving in the
+            Council's history. A Surrey County alderman from 1947, his funeral was
+            attended by officials of Surrey County Council, Guildford Rural Council
+            (where he was a founder member of the executive), Woking Magistrates'
+            Court and the local hospital management. He lived latterly at Highclere,
+            just across the road from the Hall, and before that at Hockley Lands on
+            Burdenshott Road (now Hertford Park). He was a regular figure in
+            Worplesdon football and cricket, and a long-standing member of St Mary's.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card h-100">
+        <div class="card-body">
+          <h3 class="h5 card-title">The Thompson Room</h3>
+          <p class="text-muted small mb-2">
+            Previously the Anti-Room (Women's Institute Room)
+          </p>
+          <p class="card-text mb-0">
+            Named for <strong>Winifred Amy Thompson</strong>, a trustee from 1939 to
+            1944. She was a prominent member of the Women's Institute and the county
+            WI Agricultural Committee, keeping a herd of Jersey cows. She served as a
+            VAD nurse during the First World War, and was Rector's Warden at St Mary's
+            for 15 years under three rectors.
+          </p>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</section>
+` }]
   }], null, null);
 })();
 (() => {
@@ -43681,10 +44196,10 @@ var MapGeocoder = class _MapGeocoder {
 })();
 
 // src/app/contact.component.ts
-function ContactComponent_Conditional_8_Template(rf, ctx) {
+function ContactComponent_Conditional_25_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "google-map", 2);
-    \u0275\u0275element(1, "map-marker", 4);
+    \u0275\u0275elementStart(0, "google-map", 13);
+    \u0275\u0275element(1, "map-marker", 17);
     \u0275\u0275elementEnd();
   }
   if (rf & 2) {
@@ -43695,53 +44210,66 @@ function ContactComponent_Conditional_8_Template(rf, ctx) {
   }
 }
 var ContactComponent = class _ContactComponent {
-  httpClient;
   options = { center: { lat: 51.277002, lng: -0.610312 }, zoom: 15 };
   apiLoaded;
   constructor(httpClient) {
-    this.httpClient = httpClient;
-    this.apiLoaded = this.httpClient.jsonp("https://maps.googleapis.com/maps/api/js?key=AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04", "callback").pipe(map((_) => true), catchError((err) => {
-      console.log(err);
-      return of(false);
-    }), shareReplay(1));
+    this.apiLoaded = httpClient.jsonp("https://maps.googleapis.com/maps/api/js?key=AIzaSyAga8m5cIZJL-WmWlH2w1fjh5iRhwTgx04", "callback").pipe(map(() => true), catchError(() => of(false)), shareReplay(1));
   }
   static \u0275fac = function ContactComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _ContactComponent)(\u0275\u0275directiveInject(HttpClient));
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ContactComponent, selectors: [["ng-component"]], standalone: false, decls: 17, vars: 3, consts: [["href", "mailto:hall@wmh.org.uk"], ["target", "_blank", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308"], [3, "options"], ["href", "mailto:trustees@wmh.org.uk"], [3, "position"]], template: function ContactComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _ContactComponent, selectors: [["ng-component"]], standalone: false, decls: 36, vars: 3, consts: [[1, "mb-4"], [1, "mb-3"], [1, "lead"], [1, "mb-5"], [1, "row", "g-3", "align-items-stretch"], [1, "col-md-5"], [1, "p-3", "border", "rounded", "h-100", "bg-light"], [1, "h5", "mb-3"], [1, "mb-2"], ["href", "mailto:hall@wmh.org.uk"], [1, "mb-0"], ["target", "_blank", "rel", "noopener", "href", "https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308", 1, "btn", "btn-sm", "btn-outline-primary", "mt-3"], [1, "col-md-7"], [1, "contact-map", 3, "options"], [1, "p-3", "border", "rounded", "bg-light"], [1, "h5", "mb-2"], ["href", "mailto:trustees@wmh.org.uk"], [3, "position"]], template: function ContactComponent_Template(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "p");
-      \u0275\u0275text(1, "Email: ");
-      \u0275\u0275elementStart(2, "a", 0);
-      \u0275\u0275text(3, "hall@wmh.org.uk");
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(4, "p");
-      \u0275\u0275text(5, "Address: ");
-      \u0275\u0275elementStart(6, "a", 1);
-      \u0275\u0275text(7, "\nMemorial Hall Cottage, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF.");
-      \u0275\u0275elementEnd()();
-      \u0275\u0275conditionalCreate(8, ContactComponent_Conditional_8_Template, 2, 2, "google-map", 2);
-      \u0275\u0275pipe(9, "async");
-      \u0275\u0275element(10, "br");
-      \u0275\u0275elementStart(11, "p");
-      \u0275\u0275text(12, "Contacting the Trustees");
+      \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "Contact us");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(13, "p");
-      \u0275\u0275text(14, "The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, may be contacted at ");
-      \u0275\u0275elementStart(15, "a", 3);
-      \u0275\u0275text(16, "trustees@wmh.org.uk");
+      \u0275\u0275elementStart(3, "p", 2);
+      \u0275\u0275text(4, " Get in touch about hiring the hall, the recreation ground, or anything else. ");
       \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(5, "section", 3)(6, "div", 4)(7, "div", 5)(8, "div", 6)(9, "h2", 7);
+      \u0275\u0275text(10, "Hall enquiries");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(11, "p", 8)(12, "strong");
+      \u0275\u0275text(13, "Email:");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(14, "a", 9);
+      \u0275\u0275text(15, "hall@wmh.org.uk");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(16, "address", 10);
+      \u0275\u0275text(17, " Memorial Hall Cottage");
+      \u0275\u0275element(18, "br");
+      \u0275\u0275text(19, " Perry Hill, Worplesdon");
+      \u0275\u0275element(20, "br");
+      \u0275\u0275text(21, " Guildford, Surrey GU3 3RF ");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(22, "a", 11);
+      \u0275\u0275text(23, " Open in Google Maps ");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(24, "div", 12);
+      \u0275\u0275conditionalCreate(25, ContactComponent_Conditional_25_Template, 2, 2, "google-map", 13);
+      \u0275\u0275pipe(26, "async");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(27, "section", 3)(28, "div", 14)(29, "h2", 15);
+      \u0275\u0275text(30, "Contacting the trustees");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(31, "p", 10);
+      \u0275\u0275text(32, " The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, can be reached at ");
+      \u0275\u0275elementStart(33, "a", 16);
+      \u0275\u0275text(34, "trustees@wmh.org.uk");
+      \u0275\u0275elementEnd();
+      \u0275\u0275text(35, ". ");
+      \u0275\u0275elementEnd()()();
     }
     if (rf & 2) {
-      \u0275\u0275advance(8);
-      \u0275\u0275conditional(\u0275\u0275pipeBind1(9, 1, ctx.apiLoaded) ? 8 : -1);
+      \u0275\u0275advance(25);
+      \u0275\u0275conditional(\u0275\u0275pipeBind1(26, 1, ctx.apiLoaded) ? 25 : -1);
     }
   }, dependencies: [GoogleMap, MapMarker, AsyncPipe], encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(ContactComponent, [{
     type: Component,
-    args: [{ standalone: false, template: '<!-- <p>The Hall Manager and Caretaker is Mr Phil Bowers, who lives in the cottage alongside the Hall.</p> -->\n\n<!-- <p>Telephone: <a href="tel:01483 232117">01483 232117</a></p> -->\n<p>Email: <a href="mailto:hall@wmh.org.uk">hall&#64;wmh.org.uk</a></p>\n<p>Address: <a target="_blank"\n  href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">\nMemorial Hall Cottage, Perry Hill, Worplesdon, Guildford, Surrey GU3 3RF.</a></p>\n@if (apiLoaded | async) {\n  <google-map [options]="options">\n    <map-marker [position]="options.center"></map-marker>\n  </google-map>\n}\n<br>\n  <p>Contacting the Trustees</p>\n  <p>The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and Recreation Ground, may be\n    contacted at <a href="mailto:trustees@wmh.org.uk">trustees&#64;wmh.org.uk</a></p>\n' }]
+    args: [{ standalone: false, template: '<section class="mb-4">\n  <h1 class="mb-3">Contact us</h1>\n  <p class="lead">\n    Get in touch about hiring the hall, the recreation ground, or anything else.\n  </p>\n</section>\n\n<section class="mb-5">\n  <div class="row g-3 align-items-stretch">\n    <div class="col-md-5">\n      <div class="p-3 border rounded h-100 bg-light">\n        <h2 class="h5 mb-3">Hall enquiries</h2>\n        <p class="mb-2">\n          <strong>Email:</strong>\n          <a href="mailto:hall&#64;wmh.org.uk">hall&#64;wmh.org.uk</a>\n        </p>\n        <address class="mb-0">\n          Memorial Hall Cottage<br>\n          Perry Hill, Worplesdon<br>\n          Guildford, Surrey GU3 3RF\n        </address>\n        <a class="btn btn-sm btn-outline-primary mt-3"\n           target="_blank"\n           rel="noopener"\n           href="https://www.google.co.uk/maps/place/Worplesdon+Memorial+Hall/@51.2770657,-0.6121381,17z/data=!4m5!3m4!1s0x4875d6d80318fa25:0x8ac1e5c8b889d890!8m2!3d51.2770626!4d-0.6101308">\n          Open in Google Maps\n        </a>\n      </div>\n    </div>\n\n    <div class="col-md-7">\n      @if (apiLoaded | async) {\n        <google-map class="contact-map" [options]="options">\n          <map-marker [position]="options.center"></map-marker>\n        </google-map>\n      }\n    </div>\n  </div>\n</section>\n\n<section class="mb-5">\n  <div class="p-3 border rounded bg-light">\n    <h2 class="h5 mb-2">Contacting the trustees</h2>\n    <p class="mb-0">\n      The Worplesdon Memorial Trustees, who have ultimate responsibility for the Hall and\n      Recreation Ground, can be reached at\n      <a href="mailto:trustees&#64;wmh.org.uk">trustees&#64;wmh.org.uk</a>.\n    </p>\n  </div>\n</section>\n' }]
   }], () => [{ type: HttpClient }], null);
 })();
 (() => {
@@ -44445,7 +44973,7 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: false, decls: 43, vars: 2, consts: [[1, "Site-content"], [1, "container-fluid", "margin-bottom-20"], [1, "row"], [1, "col-sm-12"], [1, "navbar", "navbar-expand-md", "navbar-light", "bg-light"], ["routerLink", "", 1, "navbar-brand"], ["src", "../assets/logo/3.svg", "height", "100px"], ["type", "button", "toggle", "collapse", "aria-expanded", "false", 1, "navbar-toggler", "collapsed", 3, "click"], [1, "navbar-toggler-icon"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "nav", "navbar-nav"], ["routerLinkActive", "active", 1, "nav-item"], ["target", "_blank", "href", "https://hallbookingonline.com/worplesdon/", 1, "nav-link"], ["routerLink", "rooms", 1, "nav-link"], ["routerLink", "sports", 1, "nav-link"], ["routerLink", "wedding", 1, "nav-link"], ["routerLink", "history", 1, "nav-link"], ["routerLink", "contact", 1, "nav-link"], [1, "container-fluid"], [1, "col-md-12"], [1, "sticky-bottom"], [1, "footer"], [1, "container"], [1, "ml-2"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: false, decls: 37, vars: 2, consts: [[1, "Site-content"], [1, "container-fluid", "margin-bottom-20"], [1, "row"], [1, "col-sm-12"], [1, "navbar", "navbar-expand-md", "navbar-light", "bg-light"], ["routerLink", "", 1, "navbar-brand"], ["src", "../assets/logo/3.svg", "height", "100px"], ["type", "button", "toggle", "collapse", "aria-expanded", "false", 1, "navbar-toggler", "collapsed", 3, "click"], [1, "navbar-toggler-icon"], [1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "nav", "navbar-nav"], ["routerLinkActive", "active", 1, "nav-item"], ["target", "_blank", "href", "https://hallbookingonline.com/worplesdon/", 1, "nav-link"], ["routerLink", "rooms", 1, "nav-link"], ["routerLink", "sports", 1, "nav-link"], ["routerLink", "wedding", 1, "nav-link"], ["routerLink", "history", 1, "nav-link"], ["routerLink", "contact", 1, "nav-link"], [1, "container-fluid"], [1, "col-md-12"], [1, "Site-footer", "footer"], [1, "m-0"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "nav", 4)(5, "a", 5);
       \u0275\u0275element(6, "img", 6);
@@ -44476,23 +45004,23 @@ var AppComponent = class _AppComponent {
       \u0275\u0275elementEnd()()()()()()();
       \u0275\u0275elementStart(29, "div", 18)(30, "div", 2)(31, "div", 19);
       \u0275\u0275element(32, "router-outlet");
-      \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(33, "div", 20)(34, "div", 18)(35, "div", 2)(36, "div", 19)(37, "footer", 21)(38, "div", 22)(39, "div", 2)(40, "div", 3)(41, "p", 23);
-      \u0275\u0275text(42);
-      \u0275\u0275elementEnd()()()()()()()()()();
+      \u0275\u0275elementEnd()()()()();
+      \u0275\u0275elementStart(33, "footer", 20)(34, "div", 18)(35, "p", 21);
+      \u0275\u0275text(36);
+      \u0275\u0275elementEnd()()();
     }
     if (rf & 2) {
       \u0275\u0275advance(9);
       \u0275\u0275property("ngbCollapse", ctx.isCollapsed);
-      \u0275\u0275advance(33);
-      \u0275\u0275textInterpolate1(" \xA9 2019-", ctx.year, " Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights Reserved. ");
+      \u0275\u0275advance(27);
+      \u0275\u0275textInterpolate1(" \xA9 2019\u2013", ctx.year, " Worplesdon Memorial Hall and Recreation Grounds CIO. All rights reserved. ");
     }
   }, dependencies: [RouterOutlet, RouterLink, RouterLinkActive, NgbCollapse], encapsulation: 2 });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(AppComponent, [{
     type: Component,
-    args: [{ selector: "app-root", standalone: false, template: '<div class="Site-content">\n  <div class="container-fluid margin-bottom-20">\n    <div class="row">\n      <div class="col-sm-12">\n        <nav class="navbar navbar-expand-md navbar-light bg-light">\n          <a class="navbar-brand" routerLink=""><img src="../assets/logo/3.svg" height="100px"></a>\n          <button type="button" toggle="collapse" class="navbar-toggler collapsed" (click)="isCollapsed = !isCollapsed"\n            aria-expanded="false">\n            <span class="navbar-toggler-icon"></span>\n          </button>\n          <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">\n            <ul class="nav navbar-nav">\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" target="_blank" href="https://hallbookingonline.com/worplesdon/">Bookings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="rooms">Rooms</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="sports">Sports</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="wedding">Weddings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="history">History</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="contact">Contact</a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </div>\n    </div>\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="sticky-bottom">\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <footer class="footer">\n            <div class="container">\n              <div class="row">\n                <div class="col-sm-12">\n                  <p class="ml-2">\n                    \xA9 2019-{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO. All Rights\n                    Reserved.\n                  </p>\n                </div>\n              </div>\n            </div>\n          </footer>\n        </div>\n      </div>\n    </div>\n  </div>\n' }]
+    args: [{ selector: "app-root", standalone: false, template: '<div class="Site-content">\n  <div class="container-fluid margin-bottom-20">\n    <div class="row">\n      <div class="col-sm-12">\n        <nav class="navbar navbar-expand-md navbar-light bg-light">\n          <a class="navbar-brand" routerLink=""><img src="../assets/logo/3.svg" height="100px"></a>\n          <button type="button" toggle="collapse" class="navbar-toggler collapsed" (click)="isCollapsed = !isCollapsed"\n            aria-expanded="false">\n            <span class="navbar-toggler-icon"></span>\n          </button>\n          <div class="collapse navbar-collapse" [ngbCollapse]="isCollapsed">\n            <ul class="nav navbar-nav">\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" target="_blank" href="https://hallbookingonline.com/worplesdon/">Bookings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="rooms">Rooms</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="sports">Sports</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="wedding">Weddings</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="history">History</a>\n              </li>\n              <li routerLinkActive="active" class="nav-item">\n                <a class="nav-link" routerLink="contact">Contact</a>\n              </li>\n            </ul>\n          </div>\n        </nav>\n      </div>\n    </div>\n    <div class="container-fluid">\n      <div class="row">\n        <div class="col-md-12">\n          <router-outlet></router-outlet>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<footer class="Site-footer footer">\n  <div class="container-fluid">\n    <p class="m-0">\n      \xA9 2019&ndash;{{ year }} Worplesdon Memorial Hall and Recreation Grounds CIO.\n      All rights reserved.\n    </p>\n  </div>\n</footer>\n' }]
   }], null, null);
 })();
 (() => {
