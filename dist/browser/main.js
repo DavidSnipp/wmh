@@ -39843,7 +39843,7 @@ var WeddingComponent = class _WeddingComponent {
   static \u0275fac = function WeddingComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _WeddingComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WeddingComponent, selectors: [["ng-component"]], standalone: false, decls: 114, vars: 0, consts: [[1, "wedding-intro", "mb-4"], [1, "mb-3"], [1, "lead"], [1, "row", "g-3", "align-items-stretch"], [1, "col-md-6"], [1, "p-3", "border", "rounded", "h-100", "bg-light"], [1, "h5", "mb-3"], [1, "list-unstyled", "mb-0"], [1, "list-unstyled", "mb-2"], ["href", "tel:01483233091"], ["href", "tel:01483232117"], ["href", "https://www.worplesdonparish.com", "target", "_blank", "rel", "noopener"], [1, "mb-5"], [1, "row", "row-cols-1", "row-cols-md-2", "row-cols-lg-3", "g-3"], [1, "col"], [1, "card", "h-100"], ["src", "../assets/wedding/pic1.jpg", "alt", "Round tables dressed in blush pink for a wedding breakfast", 1, "card-img-top"], [1, "card-body"], [1, "card-text", "mb-0"], ["src", "../assets/wedding/pic2.jpg", "alt", "Long banquet tables with blue chair sashes and bunting", 1, "card-img-top"], ["src", "../assets/wedding/pic3.jpg", "alt", "Top table with floral runner and live band setup behind", 1, "card-img-top"], [1, "row", "row-cols-2", "row-cols-md-3", "row-cols-lg-4", "g-3", "wedding-gallery"], [1, "m-0"], ["src", "../assets/wedding/pic4.jpg", "alt", "St Mary's Church tower with bluebells along the path"], ["src", "../assets/wedding/pic6.jpg", "alt", "Lych Gate decorated with white floral arrangements"], ["src", "../assets/wedding/pic9.jpg", "alt", "Bride and her father walking through the Lych Gate"], ["src", "../assets/wedding/pic7.jpg", "alt", "Floral archway in the church porch"], ["src", "../assets/wedding/pic8.jpg", "alt", "Wedding ceremony at the altar inside the church"], ["src", "../assets/wedding/pic10.jpg", "alt", "Wedding guests gathered outside the church porch"], ["src", "../assets/wedding/pic12.jpg", "alt", "Bride and groom under the decorated Lych Gate"], ["src", "../assets/wedding/pic11.jpg", "alt", "White horse-drawn carriage with two grey horses"], ["src", "../assets/wedding/pic5.jpg", "alt", "Worplesdon Memorial Hall exterior"], ["src", "../assets/wedding/pic13.jpg", "alt", "Banquet tables set for an evening reception in the hall"]], template: function WeddingComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _WeddingComponent, selectors: [["ng-component"]], standalone: false, decls: 91, vars: 0, consts: [[1, "wedding-intro", "mb-4"], [1, "mb-3"], [1, "lead"], [1, "p-3", "border", "rounded", "bg-light"], [1, "h5", "mb-2"], [1, "mb-0"], ["href", "mailto:hall@wmh.org.uk"], [1, "mb-5"], [1, "row", "row-cols-1", "row-cols-md-2", "row-cols-lg-3", "g-3"], [1, "col"], [1, "card", "h-100"], ["src", "../assets/wedding/pic1.jpg", "alt", "Round tables dressed in blush pink for a wedding breakfast", 1, "card-img-top"], [1, "card-body"], [1, "card-text", "mb-0"], ["src", "../assets/wedding/pic2.jpg", "alt", "Long banquet tables with blue chair sashes and bunting", 1, "card-img-top"], ["src", "../assets/wedding/pic3.jpg", "alt", "Top table with floral runner and live band setup behind", 1, "card-img-top"], [1, "row", "row-cols-2", "row-cols-md-3", "row-cols-lg-4", "g-3", "wedding-gallery"], [1, "m-0"], ["src", "../assets/wedding/pic4.jpg", "alt", "St Mary's Church tower with bluebells along the path"], ["src", "../assets/wedding/pic6.jpg", "alt", "Lych Gate decorated with white floral arrangements"], ["src", "../assets/wedding/pic9.jpg", "alt", "Bride and her father walking through the Lych Gate"], ["src", "../assets/wedding/pic7.jpg", "alt", "Floral archway in the church porch"], ["src", "../assets/wedding/pic8.jpg", "alt", "Wedding ceremony at the altar inside the church"], ["src", "../assets/wedding/pic10.jpg", "alt", "Wedding guests gathered outside the church porch"], ["src", "../assets/wedding/pic12.jpg", "alt", "Bride and groom under the decorated Lych Gate"], ["src", "../assets/wedding/pic11.jpg", "alt", "White horse-drawn carriage with two grey horses"], ["src", "../assets/wedding/pic5.jpg", "alt", "Worplesdon Memorial Hall exterior"], ["src", "../assets/wedding/pic13.jpg", "alt", "Banquet tables set for an evening reception in the hall"]], template: function WeddingComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "section", 0)(1, "h1", 1);
       \u0275\u0275text(2, "Wedding receptions in the Hall");
@@ -39851,110 +39851,89 @@ var WeddingComponent = class _WeddingComponent {
       \u0275\u0275elementStart(3, "p", 2);
       \u0275\u0275text(4, " Call us to discuss your special requirements \u2014 your numbers, your catering needs, your ceremony wish-list. We are here to help. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(5, "div", 3)(6, "div", 4)(7, "div", 5)(8, "h2", 6);
-      \u0275\u0275text(9, "Pricing");
+      \u0275\u0275elementStart(5, "div", 3)(6, "h2", 4);
+      \u0275\u0275text(7, "Get in touch");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(10, "ul", 7)(11, "li")(12, "strong");
-      \u0275\u0275text(13, "Ceremony");
+      \u0275\u0275elementStart(8, "p", 5);
+      \u0275\u0275text(9, " Email ");
+      \u0275\u0275elementStart(10, "a", 6);
+      \u0275\u0275text(11, "hall@wmh.org.uk");
       \u0275\u0275elementEnd();
-      \u0275\u0275text(14, " from \xA3585");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(15, "li")(16, "strong");
-      \u0275\u0275text(17, "Reception");
-      \u0275\u0275elementEnd();
-      \u0275\u0275text(18, " from \xA31,000");
-      \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(19, "div", 4)(20, "div", 5)(21, "h2", 6);
-      \u0275\u0275text(22, "Get in touch");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(23, "ul", 8)(24, "li")(25, "strong");
-      \u0275\u0275text(26, "Weddings:");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(27, "a", 9);
-      \u0275\u0275text(28, "01483 233091");
-      \u0275\u0275elementEnd()();
-      \u0275\u0275elementStart(29, "li")(30, "strong");
-      \u0275\u0275text(31, "Reception:");
-      \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(32, "a", 10);
-      \u0275\u0275text(33, "01483 232117");
+      \u0275\u0275text(12, " to discuss your day. ");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(34, "a", 11);
-      \u0275\u0275text(35, " www.worplesdonparish.com ");
-      \u0275\u0275elementEnd()()()()();
-      \u0275\u0275elementStart(36, "section", 12)(37, "h2", 1);
-      \u0275\u0275text(38, "The Village Reception");
+      \u0275\u0275elementStart(13, "section", 7)(14, "h2", 1);
+      \u0275\u0275text(15, "The Village Reception");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(39, "div", 13)(40, "div", 14)(41, "div", 15);
-      \u0275\u0275element(42, "img", 16);
-      \u0275\u0275elementStart(43, "div", 17)(44, "p", 18);
-      \u0275\u0275text(45, " Round tables and a soft colour scheme \u2014 the hall takes on whatever style you choose. ");
+      \u0275\u0275elementStart(16, "div", 8)(17, "div", 9)(18, "div", 10);
+      \u0275\u0275element(19, "img", 11);
+      \u0275\u0275elementStart(20, "div", 12)(21, "p", 13);
+      \u0275\u0275text(22, " Round tables and a soft colour scheme \u2014 the hall takes on whatever style you choose. ");
       \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(46, "div", 14)(47, "div", 15);
-      \u0275\u0275element(48, "img", 19);
-      \u0275\u0275elementStart(49, "div", 17)(50, "p", 18);
-      \u0275\u0275text(51, " Long banquet tables seat larger parties, with bunting and balloons for a relaxed, celebratory feel. ");
+      \u0275\u0275elementStart(23, "div", 9)(24, "div", 10);
+      \u0275\u0275element(25, "img", 14);
+      \u0275\u0275elementStart(26, "div", 12)(27, "p", 13);
+      \u0275\u0275text(28, " Long banquet tables seat larger parties, with bunting and balloons for a relaxed, celebratory feel. ");
       \u0275\u0275elementEnd()()()();
-      \u0275\u0275elementStart(52, "div", 14)(53, "div", 15);
-      \u0275\u0275element(54, "img", 20);
-      \u0275\u0275elementStart(55, "div", 17)(56, "p", 18);
-      \u0275\u0275text(57, " The stage easily takes a live band or DJ, so the wedding breakfast can flow straight into the evening party. ");
+      \u0275\u0275elementStart(29, "div", 9)(30, "div", 10);
+      \u0275\u0275element(31, "img", 15);
+      \u0275\u0275elementStart(32, "div", 12)(33, "p", 13);
+      \u0275\u0275text(34, " The stage easily takes a live band or DJ, so the wedding breakfast can flow straight into the evening party. ");
       \u0275\u0275elementEnd()()()()()();
-      \u0275\u0275elementStart(58, "section", 12)(59, "h2", 1);
-      \u0275\u0275text(60, "Weddings at Worplesdon");
+      \u0275\u0275elementStart(35, "section", 7)(36, "h2", 1);
+      \u0275\u0275text(37, "Weddings at Worplesdon");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(61, "p");
-      \u0275\u0275text(62, " If you are thinking of tying the knot then think about being married here at Worplesdon. The village offers a wonderful experience: a traditional church wedding followed by a village reception. ");
+      \u0275\u0275elementStart(38, "p");
+      \u0275\u0275text(39, " If you are thinking of tying the knot then think about being married here at Worplesdon. The village offers a wonderful experience: a traditional church wedding followed by a village reception. ");
       \u0275\u0275elementEnd();
-      \u0275\u0275elementStart(63, "div", 21)(64, "div", 14)(65, "figure", 22);
-      \u0275\u0275element(66, "img", 23);
-      \u0275\u0275elementStart(67, "figcaption");
-      \u0275\u0275text(68, "St. Mary's Church, Worplesdon \u2014 a traditional service in an historic setting.");
+      \u0275\u0275elementStart(40, "div", 16)(41, "div", 9)(42, "figure", 17);
+      \u0275\u0275element(43, "img", 18);
+      \u0275\u0275elementStart(44, "figcaption");
+      \u0275\u0275text(45, "St. Mary's Church, Worplesdon \u2014 a traditional service in an historic setting.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(69, "div", 14)(70, "figure", 22);
-      \u0275\u0275element(71, "img", 24);
-      \u0275\u0275elementStart(72, "figcaption");
-      \u0275\u0275text(73, "The Lych Gate, dressed with flowers, welcomes the wedding party.");
+      \u0275\u0275elementStart(46, "div", 9)(47, "figure", 17);
+      \u0275\u0275element(48, "img", 19);
+      \u0275\u0275elementStart(49, "figcaption");
+      \u0275\u0275text(50, "The Lych Gate, dressed with flowers, welcomes the wedding party.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(74, "div", 14)(75, "figure", 22);
-      \u0275\u0275element(76, "img", 25);
-      \u0275\u0275elementStart(77, "figcaption");
-      \u0275\u0275text(78, "The bride arrives, walking through the Lych Gate with her father.");
+      \u0275\u0275elementStart(51, "div", 9)(52, "figure", 17);
+      \u0275\u0275element(53, "img", 20);
+      \u0275\u0275elementStart(54, "figcaption");
+      \u0275\u0275text(55, "The bride arrives, walking through the Lych Gate with her father.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(79, "div", 14)(80, "figure", 22);
-      \u0275\u0275element(81, "img", 26);
-      \u0275\u0275elementStart(82, "figcaption");
-      \u0275\u0275text(83, "A floral arch frames the church porch as guests take their seats.");
+      \u0275\u0275elementStart(56, "div", 9)(57, "figure", 17);
+      \u0275\u0275element(58, "img", 21);
+      \u0275\u0275elementStart(59, "figcaption");
+      \u0275\u0275text(60, "A floral arch frames the church porch as guests take their seats.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(84, "div", 14)(85, "figure", 22);
-      \u0275\u0275element(86, "img", 27);
-      \u0275\u0275elementStart(87, "figcaption");
-      \u0275\u0275text(88, "The ceremony inside the church, beneath its stained-glass windows.");
+      \u0275\u0275elementStart(61, "div", 9)(62, "figure", 17);
+      \u0275\u0275element(63, "img", 22);
+      \u0275\u0275elementStart(64, "figcaption");
+      \u0275\u0275text(65, "The ceremony inside the church, beneath its stained-glass windows.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(89, "div", 14)(90, "figure", 22);
-      \u0275\u0275element(91, "img", 28);
-      \u0275\u0275elementStart(92, "figcaption");
-      \u0275\u0275text(93, "Guests gather outside the porch to greet the newlyweds.");
+      \u0275\u0275elementStart(66, "div", 9)(67, "figure", 17);
+      \u0275\u0275element(68, "img", 23);
+      \u0275\u0275elementStart(69, "figcaption");
+      \u0275\u0275text(70, "Guests gather outside the porch to greet the newlyweds.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(94, "div", 14)(95, "figure", 22);
-      \u0275\u0275element(96, "img", 29);
-      \u0275\u0275elementStart(97, "figcaption");
-      \u0275\u0275text(98, "Bride and groom pause for photographs under the Lych Gate.");
+      \u0275\u0275elementStart(71, "div", 9)(72, "figure", 17);
+      \u0275\u0275element(73, "img", 24);
+      \u0275\u0275elementStart(74, "figcaption");
+      \u0275\u0275text(75, "Bride and groom pause for photographs under the Lych Gate.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(99, "div", 14)(100, "figure", 22);
-      \u0275\u0275element(101, "img", 30);
-      \u0275\u0275elementStart(102, "figcaption");
-      \u0275\u0275text(103, "A horse-drawn carriage waits to take the couple from the church.");
+      \u0275\u0275elementStart(76, "div", 9)(77, "figure", 17);
+      \u0275\u0275element(78, "img", 25);
+      \u0275\u0275elementStart(79, "figcaption");
+      \u0275\u0275text(80, "A horse-drawn carriage waits to take the couple from the church.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(104, "div", 14)(105, "figure", 22);
-      \u0275\u0275element(106, "img", 31);
-      \u0275\u0275elementStart(107, "figcaption");
-      \u0275\u0275text(108, "From the church, it's a short journey to the Memorial Hall for the reception.");
+      \u0275\u0275elementStart(81, "div", 9)(82, "figure", 17);
+      \u0275\u0275element(83, "img", 26);
+      \u0275\u0275elementStart(84, "figcaption");
+      \u0275\u0275text(85, "From the church, it's a short journey to the Memorial Hall for the reception.");
       \u0275\u0275elementEnd()()();
-      \u0275\u0275elementStart(109, "div", 14)(110, "figure", 22);
-      \u0275\u0275element(111, "img", 32);
-      \u0275\u0275elementStart(112, "figcaption");
-      \u0275\u0275text(113, "Inside the hall, long tables and warm lighting set the scene for the celebration.");
+      \u0275\u0275elementStart(86, "div", 9)(87, "figure", 17);
+      \u0275\u0275element(88, "img", 27);
+      \u0275\u0275elementStart(89, "figcaption");
+      \u0275\u0275text(90, "Inside the hall, long tables and warm lighting set the scene for the celebration.");
       \u0275\u0275elementEnd()()()()();
     }
   }, encapsulation: 2 });
@@ -39969,28 +39948,11 @@ var WeddingComponent = class _WeddingComponent {
     ceremony wish-list. We are here to help.
   </p>
 
-  <div class="row g-3 align-items-stretch">
-    <div class="col-md-6">
-      <div class="p-3 border rounded h-100 bg-light">
-        <h2 class="h5 mb-3">Pricing</h2>
-        <ul class="list-unstyled mb-0">
-          <li><strong>Ceremony</strong> from \xA3585</li>
-          <li><strong>Reception</strong> from \xA31,000</li>
-        </ul>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="p-3 border rounded h-100 bg-light">
-        <h2 class="h5 mb-3">Get in touch</h2>
-        <ul class="list-unstyled mb-2">
-          <li><strong>Weddings:</strong> <a href="tel:01483233091">01483 233091</a></li>
-          <li><strong>Reception:</strong> <a href="tel:01483232117">01483 232117</a></li>
-        </ul>
-        <a href="https://www.worplesdonparish.com" target="_blank" rel="noopener">
-          www.worplesdonparish.com
-        </a>
-      </div>
-    </div>
+  <div class="p-3 border rounded bg-light">
+    <h2 class="h5 mb-2">Get in touch</h2>
+    <p class="mb-0">
+      Email <a href="mailto:hall&#64;wmh.org.uk">hall&#64;wmh.org.uk</a> to discuss your day.
+    </p>
   </div>
 </section>
 
