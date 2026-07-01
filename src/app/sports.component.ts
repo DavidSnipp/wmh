@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 export interface Image {
   url: string;
@@ -7,6 +7,7 @@ export interface Image {
 
 @Component({
     templateUrl: './sports.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class SportsComponent {

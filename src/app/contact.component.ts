@@ -1,9 +1,10 @@
-import { Component } from '@angular/core'
+import { Component, ChangeDetectionStrategy } from '@angular/core'
 import { HttpClient } from '@angular/common/http'
 import { Observable, map, catchError, of, shareReplay } from 'rxjs'
 
 @Component({
     templateUrl: './contact.component.html',
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class ContactComponent {

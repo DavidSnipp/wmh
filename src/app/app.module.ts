@@ -11,7 +11,7 @@ import { ContactComponent } from './contact.component'
 import { BookingsComponent } from './bookings.component'
 import { RoomsComponent } from './rooms.component'
 import { GoogleMapsModule } from '@angular/google-maps'
-import { provideHttpClient, withInterceptorsFromDi, withJsonpSupport } from '@angular/common/http'
+import { provideHttpClient, withInterceptorsFromDi, withJsonpSupport, withXhr } from '@angular/common/http'
 import { WalkerRoomComponent } from './rooms/walker'
 import { HalseyRoomComponent } from './rooms/halsey'
 import { CaterRoomComponent } from './rooms/cater'
@@ -43,5 +43,5 @@ import { WhatsonComponent } from './whatson.component'
         AppRoutingModule,
         NgbCollapseModule,
         NgbCarouselModule,
-        GoogleMapsModule], providers: [SafeHtmlPipe, provideHttpClient(withInterceptorsFromDi(), withJsonpSupport())] })
+        GoogleMapsModule], providers: [SafeHtmlPipe, provideHttpClient(withXhr(), withInterceptorsFromDi(), withJsonpSupport())] })
 export class AppModule { }
