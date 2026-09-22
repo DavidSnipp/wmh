@@ -18,7 +18,6 @@ import { CaterRoomComponent } from './rooms/cater'
 import { ToveyRoomComponent } from './rooms/tovey'
 import { KellyRoomComponent } from './rooms/kelly';
 import { FlyerComponent } from './flyer.component'
-import { SafeHtmlPipe } from './safehtml.pipe';
 import { WhatsonComponent } from './whatson.component'
 @NgModule({ declarations: [
         AppComponent,
@@ -36,12 +35,11 @@ import { WhatsonComponent } from './whatson.component'
         KellyRoomComponent,
         BookingsComponent,
         FlyerComponent,
-        SafeHtmlPipe,
         WhatsonComponent
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,
         NgbCollapseModule,
         NgbCarouselModule,
-        GoogleMapsModule], providers: [SafeHtmlPipe, provideHttpClient(withXhr(), withInterceptorsFromDi(), withJsonpSupport())] })
+        GoogleMapsModule], providers: [provideHttpClient(withXhr(), withInterceptorsFromDi(), withJsonpSupport())] })
 export class AppModule { }
