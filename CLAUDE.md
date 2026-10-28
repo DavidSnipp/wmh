@@ -10,9 +10,8 @@ Package manager is **pnpm** (see `pnpm-lock.yaml`). All commands assume Angular 
 - `pnpm start` (or `ng serve`) — dev server at http://localhost:4200/
 - `pnpm build` — production build (`ng build -c production`); output in `dist/browser/`
 - `npx ng build` — non-prod build, useful for fast typecheck of the full app
-- `pnpm test` — Karma unit tests via `tsconfig.spec.json` (no `*.spec.ts` exist yet — runner will be empty)
+- `pnpm test` — Karma unit tests (`@angular/build:karma`) via `tsconfig.spec.json`; karma/jasmine packages are not installed and no `*.spec.ts` exist yet, so this will not run as-is
 - `pnpm lint` — Angular lint (typescript-eslint configured in `package.json` devDeps; legacy `tslint.json` is unused)
-- `pnpm e2e` — Protractor e2e (legacy; the `e2e/` config predates the Angular 21 upgrade and may not run as-is)
 
 To verify just types without running the full Angular compiler: `npx tsc --noEmit -p tsconfig.app.json`.
 

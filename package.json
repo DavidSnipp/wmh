@@ -6,20 +6,18 @@
     "start": "ng serve",
     "build": "ng build -c production",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "ng lint"
   },
   "private": true,
   "engines": {
     "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
   },
   "dependencies": {
-    "@angular/animations": "^22.2.3",
     "@angular/common": "^22.2.3",
     "@angular/compiler": "^22.2.3",
     "@angular/core": "^22.2.3",
     "@angular/forms": "^22.2.3",
-    "@angular/google-maps": "^22.2.3",
+    "@angular/google-maps": "^22.2.4",
     "@angular/localize": "^22.2.3",
     "@angular/platform-browser": "^22.2.3",
     "@angular/platform-browser-dynamic": "^22.2.3",
@@ -31,45 +29,29 @@
     "zone.js": "~0.16.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^22.2.4",
     "@angular-eslint/builder": "^22.6.0",
+    "@angular/build": "^22.2.4",
     "@angular/cli": "^22.2.4",
     "@angular/compiler-cli": "^22.2.3",
     "@eslint/js": "^10.0.1",
-    "@types/google.maps": "^3.66.7",
+    "@types/google.maps": "^3.66.8",
     "@types/node": "^24.19.2",
     "angular-eslint": "^22.6.0",
     "eslint": "^10.13.0",
     "istanbul-lib-instrument": "^6.0.3",
-    "ts-node": "^10.9.2",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.72.0"
+    "typescript-eslint": "^8.72.1"
   },
   "pnpm": {
     "overrides": {
       "esbuild@<0.28.1": "0.28.1",
-      "webpack-dev-server@<5.2.6": "5.2.6",
-      "http-proxy-middleware@3": "3.0.7",
       "@babel/core@<7.29.6": "7.29.6",
-      "uuid@8": "11.1.1",
-      "brace-expansion@1": "1.1.21",
       "brace-expansion@5": "5.0.12",
       "fast-uri@3": "3.1.9",
       "postcss@<8.5.28": "8.5.28",
-      "ip-address@10": "10.7.0",
-      "socket.io-parser@4": "4.2.7",
-      "undici@6": "6.28.1",
-      "js-yaml@4": "4.3.2",
-      "hono@4": "4.13.7",
-      "@hono/node-server@1": "1.19.17",
       "browserslist@<4.28.9": "4.28.9",
       "nanoid@3": "3.3.18",
-      "tar@7": "7.5.22",
-      "qs@<6.16.2": "6.16.2",
-      "body-parser@1": "1.20.9",
-      "body-parser@2": "2.4.0",
-      "vite@8": "8.3.5",
-      "serialize-javascript@7": "7.1.4"
+      "vite@8": "8.3.5"
     }
   }
 }
